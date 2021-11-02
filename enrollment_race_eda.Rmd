@@ -36,15 +36,18 @@ Some of the datasets have different column names/types. Let's create a function 
 ```{r}
 # Cleans the raw data so that it has the appropriate column names/types
 clean <- function(raw_data) {
+    data <- raw_data
+
     # Select rows with district totals
-    if (c("School_ID", "PRGCODE") %in% names(raw_data)) {
-            data <- raw_data %>% filter(
-            School_ID == 999 & 
-            PRGCODE == 55
-        )
+    if ("PRGCODE" %in% names(raw_data)) {
+        data <- raw_data %>% filter(School_ID == 999 & PRGCODE == 55)
     }
     
-    data <- data %>% filter(!(School_Name %in% c("County Total", "State Total")))
+
+    if ("School_Name" %in% names(data)) {
+        data <- data %>% filter(!(School_Name %in% c("County Total", "State Total")))
+    }
+    
     
     if ("WH_F" %in% names(data)) {
         # Sum male and female columns of each ethnicity
@@ -83,22 +86,26 @@ clean <- function(raw_data) {
             "Reduced Lunch" = Reduced_Price_Lunch,
             "English Learners" = English_Learners
         )
+
+        # Relocate non-ethnicity columns to end of the dataframe
+        data <- data %>% relocate(
+            `Free Lunch`, `Reduced Lunch`, `English Learners`, Migrant, .after = last_col()
+        )
+            
+        # Relocate Total Enrollment column before races' columns for consistency
+        data <- data %>% relocate(`Total Enrollment`, .before = White)
+
+        # Remove unknown District Codes
+        data <- data %>% filter(`District Code` != 9999)
     }
     
-    # Relocate non-ethnicity columns to end of the dataframe
-    data <- data %>% relocate(
-        `Free Lunch`, `Reduced Lunch`, `English Learners`, Migrant, .after = last_col()
-    )
-    
-    # Relocate Total Enrollment column before races' columns for consistency
-    data <- data %>% relocate(`Total Enrollment`, .before = White)
-    
-    # Remove unknown District Codes
-    data <- data %>% filter(`District Code` != 9999)
-    
+    if ("%Free Lunch" %in% names(data)) {
+        data$`%Free Lunch` <- as.double(data$`%Free Lunch`)
+    }
+
     # Drop NA rows
     data <- data %>% drop_na()
-    
+
     return(data)
 }
 
@@ -106,11 +113,8 @@ clean <- function(raw_data) {
 
 ```{r}
 # Uses clean() on the raw datasets
-enr_2021 <- drop_na(enr_2021_raw)
-
-enr_1920 <- drop_na(enr_1920_raw)
-enr_1920$`%Free Lunch` <- as.double(enr_1920$`%Free Lunch`)
-
+enr_2021 <- clean(enr_2021_raw)
+enr_1920 <- clean(enr_1920_raw)
 enr_1819 <- clean(enr_1819_raw)
 enr_1718 <- clean(enr_1718_raw)
 enr_1617 <- clean(enr_1617_raw)
@@ -125,7 +129,7 @@ enr_1011 <- clean(enr_1011_raw)
 
 ## Join The Enrollment Data
 
-We will now join the enrollment dataframes to see the change in enrollment over the past decade.
+We will now join the enrollment dataframes as well as add columns denoting year and race to see the change in enrollment over the past decade.
 
 ```{r}
 races <- c("White", "Black", "Hispanic", "Asian", "Native American", "Hawaiian Native", "Two or More Races")
@@ -162,22 +166,61 @@ enr <- bind_rows(list(enr_1011_longer, enr_1112_longer, enr_1213_longer,
                enr_2021_longer))
 ```
 
+## Change Over Time
 
-```{r, eval = FALSE}
-# Join the two tables
-enrollment <- inner_join(enr_1920, enr_2021, by=c('District Code'='District Code'))
-
-# Select only the columns that matter
-enrollment <- enrollment %>% select(`County Code.x`, `County Name.x`, `District Code`, `District Name.x`, `Total Enrollment.x`, `Total Enrollment.y`, White.x, Black.x, Hispanic.x, Asian.x, `Native American.x`, `Hawaiian Native.x`)
-
-# Rename those columns
-names(enrollment) <- c("County Code", "County Name", "District Code", "District Name", "2019", "2020", "White", "Black", "Hispanic", "Asian", "Native American", "Hawaiian Native")
-
-# Remove NA rows
-enrollment <- enrollment %>% slice(c(1:670))
+```{r}
+# Calculates the percent change between two numbers
+percent_change <- function(initial, final) {
+    percent <- ((final - initial) / initial) * 100
+    return (round(percent, 1))
+}
 ```
 
-## How many school districts had a drop in enrollment from the 2019-20 to 2020-21 school years?
+
+```{r}
+# Join the two tables
+enr_1921 <- inner_join(enr_1920, enr_2021, by=c('District Code'='District Code'))
+
+# Add new columns for the change in enrollment for different races, etc.
+enr_1921 <- enr_1921 %>% mutate(
+    "Total Enrollment Change" = percent_change(`Total Enrollment.x`, `Total Enrollment.y`),
+    "White Change" = percent_change(White.x, White.y),
+    "Black Change" = percent_change(Black.x, Black.y),
+    "Hispanic Change" = percent_change(Hispanic.x, Hispanic.y),
+    "Asian Change" = percent_change(Asian.x, Asian.y),
+    "Native American Change" = percent_change(`Native American.x`, `Native American.y`),
+    "Hawaiian Native Change" = percent_change(`Hawaiian Native.x`, `Hawaiian Native.y`),
+    "Two Or More Races Change" = percent_change(`Two or More Races.x`, `Two or More Races.y`),
+    "%Free Lunch Change" = `%Free Lunch.y` - `%Free Lunch.x`,
+    "%Reduced Lunch Change" = `%Reduced Lunch.y` - `%Reduced Lunch.x`
+)
+
+# Select only the columns that matter
+enr_1921 <- enr_1921 %>% select(
+    `County Code.x`, `County Name.x`, `District Code`, `District Name.x`,
+    `Total Enrollment Change`, `White Change`, `Black Change`,
+    `Hispanic Change`, `Asian Change`, `Native American Change`,
+    `Hawaiian Native Change`, `Two Or More Races Change`, `%Free Lunch Change`,
+    `%Reduced Lunch Change`
+)
+
+# Rename those columns
+names(enr_1921)[1:4] <- c("County Code", "County Name", "District Code", "District Name")
+
+#
+enr_1921_longer <- enr_1921 %>% pivot_longer(
+    cols = c("Total Enrollment Change", "White Change", "Black Change", "Hispanic Change",
+             "Asian Change", "Native American Change", "Hawaiian Native Change",
+             "Two Or More Races Change", "%Free Lunch Change", "%Reduced Lunch Change"),
+    names_to = "Type",
+    names_transform = list(Type = as.factor),
+    values_to = "Enrollment Change"
+)
+
+# Export as csv
+write.csv(enr_1921, file="output/enrollment_1921_change.csv", row.names=FALSE)
+write.csv(enr_1921_longer, file="output/enrollment_1921_change_longer.csv", row.names=FALSE)
+```
 
 ```{r}
 enr_covid <- full_join(enr_1920, enr_2021, by = c(

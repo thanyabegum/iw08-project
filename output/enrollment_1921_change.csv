@@ -1,0 +1,665 @@
+County Code,County Name,District Code,District Name,Total Enrollment Change,White Change,Black Change,Hispanic Change,Asian Change,Native American Change,Hawaiian Native Change,Two Or More Races Change,%Free Lunch Change,%Reduced Lunch Change
+1,Atlantic,0010,Absecon City,-2.2,-6.7,1.5,5.6,9.6,NA,-100.0,-10.6,-0.4,-0.8
+1,Atlantic,0110,Atlantic City,-4.9,-12.3,-3.5,-4.4,-6.1,-50.0,-10.6,-8.9,-6.1,-0.6
+1,Atlantic,0120,Atlantic Co Vocational,-0.1,-1.3,-15.4,4.6,18.6,-16.7,-10.0,28.0,-4.8,-0.4
+1,Atlantic,0125,Atlantic Co Special Serv,-5.0,-12.8,-2.4,4.9,-21.4,0.0,0.0,-33.3,3.8,1.6
+1,Atlantic,0570,Brigantine City,-14.8,-13.0,-30.8,-16.2,-20.0,NA,NA,Inf,-3.6,-1.3
+1,Atlantic,0590,Buena Regional,-2.3,-3.2,-14.5,3.9,5.0,50.0,100.0,70.0,-1.1,0.3
+1,Atlantic,1300,Egg Harbor City,6.7,9.1,1.6,8.2,11.1,NA,NA,6.9,-9.3,-0.5
+1,Atlantic,1310,Egg Harbor Twp,-2.6,-4.2,-3.5,-2.4,-0.1,-12.5,33.3,2.9,-0.8,-0.6
+1,Atlantic,1410,Estell Manor City,-3.1,-2.2,0.0,-14.3,NA,NA,0.0,-33.3,-7.8,0.1
+1,Atlantic,1540,Folsom Boro,-0.3,-1.5,11.1,16.0,33.3,NA,NA,-16.7,-2.0,-1.5
+1,Atlantic,1690,Galloway Twp,-3.9,-0.8,25.4,-20.0,15.4,175.0,166.7,-77.4,-3.1,-2.3
+1,Atlantic,1790,Greater Egg Harbor Reg,-0.9,-2.2,1.1,0.0,-4.0,0.0,-50.0,12.6,-0.2,-0.7
+1,Atlantic,1940,Hamilton Twp,-5.5,-9.2,-6.4,-0.9,-12.3,Inf,0.0,9.5,-7.1,-1.0
+1,Atlantic,1960,Hammonton Town,-3.2,-2.7,-17.8,-2.4,0.0,0.0,100.0,-8.5,-14.8,-0.1
+1,Atlantic,2680,Linwood City,-1.7,-4.0,0.0,5.1,21.6,NA,-100.0,2.4,0.7,-0.6
+1,Atlantic,2910,Mainland Regional,0.0,-0.7,-4.9,-2.2,6.0,NA,NA,17.5,4.0,1.6
+1,Atlantic,3020,Margate City,6.1,6.1,-50.0,66.7,-50.0,-50.0,0.0,-10.0,-0.9,-0.6
+1,Atlantic,3480,Mullica Twp,-7.7,-9.4,12.5,-8.4,0.0,-50.0,NA,20.0,0.5,-0.3
+1,Atlantic,3720,Northfield City,-5.8,-9.2,-6.2,13.8,-14.8,NA,100.0,14.8,-0.7,0.8
+1,Atlantic,4180,Pleasantville City,-2.5,-10.9,-3.0,-2.0,-10.2,100.0,-21.1,4.5,-5.1,0.1
+1,Atlantic,4240,Port Republic City,1.0,2.0,0.0,NA,NA,NA,NA,-100.0,-4.8,-1.0
+1,Atlantic,4800,Somers Point City,-7.8,-16.3,-6.1,0.4,-5.0,25.0,0.0,1.5,-1.1,-1.1
+1,Atlantic,5350,Ventnor City,-4.7,-9.1,9.1,-5.6,8.7,0.0,NA,4.2,-12.0,1.7
+1,Atlantic,5760,Weymouth Twp,-7.1,-8.7,-25.0,-5.6,100.0,NA,NA,66.7,-6.3,-2.9
+3,Bergen,0040,Allendale Boro,-1.5,-0.3,-22.2,-4.1,-7.9,NA,0.0,9.5,0.1,0.0
+3,Bergen,0080,Alpine Boro,-1.3,-1.2,-22.2,-20.0,9.1,NA,NA,0.0,0.0,0.0
+3,Bergen,0285,Bergen Co Special Service,3.5,-2.0,28.4,5.2,-5.2,-100.0,100.0,-27.3,-0.5,1.1
+3,Bergen,0290,Bergen County Vocational Technical School District,2.4,-0.2,-1.3,4.2,6.6,0.0,-33.3,-100.0,-3.5,-1.0
+3,Bergen,0300,Bergenfield Boro,0.7,-5.7,1.1,3.6,-3.2,33.3,-6.2,5.6,-2.6,-1.1
+3,Bergen,0440,Bogota Boro,4.3,-3.1,0.0,7.5,-4.6,0.0,-33.3,85.7,1.1,0.7
+3,Bergen,0740,Carlstadt Boro,-3.9,-9.1,-19.2,10.1,-4.7,NA,0.0,-27.3,-1.7,-1.0
+3,Bergen,0745,Carlstadt-East Rutherford,9.8,2.6,19.4,22.9,-3.4,100.0,Inf,-33.3,-0.7,-4.0
+3,Bergen,0890,Cliffside Park Boro,-2.4,-5.2,0.0,-1.5,3.8,-10.0,0.0,18.2,-0.8,-1.5
+3,Bergen,0930,Closter Boro,-4.4,-7.6,42.9,12.0,-7.5,50.0,142.9,7.1,-0.7,0.0
+3,Bergen,0990,Cresskill Boro,-1.0,-3.2,35.0,0.0,0.2,-100.0,0.0,14.6,-0.3,-0.1
+3,Bergen,1070,Demarest Boro,-1.4,-5.4,100.0,7.5,0.5,Inf,NA,31.6,0.4,0.0
+3,Bergen,1130,Dumont Boro,-2.1,-6.4,4.1,3.7,-5.1,0.0,-12.5,300.0,0.1,-0.2
+3,Bergen,1230,East Rutherford Boro,-1.2,-4.5,-2.4,0.3,-1.8,0.0,-100.0,20.8,-1.7,-0.2
+3,Bergen,1270,Edgewater Boro,-28.2,-29.6,-21.3,-21.2,-31.8,NA,0.0,-21.6,0.5,-0.6
+3,Bergen,1345,Elmwood Park,-2.2,-5.2,-0.6,-0.5,-1.1,25.0,-25.0,25.0,-2.1,-2.1
+3,Bergen,1360,Emerson Boro,-6.6,-8.2,-12.5,2.5,-16.3,0.0,0.0,6.1,-0.9,0.4
+3,Bergen,1370,Englewood City,-1.2,-7.8,-8.2,2.9,1.3,0.0,0.0,24.2,-2.6,-0.5
+3,Bergen,1380,Englewood Cliffs Boro,-10.8,-14.6,0.0,10.3,-13.4,NA,200.0,14.3,0.0,0.0
+3,Bergen,1450,Fair Lawn Public Schools,0.7,-2.2,5.9,6.3,4.2,-13.6,-16.7,6.5,0.3,-0.4
+3,Bergen,1470,Fairview Boro,-1.0,2.3,-23.1,-1.1,-17.6,NA,NA,100.0,-26.6,-5.1
+3,Bergen,1550,Fort Lee Boro,-1.5,-4.2,9.9,-0.7,-2.1,0.0,11.1,22.4,-1.3,-0.8
+3,Bergen,1580,Franklin Lakes Boro,0.9,-2.1,-15.0,36.1,6.8,0.0,0.0,19.0,-0.1,0.0
+3,Bergen,1700,Garfield City,-4.4,-8.2,-1.2,-2.0,-14.3,0.0,-10.0,3.0,-3.3,-1.6
+3,Bergen,1760,Glen Rock Boro,0.6,-1.3,8.7,13.3,4.4,-50.0,-50.0,6.3,-0.1,0.0
+3,Bergen,1860,Hackensack City,-4.9,-4.6,-8.0,-4.2,-0.2,10.0,-43.8,1.9,-1.3,-0.4
+3,Bergen,2050,Harrington Park Boro,-6.4,-12.3,66.7,14.3,5.0,NA,-50.0,-15.2,0.0,0.0
+3,Bergen,2080,Hasbrouck Heights Boro,-3.2,-4.4,5.8,-1.0,-6.5,0.0,-100.0,15.8,-0.4,-0.5
+3,Bergen,2090,Haworth Boro,1.3,0.7,0.0,-10.0,14.6,NA,NA,-2.6,0.0,0.0
+3,Bergen,2180,Hillsdale Boro,-2.5,-3.6,20.0,-1.9,3.3,0.0,-25.0,0.0,0.1,-0.4
+3,Bergen,2200,Ho Ho Kus Boro,-1.5,-1.2,14.3,-9.1,3.8,0.0,NA,-40.0,0.0,0.0
+3,Bergen,2620,Leonia Boro,2.4,-2.2,-1.3,0.4,6.2,20.0,0.0,7.3,-0.2,-1.3
+3,Bergen,2710,Little Ferry Boro,-6.1,-6.6,13.9,-7.2,-4.3,-100.0,-17.6,-20.0,-6.4,-3.8
+3,Bergen,2740,Lodi Borough,-2.0,-4.4,-4.9,-0.2,-3.1,0.0,-36.8,5.3,-3.0,-1.2
+3,Bergen,2860,Lyndhurst Twp,-4.1,-5.6,-5.8,-1.9,3.8,NA,50.0,-5.2,-1.3,0.0
+3,Bergen,2900,Mahwah Twp,-3.2,-5.3,11.7,-1.0,1.5,-33.3,0.0,2.7,0.4,-0.2
+3,Bergen,3060,Maywood Boro,-2.9,-8.5,-1.0,2.7,-5.3,50.0,0.0,33.3,-1.8,0.5
+3,Bergen,3170,Midland Park Boro,-5.6,-5.1,66.7,-11.5,0.0,0.0,0.0,0.0,0.3,0.3
+3,Bergen,3330,Montvale Boro,-5.4,-5.4,-33.3,1.1,-5.1,NA,NA,-10.8,-0.6,-0.3
+3,Bergen,3350,Moonachie Boro,4.2,12.9,-16.7,-1.6,15.9,NA,0.0,0.0,-7.2,-0.2
+3,Bergen,3550,New Milford Boro,-0.4,-6.4,9.1,8.1,0.3,NA,-12.6,13.0,-5.1,-3.2
+3,Bergen,3600,North Arlington Boro,1.7,-2.1,3.6,5.9,5.0,0.0,0.0,26.3,-1.4,0.6
+3,Bergen,3700,Northern Highlands Reg,-2.6,-4.5,-23.8,11.3,2.0,100.0,NA,6.2,-0.3,-0.1
+3,Bergen,3710,Northern Valley Regional,-0.1,-6.2,-5.6,725.0,0.9,7.7,100.0,-31.6,-0.1,-0.1
+3,Bergen,3730,Northvale Boro,-1.7,-3.0,-33.3,6.7,-3.6,NA,NA,42.9,-0.2,0.0
+3,Bergen,3740,Norwood Boro,1.8,-3.6,-27.3,32.7,3.1,-100.0,0.0,0.0,1.3,0.8
+3,Bergen,3760,Oakland Boro,-2.3,-3.3,66.7,6.7,-5.4,0.0,0.0,-7.8,0.1,-0.3
+3,Bergen,3850,Old Tappan Boro,-1.4,-2.9,-60.0,24.1,-3.5,NA,0.0,54.5,0.0,0.0
+3,Bergen,3870,Oradell Boro,-2.6,-6.8,-20.0,10.5,4.5,0.0,0.0,0.0,0.0,0.0
+3,Bergen,3910,Palisades Park,-5.4,-12.3,28.6,-2.5,-8.8,40.0,-20.0,-30.0,3.5,-0.7
+3,Bergen,3930,Paramus Boro,-3.4,-6.8,17.7,7.5,-4.9,20.0,-12.5,12.8,-0.5,-0.1
+3,Bergen,3940,Park Ridge Boro,-0.5,-2.5,0.0,5.3,1.1,NA,0.0,13.2,-0.3,-0.1
+3,Bergen,3960,Pascack Valley Regional,-2.1,-4.3,8.0,10.4,-0.5,50.0,50.0,19.0,-0.5,-0.2
+3,Bergen,4300,Ramapo-Indian Hill Reg,-1.2,-1.7,-8.0,1.5,1.8,0.0,-25.0,7.3,0.4,0.0
+3,Bergen,4310,Ramsey Boro,-3.4,-2.2,17.2,-13.1,-5.2,0.0,0.0,0.0,-0.3,-0.4
+3,Bergen,4370,Ridgefield Boro,-3.4,-7.2,13.0,-1.0,-4.9,-66.7,0.0,0.0,-6.3,-1.7
+3,Bergen,4380,Ridgefield Park Twp,-2.7,-9.2,-13.0,1.2,-8.3,50.0,-6.2,62.5,-0.9,-0.8
+3,Bergen,4390,Ridgewood Village,-2.7,-4.2,1.7,0.0,-1.2,-100.0,0.0,1.9,0.2,-0.3
+3,Bergen,4405,River Dell Regional,-1.0,-3.7,-25.0,-2.5,6.7,NA,NA,14.0,-0.2,0.1
+3,Bergen,4410,River Edge Boro,-0.2,-3.9,37.5,10.4,-1.5,-100.0,NA,13.0,0.5,-0.3
+3,Bergen,4430,River Vale Twp,-3.1,-3.3,-8.3,4.7,-6.0,0.0,0.0,20.0,0.0,0.0
+3,Bergen,4470,Rochelle Park Twp,-4.7,-9.3,7.7,0.0,-11.1,NA,NA,50.0,-4.9,0.4
+3,Bergen,4600,Rutherford Boro,-3.1,-3.8,-11.5,-1.3,-4.1,0.0,-50.0,3.9,-0.5,-0.1
+3,Bergen,4610,Saddle Brook Twp,-5.8,-5.2,-21.8,-4.5,-9.6,0.0,-28.6,16.7,0.9,-0.8
+3,Bergen,4620,Saddle River Boro,-13.4,-16.7,25.0,0.0,-9.1,NA,NA,-7.7,-0.7,0.1
+3,Bergen,4845,South Bergen Jointure Com,-3.4,-11.8,0.0,9.2,-23.5,NA,0.0,20.0,1.6,-1.0
+3,Bergen,4870,South Hackensack Twp,-4.5,-1.4,-15.0,-4.4,-12.5,0.0,NA,0.0,-8.0,-4.3
+3,Bergen,5150,Teaneck Twp,-0.1,-2.6,-3.1,3.3,1.5,-10.0,12.5,-10.0,-5.2,1.3
+3,Bergen,5160,Tenafly Boro,-4.0,-5.9,1.9,7.1,-4.0,0.0,0.0,-2.5,0.0,0.0
+3,Bergen,5330,Upper Saddle River Boro,0.0,-1.2,30.8,-5.3,7.6,-33.3,0.0,-7.7,-0.4,0.0
+3,Bergen,5410,Waldwick Boro,-1.3,-3.7,10.0,5.7,-6.1,Inf,0.0,22.0,0.0,0.1
+3,Bergen,5430,Wallington Boro,-2.5,-3.7,0.0,2.8,-8.7,NA,Inf,-42.9,1.6,-1.5
+3,Bergen,5755,Westwood Regional,-1.1,-1.0,-15.1,0.3,-5.4,0.0,0.0,15.7,1.5,0.7
+3,Bergen,5830,Wood-Ridge Boro,-1.8,-5.9,0.0,6.0,5.1,0.0,Inf,-21.7,-2.3,-1.1
+3,Bergen,5880,Woodcliff Lake Boro,-2.1,-2.5,-33.3,15.8,-13.0,NA,0.0,500.0,0.1,0.0
+3,Bergen,5920,Wyckoff Twp,1.5,1.4,20.0,11.7,-5.8,NA,0.0,-1.5,-0.3,0.0
+5,Burlington,0380,Beverly City,1.6,-5.0,5.0,9.3,NA,-100.0,NA,-4.3,12.2,-1.1
+5,Burlington,0475,Bordentown Regional,-3.7,-4.8,-1.6,-3.1,-1.5,0.0,25.0,60.0,-6.7,0.1
+5,Burlington,0600,Burlington City,-2.4,-7.0,-4.4,10.4,0.0,100.0,NA,5.9,-4.9,-1.3
+5,Burlington,0605,Burlington Co Spec Serv,-6.5,-6.0,-10.3,-2.5,-5.9,0.0,100.0,5.3,1.4,-0.8
+5,Burlington,0610,Burlington Co Vocational,1.3,6.2,-3.2,3.6,24.1,-20.0,0.0,-10.2,-5.6,-1.6
+5,Burlington,0620,Burlington Twp,-3.0,-6.8,-1.8,2.9,0.7,-20.0,-10.0,-3.9,0.0,0.6
+5,Burlington,0830,Chesterfield Twp,-5.9,-9.5,3.6,11.9,-4.6,66.7,-50.0,-4.0,-0.2,-0.5
+5,Burlington,0840,Cinnaminson Twp,1.6,0.9,-4.8,7.8,5.1,0.0,40.0,10.4,0.0,-0.4
+5,Burlington,1030,Delanco Twp,-2.5,-6.7,4.0,8.3,0.0,NA,0.0,-6.7,1.6,-1.8
+5,Burlington,1060,Delran Twp,-2.3,-2.0,-9.2,0.8,-11.9,0.0,33.3,5.7,-0.6,-0.8
+5,Burlington,1250,Eastampton Twp,-2.3,-5.8,3.3,1.0,-35.3,0.0,-100.0,18.2,-2.5,0.6
+5,Burlington,1280,Edgewater Park Twp,-2.3,-2.8,-0.7,-6.0,10.0,NA,NA,7.0,-4.5,-1.2
+5,Burlington,1420,Evesham Twp,-3.8,-6.0,2.7,3.1,-0.2,10.0,-8.3,13.3,-0.9,-0.5
+5,Burlington,1520,Florence Twp,-5.7,-9.6,-4.9,14.7,-2.4,0.0,-20.0,0.0,-4.7,-2.2
+5,Burlington,1910,Hainesport Twp,-8.4,-9.8,0.0,-14.6,27.8,-66.7,0.0,-19.0,-2.7,-2.3
+5,Burlington,2610,Lenape Regional,-0.4,-2.7,-4.8,14.2,0.2,133.3,-8.7,65.4,-0.6,-0.1
+5,Burlington,2850,Lumberton Twp,-7.6,-10.0,-10.2,-6.2,-5.4,-50.0,0.0,8.5,-1.9,1.2
+5,Burlington,2960,Mansfield Twp,-8.3,-10.9,3.7,2.8,-7.0,0.0,NA,-14.8,0.3,-0.7
+5,Burlington,3010,Maple Shade Twp,-1.0,-2.2,-0.3,-1.2,8.9,-100.0,NA,0.8,-2.2,-0.3
+5,Burlington,3070,Medford Lakes Boro,-7.8,-7.6,0.0,-16.7,-50.0,NA,NA,0.0,1.2,0.0
+5,Burlington,3080,Medford Twp,-6.0,-6.8,21.4,0.6,-11.7,NA,-33.3,-4.5,-1.0,-0.5
+5,Burlington,3360,Moorestown Twp,-3.6,-5.3,-10.6,1.9,-1.2,-66.7,Inf,11.0,-0.5,-0.6
+5,Burlington,3430,Mount Holly Twp,-3.5,-13.9,0.0,-4.4,19.0,-33.3,-20.0,23.8,-1.9,0.6
+5,Burlington,3440,Mount Laurel Twp,-4.3,-8.0,0.2,1.5,-3.2,16.7,-18.2,6.0,-0.7,-0.4
+5,Burlington,3540,New Hanover Twp,-6.2,-14.5,-7.4,4.8,-50.0,-100.0,NA,5.3,-6.2,-0.2
+5,Burlington,3650,North Hanover Twp,-6.2,-11.8,3.8,4.8,-9.1,0.0,-28.6,-2.0,-0.7,-2.1
+5,Burlington,3690,Northern Burlington Reg,-1.0,-1.8,-2.0,0.4,1.5,100.0,-10.0,1.9,-0.5,-0.8
+5,Burlington,3920,Palmyra Boro,1.4,0.0,-5.5,6.7,11.1,200.0,-20.0,13.6,-1.0,-1.9
+5,Burlington,4050,Pemberton Twp,-4.8,-6.7,-4.2,-1.7,-10.3,-7.1,0.0,1.1,-8.2,-3.0
+5,Burlington,4320,Rancocas Valley Regional,1.3,-1.9,3.2,8.2,-23.3,0.0,-100.0,44.9,-0.5,-0.9
+5,Burlington,4450,Riverside Twp,-4.6,-9.1,-3.1,2.0,-33.3,-100.0,0.0,40.0,-3.6,0.5
+5,Burlington,4460,Riverton,-4.3,-5.8,0.0,8.7,-50.0,NA,-50.0,22.2,1.5,-0.2
+5,Burlington,4740,Shamong Twp,-5.3,-5.8,-16.7,3.9,0.0,Inf,Inf,-14.8,-1.5,0.0
+5,Burlington,4930,Southampton Township School District,1.6,1.4,14.3,4.9,0.0,NA,0.0,-5.0,-3.4,-0.6
+5,Burlington,5010,Springfield Twp,-7.0,-11.4,7.7,21.1,0.0,NA,0.0,20.0,2.1,0.0
+5,Burlington,5130,Tabernacle Twp,-1.8,-1.2,-36.4,-3.4,0.0,-100.0,0.0,12.5,-1.5,-0.2
+5,Burlington,5720,Westampton,-4.0,-10.8,0.0,0.0,12.3,Inf,-100.0,-7.7,2.2,0.2
+5,Burlington,5805,Willingboro Twp,-1.2,-4.9,-4.1,10.4,-22.2,22.2,-14.3,38.8,0.5,2.2
+5,Burlington,5890,Woodland Twp,-12.6,-12.5,0.0,-25.0,NA,NA,NA,0.0,-1.2,0.3
+7,Camden,0150,Audubon Public School Disrict,-1.9,-2.4,11.9,-0.9,-20.0,66.7,0.0,3.4,-1.0,-1.2
+7,Camden,0190,Barrington Boro,-5.7,-6.9,3.6,-7.7,-4.0,50.0,-25.0,9.1,0.4,-0.1
+7,Camden,0260,Bellmawr Boro,-3.5,-6.3,23.1,2.0,-4.4,NA,0.0,-7.7,-2.4,-2.4
+7,Camden,0330,Berlin Boro,-0.4,1.4,11.8,-52.7,16.0,100.0,NA,21.4,0.4,-0.3
+7,Camden,0340,Berlin Twp,-7.1,-5.1,-6.4,-13.0,-5.5,NA,NA,-18.2,3.7,0.1
+7,Camden,0390,Black Horse Pike Regional,-2.3,-5.8,-1.3,2.1,-5.0,200.0,37.5,78.0,-2.4,-0.9
+7,Camden,0580,Brooklawn Boro,-1.4,-6.5,24.2,-7.1,8.3,100.0,-33.3,12.5,4.5,-0.3
+7,Camden,0680,Camden City,-8.2,-10.6,-8.3,-8.6,-6.1,0.0,250.0,5.3,10.0,-0.7
+7,Camden,0700,Camden County Vocational,7.4,13.5,2.1,4.9,26.2,0.0,0.0,11.4,-6.4,-2.1
+7,Camden,0800,Cherry Hill Twp,-3.5,-5.3,2.9,-1.4,-4.0,18.2,-24.1,2.9,2.0,-1.4
+7,Camden,0880,Clementon Boro,5.1,0.0,-4.2,15.1,50.0,NA,NA,5.3,-2.2,-1.7
+7,Camden,0940,Collingswood Boro,2.3,1.3,-1.2,5.4,12.0,16.7,-100.0,5.4,0.0,-1.3
+7,Camden,1255,Eastern Camden County Reg,-0.1,-2.3,5.2,15.4,-9.4,150.0,100.0,15.4,-3.3,-1.4
+7,Camden,1720,Gibbsboro Boro,3.8,-8.8,200.0,10.5,21.4,NA,Inf,9.1,0.4,-2.4
+7,Camden,1770,Gloucester City,0.4,-2.8,8.7,1.8,-4.2,0.0,0.0,500.0,0.4,-0.2
+7,Camden,1780,Gloucester Twp,0.1,-3.6,-0.4,11.5,-4.2,38.5,-22.2,12.1,-1.4,-0.7
+7,Camden,1799,"Kipp: Cooper Norcross, A New Jersey Nonprofit Corporation",17.3,-16.7,16.6,20.2,0.0,-13.3,0.0,10.0,-1.1,1.5
+7,Camden,1801,"Camden Prep, Inc.",6.5,-50.0,6.0,8.2,Inf,NA,NA,NA,3.7,-2.0
+7,Camden,1802,"Mastery Schools Of Camden, Inc.",4.0,42.9,-5.0,6.8,20.0,-40.0,0.0,54.5,-1.6,1.2
+7,Camden,1880,Haddon Heights Boro,0.9,2.1,3.6,1.4,-3.1,33.3,Inf,-24.4,-2.9,-0.7
+7,Camden,1890,Haddon Twp,-4.3,-5.2,-6.1,0.0,-3.1,0.0,0.0,4.1,-0.2,-1.0
+7,Camden,1900,Haddonfield Boro,-2.4,-2.5,-2.6,-8.4,2.1,-33.3,0.0,1.9,0.0,-0.3
+7,Camden,2540,Laurel Springs Boro,-6.7,-15.1,13.6,30.0,-100.0,NA,NA,-10.0,3.5,-1.0
+7,Camden,2560,Lawnside Boro,0.7,-20.0,3.6,-1.9,50.0,NA,NA,-20.0,-5.5,0.0
+7,Camden,2670,Lindenwold Boro,-2.8,-13.1,-2.7,-1.1,-9.8,-50.0,-33.3,2.1,-0.4,0.6
+7,Camden,2890,Magnolia Boro,-6.9,-5.1,-20.2,0.0,-8.3,NA,NA,0.0,-3.0,-1.0
+7,Camden,3110,Merchantville Boro,-6.3,1.3,-18.3,-19.0,-13.3,NA,0.0,35.7,-1.0,0.0
+7,Camden,3420,Mount Ephraim Boro,0.0,-0.3,0.0,11.1,0.0,NA,NA,-20.0,0.0,1.2
+7,Camden,3770,Oaklyn Boro,-1.8,-5.3,27.3,7.4,-18.8,NA,NA,166.7,-1.3,-0.9
+7,Camden,4060,Pennsauken Twp,-1.4,-6.4,-7.9,2.9,-2.1,0.0,0.0,4.5,-35.4,-4.5
+7,Camden,4110,Pine Hill Boro,-3.9,-8.0,-6.3,4.9,2.1,-40.0,-100.0,20.0,2.3,-2.6
+7,Camden,4590,Runnemede Boro,-1.9,-3.4,35.5,2.5,-12.5,NA,Inf,-9.5,0.2,0.1
+7,Camden,4790,Somerdale Boro,-5.7,-7.6,-6.7,-9.8,17.4,-100.0,NA,8.6,3.8,-0.5
+7,Camden,5035,Sterling High School Dist,-1.0,-2.8,4.0,6.7,-2.5,100.0,0.0,-25.6,2.4,-0.7
+7,Camden,5080,Stratford Boro,-4.2,-7.5,14.1,10.5,7.3,-100.0,0.0,-44.4,-1.8,-1.7
+7,Camden,5400,Voorhees Twp,-1.3,-4.0,-1.9,15.2,0.0,0.0,-12.5,-3.6,0.9,-0.6
+7,Camden,5560,Waterford Twp,-2.4,-4.4,21.7,-1.9,25.0,0.0,-100.0,15.2,0.6,-0.8
+7,Camden,5820,Winslow Twp,-3.4,-8.2,-2.7,0.7,-5.0,-17.4,12.5,-3.5,-3.2,-0.7
+7,Camden,5900,Woodlynne Boro,-0.8,-30.8,-9.4,5.2,0.0,NA,-100.0,-25.0,0.3,-2.9
+9,Cape May,0170,Avalon Boro,-10.5,-10.4,0.0,-28.6,0.0,NA,NA,Inf,0.0,0.0
+9,Cape May,0710,Cape May City,3.4,-6.2,50.0,22.2,-50.0,0.0,0.0,NA,-10.5,3.5
+9,Cape May,0715,Cape May Co Special Serv,0.2,-2.4,-3.8,6.7,100.0,0.0,NA,Inf,-2.4,0.0
+9,Cape May,0720,Cape May County Vocational School District,-2.0,-4.8,0.0,9.6,-8.3,NA,0.0,1400.0,-1.8,-3.3
+9,Cape May,1080,Dennis Twp,3.2,3.6,37.5,-9.1,-33.3,0.0,NA,-50.0,-3.2,-1.5
+9,Cape May,2820,Lower Cape May Regional,-4.7,-6.2,-2.7,7.7,-37.5,0.0,50.0,-12.5,-11.3,-1.4
+9,Cape May,2840,Lower Twp,-7.1,-8.0,-17.5,2.8,-10.0,-66.7,0.0,133.3,-0.8,-2.4
+9,Cape May,3130,Middle Twp,-2.1,-3.8,-4.4,2.7,1.7,-66.7,Inf,19.8,2.5,-0.1
+9,Cape May,3680,North Wildwood City,-8.5,-7.4,Inf,-28.6,-100.0,NA,NA,10.0,-4.1,1.1
+9,Cape May,3780,Ocean City,-3.4,-3.5,-10.8,-4.7,14.8,-28.6,-50.0,55.0,-5.4,0.0
+9,Cape May,5060,Stone Harbor Boro,3.4,-1.2,NA,-50.0,Inf,NA,NA,Inf,0.0,0.0
+9,Cape May,5340,Upper Twp,-6.7,-7.5,-37.5,28.9,33.3,-100.0,-50.0,-12.5,0.8,-0.6
+9,Cape May,5610,West Cape May Boro,-15.1,-12.7,-66.7,-11.1,NA,NA,0.0,-100.0,-2.0,-0.9
+9,Cape May,5790,Wildwood City,-7.4,-2.7,-17.9,-7.7,-30.0,NA,0.0,400.0,-2.1,0.7
+9,Cape May,5800,Wildwood Crest Boro,-5.6,-5.7,-50.0,7.1,-50.0,NA,NA,0.0,1.1,1.3
+9,Cape May,5840,Woodbine Boro,-5.0,-11.5,-8.6,2.1,NA,NA,NA,-12.5,37.6,11.0
+11,Cumberland,0540,Bridgeton City,-5.1,-12.4,-8.0,-3.8,33.3,-11.8,NA,-11.0,-2.3,0.6
+11,Cumberland,0950,Commercial Twp,-10.9,-12.1,-9.5,-10.3,0.0,NA,0.0,7.1,-6.0,-1.0
+11,Cumberland,0995,Cumberland Co Vocational,2.6,3.9,-16.1,5.5,42.9,-50.0,NA,-45.5,-8.1,-1.9
+11,Cumberland,0997,Cumberland Regional,3.4,0.2,-5.1,11.9,-20.0,112.5,0.0,12.1,-1.8,-0.7
+11,Cumberland,1020,Deerfield Twp,1.1,-4.9,3.2,6.2,NA,NA,NA,11.1,0.2,-4.6
+11,Cumberland,1120,Downe Twp,-6.3,-9.0,75.0,-14.3,NA,NA,NA,14.3,-1.9,-0.8
+11,Cumberland,1460,Fairfield Twp,-13.0,-7.9,-15.5,-8.2,NA,-14.3,Inf,-20.8,-3.2,0.0
+11,Cumberland,1820,Greenwich Twp,-6.0,-7.7,-9.1,40.0,NA,NA,NA,-33.3,0.6,8.4
+11,Cumberland,2270,Hopewell Twp,0.0,-6.3,3.2,20.2,42.9,0.0,NA,-23.5,-5.6,0.2
+11,Cumberland,2570,Lawrence Twp,-5.5,-3.5,-19.6,-6.8,0.0,-40.0,-100.0,16.7,-2.6,-1.8
+11,Cumberland,3050,Maurice River Twp,-6.0,-6.7,0.0,7.7,0.0,NA,NA,-29.4,-3.4,-2.1
+11,Cumberland,3230,Millville City,-4.8,-8.1,-2.8,-3.1,-10.9,0.0,0.0,-2.4,-0.7,-1.1
+11,Cumberland,5070,Stow Creek Twp,0.0,-2.6,Inf,33.3,NA,NA,NA,0.0,-4.0,4.0
+11,Cumberland,5300,Upper Deerfield Twp,-2.9,-5.2,-2.3,2.8,-10.5,-85.7,NA,5.3,-1.0,-0.9
+11,Cumberland,5390,Vineland City,-2.5,-4.6,-3.4,-1.8,-6.2,-6.5,-25.0,7.8,-57.2,-7.0
+13,Essex,0250,Belleville Town,-0.2,-3.1,3.6,0.9,-9.8,-20.0,0.0,55.0,20.0,3.1
+13,Essex,0410,Bloomfield Twp,-5.9,-11.2,-5.4,-2.1,-7.1,83.3,-11.0,-35.6,-2.1,-1.1
+13,Essex,0660,Caldwell-West Caldwell,-1.6,-1.5,-4.6,-0.4,-6.9,NA,25.0,2.8,-0.9,-0.7
+13,Essex,0760,Cedar Grove Twp,-0.6,-2.1,32.7,11.6,-8.9,0.0,0.0,10.0,-0.1,0.0
+13,Essex,1210,East Orange,-5.8,-11.3,-6.5,-0.7,-27.8,-3.8,7.1,14.9,-12.9,-1.7
+13,Essex,1387,Essex Co Ed Serv Comm,-7.9,0.0,0.0,-23.1,0.0,NA,NA,NA,-8.2,-1.2
+13,Essex,1390,Essex Co Voc-Tech,-1.9,17.9,-0.9,-3.0,-11.8,-9.1,-10.0,7.8,11.1,1.7
+13,Essex,1400,Essex Fells Boro,0.4,2.4,16.7,-38.5,9.1,NA,0.0,-7.7,0.0,0.0
+13,Essex,1465,Fairfield Twp,1.5,0.0,100.0,5.0,21.4,NA,NA,-20.0,0.2,-0.3
+13,Essex,1750,Glen Ridge Boro,-2.0,-2.6,10.1,0.0,-1.8,100.0,25.0,-10.6,0.1,0.0
+13,Essex,2330,Irvington Township,-5.2,-13.0,-6.4,-0.4,-29.4,-8.3,-15.8,-17.6,1.5,0.5
+13,Essex,2730,Livingston Twp,-1.4,-6.2,-3.2,-2.5,6.2,9.1,0.0,5.1,-0.3,0.1
+13,Essex,3190,Millburn Twp,-2.4,-8.1,3.1,-8.8,4.6,-16.7,50.0,1.7,-0.3,0.0
+13,Essex,3310,Montclair Town,-3.6,-4.5,-5.3,-1.2,-5.4,-25.0,-28.6,5.0,0.4,-0.3
+13,Essex,3570,Newark City,-0.7,-5.0,-3.6,2.1,0.3,16.7,6.5,Inf,-6.1,0.3
+13,Essex,3630,North Caldwell Boro,-0.7,-5.8,33.3,57.1,19.2,100.0,NA,-20.0,0.0,0.0
+13,Essex,3750,Nutley Town,-2.1,-4.8,2.7,1.6,-2.4,-14.3,0.0,21.8,0.1,-1.2
+13,Essex,3880,City Of Orange Twp,-0.4,5.9,-3.4,2.8,33.3,25.0,-50.0,29.0,-4.5,-0.8
+13,Essex,4530,Roseland Boro,-2.4,-1.9,-12.5,1.7,-5.7,NA,-100.0,0.0,0.5,-0.2
+13,Essex,4900,South Orange-Maplewood,-5.0,-5.8,-7.8,1.0,-4.7,12.5,12.5,4.9,-0.7,-0.3
+13,Essex,5370,Verona Boro,-3.7,-2.6,-10.0,-8.4,-16.8,-20.0,0.0,10.9,0.0,0.0
+13,Essex,5630,West Essex Regional,-1.5,-3.3,60.0,0.7,2.2,0.0,33.3,20.8,-0.8,-0.1
+13,Essex,5680,West Orange Town,0.4,-2.2,-1.0,3.3,-2.8,-16.7,0.0,4.1,-2.8,0.5
+15,Gloucester,0860,Clayton Boro,-2.7,-4.0,-1.1,-1.4,-7.7,0.0,NA,-1.3,-1.7,-0.5
+15,Gloucester,0870,Clearview Regional,0.8,0.7,0.0,7.2,1.1,-100.0,-100.0,-5.0,-1.3,-0.4
+15,Gloucester,1100,Deptford Twp,-4.7,-7.1,-5.3,1.6,-1.9,0.0,-14.3,18.3,0.3,-0.9
+15,Gloucester,1180,East Greenwich Twp,-1.1,-1.7,10.0,-12.5,-1.9,NA,50.0,9.9,0.6,0.1
+15,Gloucester,1330,Elk Twp,-3.7,-6.2,2.4,0.0,16.7,NA,0.0,0.0,-10.6,-1.4
+15,Gloucester,1590,Franklin Twp,-8.4,-8.1,-15.8,-10.1,-30.8,0.0,NA,5.4,-1.5,-0.9
+15,Gloucester,1715,Gateway Regional,-2.8,-5.4,8.2,2.3,-4.3,NA,-33.3,24.0,-4.7,-2.1
+15,Gloucester,1730,Glassboro,-5.9,-9.4,-8.2,3.9,-8.1,0.0,0.0,-2.1,4.5,0.8
+15,Gloucester,1774,Gloucester Co Spec Serv,-3.9,-7.1,-2.3,4.7,-28.6,-100.0,NA,6.7,-0.5,-1.6
+15,Gloucester,1775,Gloucester Co Vocational,2.8,1.3,0.0,16.1,11.3,NA,100.0,1.4,-2.1,0.2
+15,Gloucester,1830,Greenwich Twp,-14.5,-15.7,-20.8,-12.8,-28.6,NA,0.0,0.0,-15.3,-5.3
+15,Gloucester,2070,Harrison Twp,-8.0,-6.4,-8.8,-15.5,-21.9,0.0,NA,-11.8,-1.1,0.0
+15,Gloucester,2440,Kingsway Regional,0.5,0.0,-2.5,-6.2,1.6,100.0,100.0,30.4,-0.5,0.3
+15,Gloucester,2750,Logan Twp,0.4,-0.5,9.1,6.9,11.1,0.0,NA,-15.0,-3.1,-0.5
+15,Gloucester,2990,Mantua Twp,-5.0,-7.4,-6.6,8.6,-7.4,NA,NA,24.1,-2.0,-0.4
+15,Gloucester,3280,Monroe Twp,-0.8,-3.1,4.2,3.1,-1.2,-6.7,0.0,6.5,-3.9,-1.1
+15,Gloucester,3490,National Park Boro,1.4,-3.7,31.2,17.6,Inf,0.0,NA,44.4,0.2,1.6
+15,Gloucester,4020,Paulsboro Boro,-2.4,-6.8,-7.3,22.0,14.3,0.0,-25.0,-2.0,-40.3,0.0
+15,Gloucester,4140,Pitman Boro,-9.3,-9.0,-18.2,-15.9,-13.3,NA,50.0,-4.9,-8.0,-2.4
+15,Gloucester,4880,South Harrison Twp,-4.5,-4.8,-33.3,-40.9,20.0,NA,NA,333.3,1.5,-1.1
+15,Gloucester,4940,Delsea Regional H.S Dist.,-3.2,-3.9,-6.0,0.7,-23.1,Inf,Inf,9.2,-10.0,-1.6
+15,Gloucester,5120,Swedesboro-Woolwich,-5.4,-5.2,-10.1,-3.0,-17.6,-50.0,-100.0,20.0,-2.5,-0.9
+15,Gloucester,5500,Washington Twp,-2.9,-4.6,-0.3,17.2,-3.6,-33.3,-28.6,-2.5,-0.7,-0.6
+15,Gloucester,5590,Wenonah Boro,-0.6,0.0,NA,-20.0,0.0,NA,NA,0.0,-0.6,-1.8
+15,Gloucester,5620,West Deptford Twp,-2.1,-2.2,-4.5,2.7,4.5,0.0,0.0,-8.8,-1.2,-1.0
+15,Gloucester,5740,Westville Boro,-5.8,-6.0,-7.0,-3.2,-5.9,NA,NA,-20.0,-8.0,4.3
+15,Gloucester,5860,Woodbury City,-0.6,-12.1,5.6,0.9,13.6,0.0,-50.0,5.0,-6.3,-0.9
+15,Gloucester,5870,Woodbury Heights Boro,-7.7,-7.6,-30.0,9.1,-50.0,NA,0.0,16.7,-2.4,-0.3
+17,Hudson,0220,Bayonne City,-0.7,1.3,10.7,-6.6,-1.6,86.7,28.6,12.2,-3.6,-0.9
+17,Hudson,1200,East Newark Boro,-1.3,-29.4,0.0,-1.9,100.0,Inf,NA,300.0,-0.9,2.3
+17,Hudson,1850,Guttenberg Town,-6.2,-4.5,12.5,-7.4,36.4,0.0,Inf,33.3,-5.0,0.0
+17,Hudson,2060,Harrison Town,-1.6,-8.4,7.5,-1.5,5.9,Inf,0.0,-7.7,-0.1,-0.8
+17,Hudson,2210,Hoboken City,-0.1,2.5,-5.7,-2.3,4.2,33.3,-33.3,0.0,-1.4,-0.6
+17,Hudson,2295,Hudson County Vocational,-2.1,-2.9,-5.0,-3.0,-1.4,-78.9,-25.0,59.1,-0.9,-0.9
+17,Hudson,2390,Jersey City,-4.1,-1.4,-6.6,-5.3,-2.3,-5.0,25.8,4.8,-1.3,0.3
+17,Hudson,2410,Kearny Town,-3.0,-5.8,5.3,-1.9,-3.0,-16.7,-20.0,10.8,1.0,-0.4
+17,Hudson,3610,North Bergen Twp,-2.3,-3.9,15.6,-2.5,4.3,-40.0,0.0,0.0,-9.4,-2.0
+17,Hudson,4730,Secaucus Town,-3.2,-5.9,-7.9,-7.3,5.2,-100.0,0.0,2.9,-2.2,-1.1
+17,Hudson,5240,Union City,-3.1,-3.1,15.7,-3.6,9.7,0.0,0.0,200.0,-21.1,-4.2
+17,Hudson,5580,Weehawken Twp,-6.6,-4.4,-16.7,-6.9,-10.6,0.0,NA,10.5,6.7,-0.4
+17,Hudson,5670,West New York Town,-3.8,-3.6,-13.2,-3.7,-5.0,NA,50.0,-25.0,-2.6,-0.2
+19,Hunterdon,0020,Alexandria Twp,-3.1,-2.2,0.0,3.0,-50.0,NA,NA,22.2,-1.9,0.7
+19,Hunterdon,0370,Bethlehem Twp,-4.1,-2.7,100.0,-17.9,-18.2,NA,NA,0.0,1.0,-1.7
+19,Hunterdon,0430,Bloomsbury Boro,-2.2,1.6,0.0,-50.0,0.0,NA,NA,-33.3,1.6,3.4
+19,Hunterdon,0670,Califon Boro,15.4,10.8,NA,20.0,Inf,NA,NA,66.7,-3.8,0.0
+19,Hunterdon,0910,Clinton-Glen Gardner,-3.4,-3.2,18.8,0.0,-20.6,NA,-20.0,0.0,-1.3,0.0
+19,Hunterdon,0920,Clinton Twp,-1.1,-5.0,37.5,28.1,0.0,-100.0,NA,8.7,0.9,-0.6
+19,Hunterdon,1040,Delaware Twp,-5.8,-2.0,-25.0,-20.0,-28.6,NA,NA,-16.7,-1.8,-1.8
+19,Hunterdon,1050,Delaware Valley Regional,-1.1,-4.5,6.7,43.8,44.4,NA,NA,0.0,0.7,-0.3
+19,Hunterdon,1160,East Amwell Twp,-5.1,-5.2,-50.0,4.7,-12.5,NA,NA,16.7,-2.1,0.0
+19,Hunterdon,1376,South Hunterdon Regional School District,-6.8,-9.5,-6.2,1.3,0.0,NA,NA,-3.2,1.0,-0.2
+19,Hunterdon,1510,Flemington-Raritan Reg,-3.8,-6.0,-12.0,1.6,-0.3,0.0,66.7,8.9,-1.0,0.1
+19,Hunterdon,1600,Franklin Twp,-7.0,-11.4,700.0,10.7,-21.4,NA,NA,NA,-1.5,0.0
+19,Hunterdon,1680,Frenchtown Boro,-10.7,-11.3,-75.0,37.5,-25.0,NA,NA,-12.5,1.4,1.1
+19,Hunterdon,1970,Hampton Boro,-14.6,-17.1,-100.0,14.3,NA,NA,NA,0.0,-7.8,-0.9
+19,Hunterdon,2140,High Bridge Boro,-0.3,-6.6,28.6,22.2,25.0,0.0,Inf,16.7,2.0,-0.9
+19,Hunterdon,2220,Holland Twp,-5.0,-6.0,25.0,4.3,0.0,NA,-100.0,33.3,-0.6,-0.7
+19,Hunterdon,2300,Hunterdon Central Reg,-2.6,-4.5,7.4,8.1,-17.0,0.0,25.0,69.4,-0.4,0.3
+19,Hunterdon,2308,Hunterdon Co Vocational,6.1,2.0,18.8,28.8,50.0,-100.0,Inf,-32.1,1.5,-0.9
+19,Hunterdon,2450,Kingwood Twp,-5.0,-10.5,350.0,25.0,-20.0,NA,0.0,200.0,-0.7,1.6
+19,Hunterdon,2590,Lebanon Boro,-5.2,-10.1,66.7,-20.0,0.0,NA,Inf,NA,1.3,0.0
+19,Hunterdon,2600,Lebanon Twp,-8.6,-10.3,-18.2,31.8,12.5,0.0,0.0,Inf,0.7,-1.1
+19,Hunterdon,3180,Milford Boro,-11.7,-6.4,0.0,-12.5,-66.7,NA,-100.0,NA,0.8,-8.3
+19,Hunterdon,3660,N Hunt/Voorhees Regional,-6.5,-7.8,7.3,4.9,-7.6,20.0,Inf,-5.4,-0.2,-0.6
+19,Hunterdon,4350,Readington Twp,-4.9,-7.0,21.1,2.0,-1.6,0.0,0.0,13.3,0.3,0.1
+19,Hunterdon,5180,Tewksbury Twp,-7.0,-8.6,500.0,-5.7,-10.0,NA,Inf,-7.7,0.7,0.0
+19,Hunterdon,5270,Union Twp,-9.6,-10.0,-50.0,18.2,-25.0,100.0,0.0,40.0,-1.8,-0.2
+21,Mercer,1245,East Windsor Regional,-3.6,-7.7,-7.5,-0.6,-2.1,33.3,18.8,-7.3,0.0,-1.3
+21,Mercer,1430,Ewing Twp,-2.1,-8.1,-2.8,6.4,-8.2,NA,25.0,13.0,-1.1,0.0
+21,Mercer,1431,Katzenbach,4.0,13.8,5.3,0.0,-25.0,NA,Inf,0.0,6.1,-1.7
+21,Mercer,1950,Hamilton Twp,-1.5,-4.6,-2.0,1.8,1.2,-7.7,22.2,4.1,1.4,0.3
+21,Mercer,2280,Hopewell Valley Regional,-1.1,-2.3,3.1,8.0,-0.4,NA,0.0,3.7,-0.3,-0.1
+21,Mercer,2580,Lawrence Twp,-4.2,-6.4,-0.2,-0.1,-6.9,50.0,-25.0,-3.1,1.1,-0.4
+21,Mercer,3103,Mercer County Special Services School District,-7.8,-13.3,-10.3,0.0,-9.1,0.0,NA,-7.1,2.1,-0.5
+21,Mercer,3105,Mercer County Vocational,3.9,6.1,-21.8,23.3,18.3,-100.0,Inf,-14.3,-0.1,0.2
+21,Mercer,4255,Princeton Public Schools,-4.7,-7.6,0.2,-5.7,-1.6,-50.0,0.0,4.9,0.6,-0.5
+21,Mercer,5210,Trenton Public School District,1.8,8.3,7.9,-2.1,-25.8,0.0,33.3,32.8,-22.8,-0.3
+21,Mercer,5510,Robbinsville Twp,-2.3,-7.9,18.1,-1.6,4.3,14.3,0.0,5.0,0.4,-0.1
+21,Mercer,5715,W Windsor-Plainsboro Reg,-2.4,-10.6,2.6,7.2,-2.1,80.0,-14.3,33.3,0.7,-0.6
+23,Middlesex,0750,Carteret Boro,-3.6,-9.7,-6.4,-2.9,-0.3,-20.0,-20.0,-6.0,-5.5,-1.0
+23,Middlesex,0970,Cranbury Twp,-4.4,-6.1,17.6,-9.1,-1.8,Inf,NA,-9.1,0.1,0.5
+23,Middlesex,1140,Dunellen Boro,-2.1,-8.7,-1.3,2.5,-3.0,0.0,0.0,-11.8,0.1,-0.4
+23,Middlesex,1170,East Brunswick Twp,-2.2,-5.5,0.2,8.9,-1.6,21.4,13.6,7.1,1.0,-0.1
+23,Middlesex,1290,Edison Twp,-0.3,-7.3,-3.4,1.1,0.8,21.7,-5.0,1.5,-4.1,0.5
+23,Middlesex,2150,Highland Park Boro,-3.1,-4.8,10.3,1.8,-9.9,0.0,-33.3,-5.0,2.1,-1.1
+23,Middlesex,2370,Jamesburg Boro,-7.0,-10.2,4.5,-5.4,-11.8,100.0,-50.0,-30.0,-2.2,-0.3
+23,Middlesex,3120,Metuchen Boro,0.4,-3.2,9.5,4.4,2.4,0.0,25.0,9.8,-0.6,-0.1
+23,Middlesex,3140,Middlesex Boro,-3.7,-7.2,-0.4,3.0,-12.8,0.0,-14.3,-3.8,0.7,0.3
+23,Middlesex,3145,Educational Services Commission Of New Jersey,-8.1,-6.4,-12.0,-13.8,1.1,100.0,-100.0,87.5,0.6,-0.4
+23,Middlesex,3150,Middlesex Co Vocational,1.9,1.4,0.3,0.9,5.6,NA,100.0,-18.2,-2.6,0.2
+23,Middlesex,3220,Milltown Boro,-3.0,-3.5,3.1,-4.5,0.0,-25.0,0.0,18.8,0.9,-0.1
+23,Middlesex,3290,Monroe Twp,1.1,-7.3,3.6,9.9,7.0,500.0,22.2,11.1,0.1,-0.1
+23,Middlesex,3530,New Brunswick City,-0.8,-16.9,-9.4,0.1,-2.6,-11.1,100.0,-3.4,21.6,-5.7
+23,Middlesex,3620,North Brunswick Twp,-3.2,-10.0,-2.0,-0.8,-4.2,45.5,-14.3,0.7,-4.8,-0.6
+23,Middlesex,3845,Old Bridge Twp,-4.2,-6.0,-6.6,0.9,-3.1,9.1,37.5,13.4,-1.2,-1.5
+23,Middlesex,4090,Perth Amboy City,-2.2,-3.5,-2.5,-2.0,-10.0,0.0,0.0,-15.8,-7.8,2.5
+23,Middlesex,4130,Piscataway Twp,-2.0,-7.5,-4.8,1.5,0.0,4.0,13.6,-2.8,-1.8,-1.9
+23,Middlesex,4660,Sayreville Boro,-3.0,-2.9,-1.9,-8.3,-1.7,35.9,-4.2,7.7,0.7,-1.2
+23,Middlesex,4830,South Amboy City,-2.1,-5.7,0.0,2.2,-5.4,NA,0.0,14.3,0.3,-0.4
+23,Middlesex,4860,South Brunswick Twp,-2.6,-9.0,2.3,0.9,-1.8,61.1,14.3,0.0,-0.4,-0.1
+23,Middlesex,4910,South Plainfield Boro,0.1,-2.4,-2.7,1.6,1.6,175.0,0.0,25.4,-2.3,-0.2
+23,Middlesex,4920,South River Boro,-1.0,-2.3,5.0,-1.0,-1.8,0.0,0.0,9.8,2.8,0.6
+23,Middlesex,4970,Spotswood Boro,-4.2,-6.1,0.0,1.8,-4.5,20.0,NA,0.0,0.1,-0.5
+23,Middlesex,5850,Woodbridge Twp,-0.4,-3.8,0.6,2.8,-0.4,0.0,NA,13.1,-1.1,-0.6
+25,Monmouth,0100,Asbury Park City,-8.4,-16.9,-9.1,-7.1,Inf,NA,NA,0.0,-4.6,0.0
+25,Monmouth,0130,Atlantic Highlands Boro,-15.3,-16.9,0.0,0.0,-25.0,0.0,NA,0.0,-1.9,0.9
+25,Monmouth,0180,Avon Boro,6.4,11.7,50.0,-33.3,50.0,NA,NA,NA,-2.1,-0.8
+25,Monmouth,0225,Bayshore Jointure Comm,0.0,-9.1,14.3,12.5,0.0,NA,NA,Inf,0.0,-3.8
+25,Monmouth,0270,Belmar Boro,-10.1,-13.8,-23.8,-5.8,-14.3,0.0,NA,-16.7,-2.8,-2.2
+25,Monmouth,0500,Bradley Beach Boro,-4.7,-11.6,0.0,-0.6,0.0,NA,0.0,-25.0,2.8,-0.6
+25,Monmouth,0560,Brielle Boro,-1.4,-1.2,0.0,11.8,33.3,-50.0,0.0,-60.0,-0.2,-0.2
+25,Monmouth,0945,Colts Neck Twp,-3.8,-6.1,26.7,27.5,-23.5,0.0,0.0,14.3,-0.7,0.0
+25,Monmouth,1000,Deal Boro,-3.1,-1.8,-18.5,14.3,0.0,NA,NA,0.0,14.1,1.3
+25,Monmouth,1260,Eatontown Boro,-3.2,-4.1,-15.3,2.8,-2.8,NA,NA,12.5,-1.4,-0.4
+25,Monmouth,1440,Fair Haven Boro,-1.9,-3.3,NA,57.9,-55.6,NA,NA,66.7,0.0,-0.1
+25,Monmouth,1490,Farmingdale Boro,-1.2,3.5,-23.1,20.0,-50.0,NA,0.0,-50.0,0.3,-1.8
+25,Monmouth,1640,Freehold Boro,-1.3,-9.1,-6.4,0.1,0.0,Inf,-100.0,11.8,-0.1,-1.7
+25,Monmouth,1650,Freehold Regional,-1.8,-3.0,-4.1,3.9,-1.1,200.0,-20.9,7.5,-0.5,0.0
+25,Monmouth,1660,Freehold Twp,-3.1,-4.5,2.8,4.2,-4.0,-30.0,-16.7,8.3,-0.3,-0.3
+25,Monmouth,2105,Hazlet Twp,-4.0,-5.5,8.0,-1.8,0.6,NA,0.0,27.2,-0.5,-0.6
+25,Monmouth,2120,Henry Hudson Regional,-7.6,-9.4,34.8,-2.7,25.0,NA,NA,-63.6,-1.0,0.4
+25,Monmouth,2160,Highlands Boro,-2.8,-3.7,-40.0,0.0,200.0,NA,NA,0.0,1.2,-1.5
+25,Monmouth,2230,Holmdel Twp,-3.5,-2.7,-5.0,-4.2,-8.2,-66.7,-31.2,7.4,0.6,-0.1
+25,Monmouth,2290,Howell Twp,-3.4,-3.8,6.4,-7.1,-4.9,0.0,-50.0,12.0,-0.7,-0.1
+25,Monmouth,2400,Keansburg Boro,-6.4,-10.6,-6.3,1.0,-5.0,-33.3,0.0,7.7,-8.2,2.1
+25,Monmouth,2430,Keyport Boro,-8.5,-12.5,0.7,-2.8,-23.5,NA,-100.0,-8.3,-21.5,-0.2
+25,Monmouth,2720,Little Silver Boro,-6.1,-6.6,-50.0,13.3,-15.4,NA,NA,0.0,-0.3,0.0
+25,Monmouth,2770,Long Branch City,-6.6,-10.4,-13.8,-3.5,-10.3,-12.5,0.0,0.3,0.9,-2.0
+25,Monmouth,2920,Manalapan-Englishtown Reg,-5.4,-7.1,9.2,-1.0,-1.2,0.0,0.0,2.3,-0.3,0.2
+25,Monmouth,2930,Manasquan Boro,3.7,3.3,-33.3,9.7,-28.6,0.0,100.0,250.0,-0.1,-0.3
+25,Monmouth,3030,Marlboro Twp,-4.6,-5.8,-5.7,-0.3,-2.9,0.0,0.0,-0.9,-0.2,-0.1
+25,Monmouth,3040,Matawan-Aberdeen Regional,-6.1,-7.0,-11.0,-1.7,-5.8,-25.0,20.0,0.3,-1.1,-0.4
+25,Monmouth,3160,Middletown Twp,-4.1,-5.1,-2.3,1.5,-2.7,20.0,-12.5,3.5,-0.6,0.2
+25,Monmouth,3200,Millstone Twp,-5.0,-9.3,13.0,41.7,6.9,0.0,NA,0.0,1.4,-0.3
+25,Monmouth,3250,Monmouth Beach Boro,10.8,9.0,NA,42.9,0.0,NA,NA,200.0,0.0,0.0
+25,Monmouth,3255,Monmouth-Ocean Ed Ser Com,-17.6,133.3,-45.5,-66.7,NA,NA,NA,NA,-24.3,1.2
+25,Monmouth,3260,Monmouth Co Vocational,-1.4,-4.5,-7.9,-1.6,6.2,-20.0,-9.1,19.6,-1.7,-0.4
+25,Monmouth,3270,Monmouth Regional,1.9,1.7,5.4,1.1,-1.3,0.0,0.0,1.4,-0.9,-0.5
+25,Monmouth,3500,Neptune City,-13.4,-27.0,-14.8,-2.4,-66.7,NA,NA,18.2,-8.3,4.6
+25,Monmouth,3510,Neptune Twp,-4.5,-9.0,-5.0,-0.2,-4.7,0.0,20.0,-7.1,3.8,0.2
+25,Monmouth,3810,Ocean Twp,-0.6,1.2,-6.3,-1.4,-8.7,0.0,-33.3,22.1,-2.8,-0.4
+25,Monmouth,3830,Oceanport Boro,-10.2,-12.2,-25.0,0.0,0.0,NA,NA,38.5,-0.7,-0.7
+25,Monmouth,4360,Red Bank Boro,-2.8,-3.3,-11.6,-1.9,0.0,NA,0.0,-10.5,0.0,-0.3
+25,Monmouth,4365,Red Bank Regional,1.7,-3.4,4.0,9.7,4.8,NA,0.0,-7.1,0.7,0.0
+25,Monmouth,4520,Roosevelt Boro,-7.7,-12.9,-25.0,33.3,NA,NA,NA,0.0,0.0,0.0
+25,Monmouth,4570,Rumson Boro,-7.1,-7.6,0.0,-10.0,-30.0,NA,NA,42.9,0.0,0.2
+25,Monmouth,4580,Rumson-Fair Haven Reg,-1.9,-2.8,0.0,10.8,6.7,NA,NA,6.8,-0.2,-0.2
+25,Monmouth,4690,Sea Girt Boro,-2.6,-2.7,Inf,0.0,0.0,NA,NA,-33.3,0.0,0.0
+25,Monmouth,4760,Shore Regional,-4.0,-3.1,-22.2,-7.8,-42.9,NA,Inf,36.4,-1.2,-1.1
+25,Monmouth,4770,Shrewsbury Boro,-10.0,-11.0,-42.9,-9.1,0.0,NA,-100.0,41.7,0.2,0.0
+25,Monmouth,4980,Spring Lake Boro,15.0,18.1,0.0,-40.0,-50.0,NA,NA,NA,0.6,1.2
+25,Monmouth,4990,Spring Lake Heights Boro,-0.6,-1.6,0.0,18.8,0.0,NA,0.0,0.0,1.5,0.9
+25,Monmouth,5185,Tinton Falls,-6.0,-3.8,-10.3,-9.0,-8.9,NA,0.0,-11.8,-2.4,1.0
+25,Monmouth,5230,Union Beach,-4.5,-8.2,-13.6,24.6,6.2,NA,NA,-9.1,-3.2,-0.8
+25,Monmouth,5310,Upper Freehold Regional,-2.7,-3.5,-3.9,7.3,-7.1,0.0,0.0,30.8,-0.5,-0.7
+25,Monmouth,5420,Wall Twp,-2.4,-2.6,-4.9,-4.2,-7.1,-50.0,0.0,17.8,-0.8,-1.5
+25,Monmouth,5640,West Long Branch Boro,-3.8,-7.2,-15.4,23.3,-10.0,NA,-50.0,-33.3,1.0,-2.1
+27,Morris,0450,Boonton Town,-2.2,-5.6,2.7,8.7,-6.7,20.0,0.0,0.0,0.1,-0.4
+27,Morris,0460,Boonton Twp,-4.0,-5.5,-50.0,42.9,4.2,NA,NA,0.0,-1.2,0.0
+27,Morris,0630,Butler Boro,-2.4,-5.9,23.3,5.8,-5.0,Inf,25.0,-8.3,-3.0,0.6
+27,Morris,0785,Sch Dist Of The Chathams,-3.5,-5.0,-15.8,3.7,-1.0,0.0,Inf,7.0,0.3,-0.2
+27,Morris,0820,Chester Twp,-3.3,-4.1,0.0,9.0,-14.3,NA,50.0,-18.8,-0.7,-0.1
+27,Morris,1090,Denville Twp,-3.1,-5.2,-19.0,7.4,0.0,0.0,0.0,9.0,-0.4,0.0
+27,Morris,1110,Dover Town,-2.2,-4.1,-5.0,-1.8,-12.1,Inf,NA,-7.1,-2.2,0.2
+27,Morris,1190,East Hanover Twp,-2.8,-2.1,0.0,7.8,-15.0,NA,NA,0.0,-0.4,0.0
+27,Morris,1530,Florham Park Boro,-3.1,-6.4,13.8,11.1,1.9,NA,NA,-10.2,-0.3,0.0
+27,Morris,1990,Hanover Park Regional,-2.0,-3.1,2.1,-5.6,6.6,NA,-100.0,6.7,0.1,-0.1
+27,Morris,2000,Hanover Twp,-4.7,-4.5,-17.2,-2.0,-10.1,0.0,NA,4.6,0.7,0.0
+27,Morris,2010,Harding Township,-1.1,-3.0,-42.9,12.5,-25.0,NA,Inf,112.5,0.4,0.0
+27,Morris,2380,Jefferson Twp,-6.9,-7.6,13.2,-7.0,-3.1,-28.6,0.0,3.0,-1.0,-0.3
+27,Morris,2460,Kinnelon Boro,-3.3,-6.6,11.1,18.4,-5.5,-14.3,-20.0,77.4,0.4,-0.2
+27,Morris,2650,Lincoln Park Boro,-4.3,-4.5,-13.3,-6.9,9.8,Inf,-33.3,33.3,-3.3,0.6
+27,Morris,2870,Madison Boro,-2.9,-2.5,-9.4,-3.9,-2.4,-100.0,0.0,-3.0,-0.7,0.0
+27,Morris,3090,Mendham Boro,-1.2,-1.2,0.0,-8.3,0.0,NA,NA,11.8,0.1,0.2
+27,Morris,3100,Mendham Twp,2.6,0.8,11.1,29.6,4.1,Inf,Inf,0.0,0.0,0.0
+27,Morris,3240,Mine Hill Twp,1.2,-8.2,33.3,9.6,-19.2,100.0,NA,-23.8,0.6,-3.7
+27,Morris,3340,Montville Twp,-3.6,-5.5,-7.5,2.4,0.2,25.0,-19.2,-3.5,0.4,-0.5
+27,Morris,3364,Educ Serv Comm Morris Co,117.6,166.7,0.0,80.0,0.0,100.0,NA,NA,-3.2,0.0
+27,Morris,3365,Morris County Vocational,5.5,1.4,15.8,4.6,13.1,0.0,0.0,5.6,-1.5,-0.3
+27,Morris,3370,Morris Hills Regional,-1.6,-5.8,6.1,5.6,-5.0,0.0,-25.0,43.9,0.8,-0.3
+27,Morris,3380,Morris Plains Boro,-2.9,-6.5,3.4,19.0,-7.0,NA,NA,300.0,-0.9,1.6
+27,Morris,3385,Morris School District,-2.4,-0.8,-5.3,-4.6,0.0,-66.7,-20.0,29.5,-1.6,-0.6
+27,Morris,3410,Mount Arlington Boro,-7.7,-10.8,7.7,-5.6,-6.2,NA,NA,-8.3,-0.6,1.4
+27,Morris,3450,Mount Olive Twp,-0.9,-0.7,7.8,-1.7,0.2,100.0,-37.5,-23.6,-4.5,-2.3
+27,Morris,3460,Mountain Lakes Boro,-3.4,-3.8,5.7,-6.2,-3.4,-16.7,NA,16.7,-0.4,0.0
+27,Morris,3520,Netcong Boro,-1.7,-12.7,43.8,4.6,25.0,NA,0.0,0.0,-3.3,-2.0
+27,Morris,3950,Parsippany-Troy Hills Twp,-0.8,-3.8,-2.7,1.3,1.4,-28.6,11.1,-6.1,0.3,0.0
+27,Morris,4000,Long Hill Twp,-10.8,-12.7,-37.5,-9.1,0.0,-100.0,0.0,26.3,2.0,0.3
+27,Morris,4080,Pequannock Twp,0.3,0.1,-6.2,0.0,-8.3,100.0,0.0,62.5,-1.2,0.0
+27,Morris,4330,Randolph Twp,-4.9,-6.3,3.3,-0.4,-5.7,-16.7,-15.4,5.4,-0.9,0.3
+27,Morris,4440,Riverdale Boro,-8.4,-13.1,-18.8,-8.8,47.4,0.0,Inf,-7.1,1.1,-0.9
+27,Morris,4480,Rockaway Boro,-7.2,-12.3,4.8,-0.6,-11.8,NA,NA,44.4,-0.1,0.8
+27,Morris,4490,Rockaway Twp,-3.3,-6.8,12.9,4.8,-4.1,50.0,0.0,-2.2,0.7,-0.6
+27,Morris,4560,Roxbury Twp,-2.0,-3.9,6.0,1.8,-2.9,0.0,0.0,5.9,-1.8,-0.2
+27,Morris,5520,Washington Twp,-4.6,-5.3,9.4,-1.5,-11.9,-50.0,0.0,27.3,0.0,0.1
+27,Morris,5660,West Morris Regional,-5.8,-7.0,5.8,3.0,6.7,0.0,0.0,-17.4,-0.1,0.0
+27,Morris,5770,Wharton Boro,-8.0,-12.3,-21.1,-5.6,-12.1,NA,0.0,0.0,4.2,2.2
+29,Ocean,0185,Barnegat Twp,0.6,-1.9,7.6,11.1,-5.7,50.0,33.3,-8.2,1.0,1.1
+29,Ocean,0210,Bay Head Boro,4.1,8.4,-33.3,-28.6,NA,NA,NA,-20.0,0.0,0.0
+29,Ocean,0230,Beach Haven Boro,48.3,78.9,-100.0,-11.8,NA,NA,NA,200.0,0.0,0.0
+29,Ocean,0320,Berkeley Twp,-4.4,-5.5,-2.4,1.1,-2.4,0.0,0.0,-12.1,-0.9,0.1
+29,Ocean,0530,Brick Twp,-2.3,-4.1,-5.4,4.7,-7.5,-23.8,-5.9,17.9,-1.2,0.0
+29,Ocean,0770,Central Regional,3.3,2.2,6.2,6.0,-10.0,0.0,0.0,12.3,1.0,0.3
+29,Ocean,1150,Eagleswood Twp,7.1,8.5,NA,14.3,NA,NA,NA,-33.3,1.2,-1.0
+29,Ocean,2350,Island Heights Boro,14.3,6.7,-50.0,133.3,NA,NA,NA,300.0,-1.0,-0.9
+29,Ocean,2360,Jackson Twp,-4.4,-8.9,-1.1,10.8,0.2,12.5,-18.2,9.1,0.0,-0.2
+29,Ocean,2480,Lacey Twp,-2.4,-3.2,3.7,-1.7,12.5,-50.0,-20.0,27.3,-1.2,0.0
+29,Ocean,2500,Lakehurst Boro,-2.3,-2.0,-5.2,7.3,-33.3,-100.0,-66.7,0.0,-0.5,-1.8
+29,Ocean,2520,Lakewood Twp,-5.3,17.5,-14.3,-5.9,-9.1,0.0,75.0,-9.1,-2.0,1.0
+29,Ocean,2550,Lavallette Boro,4.0,3.7,20.0,0.0,200.0,NA,NA,-100.0,-1.0,-0.7
+29,Ocean,2690,Little Egg Harbor Twp,-0.2,-1.2,16.9,-0.7,50.0,NA,0.0,0.0,-2.5,2.1
+29,Ocean,2760,Long Beach Island,-4.0,0.6,-50.0,-27.8,20.0,NA,NA,0.0,-1.0,-1.7
+29,Ocean,2940,Manchester Twp,-1.9,-4.3,-10.3,8.8,-2.1,-30.8,0.0,7.3,-4.4,0.1
+29,Ocean,3790,Ocean County Vocational,0.0,-1.3,-18.6,12.9,-10.8,300.0,-50.0,-8.6,1.5,-0.3
+29,Ocean,3800,Ocean Gate Boro,1.5,-3.2,80.0,0.0,NA,NA,NA,20.0,0.1,-2.4
+29,Ocean,3820,Ocean Twp,-3.6,-4.9,33.3,0.0,25.0,NA,NA,-4.5,0.0,-2.2
+29,Ocean,4105,Pinelands Regional,0.7,-0.3,17.6,4.2,-23.5,NA,NA,14.5,3.3,-0.2
+29,Ocean,4190,Plumsted Twp,-7.9,-9.7,-5.8,7.7,11.1,-75.0,NA,0.0,-1.7,-0.5
+29,Ocean,4210,Point Pleasant Boro,-4.7,-4.6,22.2,-4.4,0.0,-50.0,-35.7,-14.7,-0.7,-0.7
+29,Ocean,4220,Point Pleasant Beach Boro,0.8,0.8,16.7,5.2,-21.4,-100.0,100.0,-16.7,0.9,0.5
+29,Ocean,4710,Seaside Heights Boro,4.7,-4.3,-17.6,8.0,0.0,NA,0.0,63.6,-0.2,1.7
+29,Ocean,4950,Southern Regional,-0.3,-0.3,-8.0,1.3,-8.1,0.0,0.0,14.9,-1.2,-0.5
+29,Ocean,5020,Stafford Twp,-1.0,-2.9,42.1,7.7,-3.8,100.0,100.0,9.4,-0.9,-0.2
+29,Ocean,5190,Toms River Regional,-4.5,-7.4,-3.4,4.5,-3.7,0.0,-13.3,0.6,-3.0,0.0
+29,Ocean,5220,Tuckerton Boro,-5.8,-7.6,-25.0,0.0,33.3,0.0,NA,66.7,-0.1,-0.1
+31,Passaic,0420,Bloomingdale Boro,-1.4,-1.9,-17.6,2.8,-20.0,NA,-33.3,55.6,-1.0,-0.5
+31,Passaic,0900,Clifton City,-2.1,-2.9,1.2,-1.7,-5.5,10.8,0.0,8.0,0.4,-0.8
+31,Passaic,1920,Haledon Boro,-3.2,-9.3,-3.6,-2.1,1.3,-33.3,0.0,18.2,-5.5,-7.6
+31,Passaic,2100,Hawthorne Boro,-4.6,-9.3,-6.0,1.5,0.0,NA,0.0,19.4,1.6,0.3
+31,Passaic,2510,Lakeland Regional,-1.2,-3.9,3.2,10.2,-16.7,60.0,-33.3,16.7,-5.2,-1.0
+31,Passaic,2700,Little Falls Twp,-0.1,-0.3,7.7,6.3,-11.1,0.0,-14.3,-20.7,-1.4,-2.3
+31,Passaic,3640,North Haledon Boro,-3.2,-5.2,-21.1,16.2,-8.3,NA,-100.0,-50.0,-1.0,-0.3
+31,Passaic,3975,Northern Region Educational Services Commission,-17.6,-50.0,-16.7,-12.7,NA,NA,NA,-100.0,1.7,0.3
+31,Passaic,3980,Passaic Co Manchester Reg,0.2,-12.5,-15.8,9.9,-14.8,-100.0,50.0,-33.3,-5.2,-3.1
+31,Passaic,3990,Passaic Valley Regional,-6.9,-12.3,-3.8,0.9,5.3,0.0,0.0,11.1,1.8,-1.3
+31,Passaic,3995,Passaic County Vocational,5.6,10.1,-4.9,4.3,9.4,66.7,-33.3,33.9,-4.1,-1.3
+31,Passaic,4010,Paterson City,-5.0,-3.2,-6.7,-5.2,1.5,NA,75.0,NA,-10.2,-0.8
+31,Passaic,4230,Pompton Lakes Boro,1.8,-2.2,-5.8,10.8,9.3,0.0,9.1,NA,-1.7,-0.8
+31,Passaic,4270,Prospect Park Boro,-5.0,-14.3,-6.3,-4.3,13.3,NA,0.0,-11.1,4.3,0.6
+31,Passaic,4400,Ringwood Boro,-4.5,-5.6,-18.8,1.9,0.0,-7.7,0.0,14.8,-0.8,0.5
+31,Passaic,5200,Totowa Boro,-7.2,-8.9,-7.3,-2.4,-11.2,0.0,-100.0,NA,-0.1,-0.9
+31,Passaic,5440,Wanaque Boro,-3.7,-8.4,-13.3,11.6,5.4,-33.3,0.0,9.1,0.5,-0.2
+31,Passaic,5570,Wayne Twp,-2.1,-3.3,1.5,4.1,-6.1,20.0,-44.4,17.4,-1.7,-0.7
+31,Passaic,5650,West Milford Twp,-4.7,-5.9,-9.3,4.6,0.0,0.0,0.0,7.0,-0.8,0.5
+31,Passaic,5690,Woodland Park,5.0,4.0,0.0,5.5,16.7,NA,NA,8.7,-8.6,-2.4
+33,Salem,0060,Alloway Twp,-8.6,-10.6,10.0,7.1,NA,33.3,NA,-6.2,11.6,1.0
+33,Salem,1350,Elsinboro Twp,-4.3,-18.8,70.0,40.0,-100.0,NA,NA,-18.2,-4.9,4.6
+33,Salem,2800,Lower Alloways Creek,1.9,1.9,0.0,NA,0.0,NA,-100.0,100.0,-3.5,-2.5
+33,Salem,2950,Mannington Twp,-12.9,-6.3,-31.6,-32.0,0.0,NA,NA,-28.6,-6.9,-1.6
+33,Salem,3860,Oldmans Twp,-1.4,-1.7,6.5,-11.1,0.0,0.0,NA,0.0,-1.5,0.8
+33,Salem,4070,Penns Grv-Carneys Pt Reg,0.5,-7.9,-0.4,5.6,8.3,100.0,50.0,-10.0,-4.5,1.7
+33,Salem,4075,Pennsville,-1.2,-3.7,18.5,12.9,0.0,-33.3,0.0,-1.0,-0.6,0.3
+33,Salem,4150,Pittsgrove Twp,-0.1,0.6,-6.2,-1.8,0.0,-33.3,-100.0,2.5,-0.9,-0.5
+33,Salem,4280,Quinton Twp,-11.0,-10.0,-18.0,-9.7,0.0,NA,0.0,-8.1,-2.9,0.9
+33,Salem,4630,Salem City,-4.6,0.9,-6.7,-3.0,33.3,0.0,NA,0.0,-23.7,-0.6
+33,Salem,4635,Salem Co Special Service,2.1,-2.1,12.7,0.0,0.0,-100.0,NA,-10.0,-10.3,-3.3
+33,Salem,4640,Salem County Vocational,-2.3,-2.5,-16.2,4.2,-42.9,0.0,NA,10.1,0.0,-0.4
+33,Salem,5320,Upper Pittsgrove Twp,0.0,1.1,0.0,-8.3,NA,NA,NA,-14.3,-12.1,-1.0
+33,Salem,5910,Woodstown-Pilesgrove Reg,-7.0,-7.1,-1.1,-6.0,-38.5,NA,0.0,-10.1,-1.1,0.1
+35,Somerset,0240,Bedminster Twp,-6.9,-8.4,0.0,-5.8,-5.1,0.0,0.0,0.0,1.9,-0.6
+35,Somerset,0350,Bernards Twp,-5.4,-9.4,-9.4,1.0,0.6,0.0,NA,-3.3,-0.2,-0.1
+35,Somerset,0490,Bound Brook Boro,-3.2,-8.7,-0.8,-2.6,2.6,25.0,-15.4,-5.9,4.6,-0.7
+35,Somerset,0510,Branchburg Twp,-5.2,-8.1,-17.1,6.8,4.0,100.0,0.0,6.7,-0.2,-0.4
+35,Somerset,0555,Bridgewater-Raritan Reg,-3.4,-7.0,-2.4,-1.3,-1.4,42.9,-2.2,12.8,0.2,0.5
+35,Somerset,1610,Franklin Twp,-2.1,-4.1,-7.1,1.9,0.2,14.3,0.0,4.1,-2.7,-0.8
+35,Somerset,1810,Green Brook Twp,-8.7,-11.5,-6.8,0.8,-12.1,NA,100.0,-2.8,-0.3,0.2
+35,Somerset,2170,Hillsborough Twp,-2.7,-7.9,-0.7,-0.6,4.1,28.6,-2.9,20.8,-0.5,-0.5
+35,Somerset,3000,Manville Boro,-4.2,-7.2,2.3,-2.7,-8.6,-50.0,100.0,7.4,1.4,0.5
+35,Somerset,3320,Montgomery Twp,-4.4,-12.0,3.7,4.3,-0.5,-20.0,-6.7,0.9,0.3,-0.2
+35,Somerset,3670,North Plainfield Boro,1.1,2.0,-2.8,2.0,-3.2,16.7,100.0,5.6,-2.2,-1.2
+35,Somerset,4805,Somerset Co Ed Serv Comm,11.3,36.4,-10.0,52.2,-50.0,NA,NA,200.0,8.9,-2.2
+35,Somerset,4810,Somerset Co Vocational,1.4,0.2,-17.5,1.8,14.4,-50.0,-66.7,5.6,-2.6,0.2
+35,Somerset,4815,Somerset Hills Regional,-7.8,-8.9,-6.2,-6.0,-7.4,NA,NA,2.4,0.9,-0.2
+35,Somerset,4820,Somerville Boro,-3.9,-4.8,-9.3,-3.5,-1.3,0.0,0.0,13.1,-0.3,-0.1
+35,Somerset,4850,South Bound Brook,-0.7,-11.8,2.8,5.3,-6.2,NA,0.0,0.0,-1.6,2.0
+35,Somerset,5470,Warren Twp,-4.7,-6.0,3.6,2.9,-5.2,0.0,0.0,-5.4,-0.2,0.0
+35,Somerset,5540,Watchung Boro,1.0,-0.9,10.5,11.5,-3.7,0.0,0.0,10.7,0.2,0.0
+35,Somerset,5550,Watchung Hills Regional,-2.0,-3.7,20.3,-4.1,1.8,50.0,0.0,-8.6,-0.6,-0.1
+37,Sussex,0090,Andover Reg,-3.3,-4.7,-20.0,-6.9,45.5,NA,NA,17.6,0.4,-0.4
+37,Sussex,0640,Byram Twp,-0.5,-3.9,20.0,38.6,-28.6,Inf,-100.0,7.7,-1.0,-0.6
+37,Sussex,1560,Frankford Twp,-5.0,-7.0,-40.0,0.0,-50.0,NA,NA,47.6,-0.6,-0.3
+37,Sussex,1570,Franklin Boro,3.3,-2.6,-22.2,42.5,-25.0,NA,NA,0.0,-0.8,3.1
+37,Sussex,1630,Fredon Twp,-9.3,-11.6,NA,4.3,50.0,NA,NA,-25.0,-0.7,-0.2
+37,Sussex,1800,Green Twp,-7.2,-9.6,0.0,6.5,50.0,NA,0.0,11.1,0.1,-0.7
+37,Sussex,1930,Hamburg Boro,-17.0,-17.3,-17.9,-10.7,-27.3,NA,NA,0.0,-1.5,0.5
+37,Sussex,1980,Hampton Twp,-2.8,-3.1,0.0,15.0,-25.0,NA,NA,-33.3,2.5,0.4
+37,Sussex,2030,Hardyston Twp,-10.6,-10.3,-20.7,-7.8,-21.4,0.0,NA,0.0,-1.1,-0.4
+37,Sussex,2165,High Point Regional,-3.1,-3.1,4.5,-9.3,-6.7,-100.0,NA,150.0,0.0,-0.4
+37,Sussex,2240,Hopatcong,-4.2,-9.1,13.8,5.7,-5.1,0.0,0.0,25.0,-0.3,1.0
+37,Sussex,2465,Kittatinny Regional,-7.2,-8.6,-16.7,8.3,8.3,NA,0.0,25.0,-0.3,-0.2
+37,Sussex,2490,Lafayette Twp,-1.0,-1.2,Inf,0.0,NA,NA,NA,-25.0,4.2,-3.0
+37,Sussex,2615,Lenape Valley Regional,2.7,-0.3,18.2,15.2,11.8,-100.0,-100.0,100.0,-7.6,-1.6
+37,Sussex,3300,Montague Twp,2.1,1.7,-16.7,0.0,-12.5,-50.0,NA,100.0,-8.1,1.9
+37,Sussex,3590,Newton Town,-2.3,-6.5,-9.7,11.5,-13.8,-33.3,-20.0,11.8,-0.8,-0.5
+37,Sussex,3840,Ogdensburg Boro,-0.8,-3.1,20.0,12.5,100.0,NA,NA,NA,-0.3,0.5
+37,Sussex,4650,Sandyston-Walpack Twp,0.9,1.0,100.0,-40.0,0.0,NA,NA,16.7,-0.1,0.0
+37,Sussex,4960,Sparta Twp,-2.3,-6.0,15.0,44.2,4.5,-33.3,-14.3,166.7,-0.3,-0.1
+37,Sussex,5030,Stanhope Boro,-4.4,-6.8,-28.6,-1.7,-12.5,NA,Inf,57.1,2.5,-0.6
+37,Sussex,5040,Stillwater Twp,7.5,6.2,Inf,37.5,0.0,NA,NA,0.0,-1.6,0.0
+37,Sussex,5100,Sussex-Wantage Regional,-4.2,-4.1,8.3,-6.8,0.0,NA,NA,-12.5,-1.9,-0.1
+37,Sussex,5105,Sussex Co Ed Serv Comm,-7.5,-5.7,0.0,0.0,-100.0,NA,NA,0.0,-4.0,0.2
+37,Sussex,5110,Sussex County Vocational,-3.7,-7.0,33.3,24.3,12.0,Inf,100.0,NA,1.9,-0.4
+37,Sussex,5360,Vernon Twp,-2.3,-3.5,-4.5,6.0,-16.3,-25.0,0.0,10.3,0.5,0.2
+37,Sussex,5435,Wallkill Valley Regional,4.2,3.8,0.0,6.8,16.7,-100.0,NA,10.0,3.2,0.0
+39,Union,0310,Berkeley Heights Twp,-2.3,-4.5,-10.0,2.0,1.5,0.0,100.0,8.7,0.1,-0.4
+39,Union,0850,Clark Twp,1.3,0.2,8.8,2.4,9.5,NA,16.7,88.9,-0.4,0.0
+39,Union,0980,Cranford Twp,-1.7,-4.2,3.4,13.5,-1.3,Inf,0.0,21.8,-0.5,-0.6
+39,Union,1320,Elizabeth City,-2.2,-5.2,-3.8,-1.6,3.8,116.7,-10.5,-9.1,-5.7,-1.6
+39,Union,1710,Garwood Boro,-3.1,-4.0,300.0,0.0,0.0,NA,NA,-33.3,3.2,-0.4
+39,Union,2190,Hillside Twp,-3.3,-5.4,-4.5,-2.1,5.4,40.0,44.4,41.7,-6.7,-1.1
+39,Union,2420,Kenilworth Boro,0.1,-0.7,-7.4,1.5,4.6,0.0,16.7,12.1,-0.3,-0.8
+39,Union,2660,Linden City,-2.9,-7.1,-4.7,-0.3,0.6,7.7,-20.0,3.7,-8.5,-4.6
+39,Union,3395,Morris-Union Jointure Com,-1.4,-6.6,-2.9,6.4,0.0,NA,0.0,50.0,-1.6,0.4
+39,Union,3470,Mountainside Boro,-4.0,-6.8,14.3,8.2,6.0,NA,NA,-9.5,-1.4,-0.2
+39,Union,3560,New Providence Boro,-2.4,-4.5,-2.9,0.8,1.7,0.0,33.3,16.7,-0.6,-0.2
+39,Union,4160,Plainfield City,2.8,28.3,-2.3,4.1,18.5,-12.5,6.7,-15.7,-9.0,1.3
+39,Union,4290,Rahway City,-1.4,-2.4,-2.5,-1.7,3.1,85.7,50.0,6.1,5.3,0.6
+39,Union,4540,Roselle Boro,-0.2,-9.0,-2.3,2.9,-12.5,-16.7,0.0,36.4,-5.0,-3.6
+39,Union,4550,Roselle Park Boro,-1.0,-2.6,-0.8,0.7,-5.9,-33.3,0.0,-4.2,-0.6,-2.2
+39,Union,4670,Scotch Plains-Fanwood Reg,-3.6,-5.1,-2.4,-0.4,-2.1,-9.1,-10.0,3.4,-0.2,-0.2
+39,Union,5000,Springfield Twp,-2.0,-4.6,8.3,0.4,-5.1,0.0,9.5,-2.9,0.2,-1.0
+39,Union,5090,Summit City,-2.2,-1.1,12.0,-8.1,-1.6,80.0,NA,-7.4,-1.6,0.3
+39,Union,5245,Union Co Ed Serv Comm,-19.8,-17.5,-15.7,-23.9,-6.7,NA,NA,-100.0,-2.0,-1.2
+39,Union,5260,Union County Vocational,-1.4,-8.3,-1.8,-0.2,7.7,0.0,20.0,32.4,-0.9,-0.9
+39,Union,5290,Union Twp,-0.6,-2.5,-1.7,1.7,1.1,120.0,-17.9,3.4,-3.4,1.9
+39,Union,5730,Westfield Town,-3.9,-5.8,-9.9,3.5,4.0,NA,0.0,14.7,-0.5,0.0
+39,Union,5810,Winfield Twp,-1.4,-6.5,-5.6,16.7,Inf,NA,NA,-50.0,2.4,-4.9
+41,Warren,0030,Allamuchy Twp,-1.2,-1.1,-13.9,5.9,-13.3,-100.0,NA,6.9,-0.6,1.4
+41,Warren,0070,Alpha Boro,-11.1,-13.0,-36.4,10.0,0.0,NA,NA,25.0,0.8,-0.7
+41,Warren,0280,Belvidere Town,-3.1,-5.0,-12.5,8.6,0.0,0.0,-100.0,31.2,-0.1,-0.4
+41,Warren,0400,Blairstown Twp,-13.0,-12.6,-100.0,-13.0,-50.0,NA,0.0,-9.1,1.5,-0.4
+41,Warren,1620,Franklin Twp,-8.7,-13.7,-50.0,83.3,0.0,NA,NA,-33.3,-0.6,0.3
+41,Warren,1670,Frelinghuysen Twp,-5.1,-1.7,0.0,-33.3,NA,NA,NA,-22.2,-1.3,-0.7
+41,Warren,1785,Great Meadows Regional,-3.3,-7.5,14.3,21.9,15.4,NA,0.0,11.8,-0.4,-0.2
+41,Warren,1840,Greenwich Twp,-8.5,-9.6,-16.7,8.1,-14.0,NA,0.0,28.6,0.4,-1.8
+41,Warren,1870,Hackettstown,0.6,-3.4,1.5,9.1,-6.8,75.0,NA,16.7,0.3,0.2
+41,Warren,2040,Harmony Twp,-12.5,-11.4,-100.0,-16.7,NA,NA,NA,-25.0,0.2,-0.7
+41,Warren,2250,Hope Twp,-8.0,-9.3,66.7,0.0,-100.0,NA,NA,NA,-0.9,-2.1
+41,Warren,2470,Knowlton Twp,-3.2,-5.1,NA,57.1,-33.3,NA,NA,-11.1,0.5,1.4
+41,Warren,2790,Lopatcong Twp,-6.8,-12.0,11.2,-3.6,-9.1,0.0,200.0,Inf,0.1,-0.4
+41,Warren,2970,Mansfield Twp,-9.4,-12.7,-10.8,-3.1,-18.8,NA,NA,4.3,-0.2,-1.8
+41,Warren,3675,North Warren Regional,-6.1,-6.2,5.6,-8.9,-15.4,0.0,0.0,14.3,0.2,-1.0
+41,Warren,3890,Oxford Twp,-6.4,-12.0,600.0,33.3,12.5,NA,0.0,25.0,0.5,-0.5
+41,Warren,4100,Phillipsburg Town,-2.3,-6.1,2.3,1.5,3.3,-20.0,25.0,3.4,-1.2,-1.3
+41,Warren,4200,Pohatcong Twp,-5.2,-11.7,26.7,41.7,0.0,NA,NA,0.0,-7.5,-3.0
+41,Warren,5460,Warren County Vocational,-0.7,-0.6,-10.5,-6.5,0.0,NA,NA,50.0,0.8,-0.6
+41,Warren,5465,Warren Hills Regional,-1.4,-4.7,6.3,8.2,-9.8,Inf,-100.0,50.0,-1.5,-0.6
+41,Warren,5480,Washington Boro,3.8,2.5,-6.1,1.9,27.3,NA,0.0,180.0,-6.1,-1.8
+41,Warren,5530,Washington Twp,-8.0,-8.5,12.5,-13.0,0.0,NA,NA,-6.7,-0.1,0.4
+41,Warren,5780,White Twp,-12.8,-14.5,0.0,0.0,0.0,NA,NA,0.0,-1.2,1.6
+80,Charters,6010,Academy Charter High School,-13.1,-50.0,-20.8,1.4,NA,NA,NA,-40.0,-5.2,2.1
+80,Charters,6013,Bergen Arts And Sciences Charter School,2.9,2.7,3.4,2.7,5.5,-100.0,0.0,0.0,4.2,2.1
+80,Charters,6017,Foundation Academy Cs,0.1,-20.0,0.7,-0.6,0.0,NA,Inf,0.0,-5.5,0.8
+80,Charters,6018,Central Jersey College Prep Charter School,19.5,11.4,17.3,34.1,17.3,800.0,Inf,0.0,-3.3,1.4
+80,Charters,6020,Pride Academy Charter School,4.9,NA,4.0,11.1,25.0,NA,NA,Inf,-9.1,3.8
+80,Charters,6021,Community Charter School Of Paterso,-2.5,-18.2,-4.8,-2.2,12.5,500.0,NA,NA,16.2,0.0
+80,Charters,6022,Burch Charter School Of Excellence,-5.1,NA,16.3,-82.7,-66.7,NA,NA,Inf,-2.1,3.2
+80,Charters,6025,Paul Robeson Humanities  Charter School,11.3,NA,-4.2,14.7,33.3,NA,NA,NA,3.8,-2.9
+80,Charters,6026,Riverbank Charter School Of Excelle,0.0,-1.2,-21.2,7.7,10.0,-100.0,NA,Inf,-3.3,0.6
+80,Charters,6028,Vineland Public Charter School,13.9,-6.9,10.7,29.4,-25.0,0.0,0.0,12.5,-11.0,-5.0
+80,Charters,6030,The Ethical Community Charter School,-1.8,-12.3,-25.0,-4.9,20.9,-100.0,NA,0.0,5.4,0.4
+80,Charters,6032,Academy For Urban Leadership Charter School,-11.5,-75.0,0.0,-11.4,0.0,NA,0.0,-100.0,8.3,0.9
+80,Charters,6033,The Barack Obama Green Charter High School,3.9,-25.0,13.9,0.0,0.0,NA,NA,-100.0,12.8,-1.2
+80,Charters,6036,Hola Hoboken Dual Lang Cs,-3.2,0.4,-57.1,-1.8,3.8,-33.3,0.0,-23.5,0.8,0.3
+80,Charters,6041,Hatikvah International Cs,5.4,-3.7,-16.7,29.4,24.8,NA,NA,41.7,1.1,-0.4
+80,Charters,6053,Great Oaks Legacy Charter School,12.2,-25.0,11.1,21.4,33.3,-28.6,NA,150.0,-1.8,-0.6
+80,Charters,6057,Peoples Preparatory Charter School,-0.5,-100.0,-3.9,15.3,0.0,NA,NA,Inf,-8.3,0.5
+80,Charters,6058,Roseville Community Cs,3.7,0.0,7.7,-1.5,200.0,NA,NA,NA,1.0,-1.6
+80,Charters,6060,Atlantic Community Charter School,-4.6,-33.3,-2.9,-9.4,-25.0,NA,NA,0.0,0.2,0.1
+80,Charters,6064,Dr Lena Edwards Academic Charter School,-0.5,-100.0,-2.3,11.9,200.0,0.0,Inf,NA,0.7,-2.0
+80,Charters,6076,Benjamin Banneker Prep Cs,-0.6,20.0,-0.7,-4.5,-14.3,NA,0.0,Inf,-10.4,0.5
+80,Charters,6079,John P Holland Charter School,13.7,-100.0,7.6,15.8,Inf,100.0,NA,NA,3.1,-1.6
+80,Charters,6080,Passaic Arts And Science Charter School,9.1,1.4,6.7,9.1,27.7,0.0,Inf,-14.3,-10.4,-1.3
+80,Charters,6081,Thomas Edison Energysmart Charter School,6.3,10.1,27.2,0.0,-0.6,0.0,0.0,23.8,-0.7,2.4
+80,Charters,6082,Beloved Community Charter School,9.4,20.7,13.0,7.9,0.8,33.3,0.0,-12.8,6.8,-3.2
+80,Charters,6086,Hope Community Cs,5.6,Inf,0.0,7.8,NA,NA,NA,0.0,-0.4,-0.3
+80,Charters,6089,Compass Academy Cs,1.6,-6.7,-12.5,6.9,40.0,NA,NA,-50.0,-16.3,-0.7
+80,Charters,6093,Jersey City Global Cs,4.8,-5.6,-2.4,-7.7,15.2,NA,NA,Inf,-36.4,-6.2
+80,Charters,6094,Phillip'S Academy Charter School,4.9,-20.0,5.7,-6.4,50.0,-33.3,100.0,Inf,-12.1,-4.3
+80,Charters,6096,Paterson Arts And Science Charter School,11.6,6.2,-9.8,20.3,100.0,50.0,NA,NA,5.2,0.5
+80,Charters,6099,Link Community Charter School,-17.0,NA,-17.3,0.0,-100.0,NA,NA,-33.3,10.9,-6.5
+80,Charters,6101,College Achieve Central Charter School,12.8,0.0,11.6,12.9,33.3,NA,NA,60.0,10.8,2.2
+80,Charters,6102,Cresthaven Academy Charter School,25.5,NA,12.5,27.2,Inf,Inf,NA,Inf,-24.7,-7.0
+80,Charters,6103,Empowerment Academy Charter School,16.9,14.6,5.9,22.6,30.4,100.0,-16.7,9.5,0.7,0.0
+80,Charters,6105,Hudson Arts And Science  Charter School,-5.0,-11.6,1.7,-1.7,-38.5,30.8,0.0,-75.0,-7.6,-2.5
+80,Charters,6106,Philip’S Charter School Of Paterson,57.5,0.0,60.0,57.9,0.0,NA,NA,50.0,-0.4,1.7
+80,Charters,6107,Camden’S Promise Charter School,-2.7,NA,-10.1,-1.2,0.0,NA,0.0,-16.7,2.4,3.1
+80,Charters,6109,Lead Charter School,-17.9,NA,-23.2,0.0,Inf,NA,NA,NA,26.1,0.4
+80,Charters,6110,Achieve Community Charter School,-41.9,-40.0,-40.8,-50.0,NA,NA,NA,NA,-7.5,-3.0
+80,Charters,6183,Trenton Stem-To-Civics Cs,-1.3,-42.9,-3.7,1.9,0.0,0.0,NA,500.0,12.7,3.8
+80,Charters,6230,Classical Academy Charter School Of Clifton,9.0,19.4,-26.7,24.1,-14.3,NA,NA,NA,-10.4,3.0
+80,Charters,6232,Environment Community Cs,3.5,NA,2.9,4.6,NA,NA,NA,NA,-2.4,5.5
+80,Charters,6240,Freedom Prep Charter School,-5.3,-20.0,-10.3,-0.8,NA,NA,-66.7,-10.0,-14.3,-1.0
+80,Charters,6320,Discovery Cs,-5.4,0.0,-9.1,300.0,Inf,NA,NA,NA,-9.2,3.0
+80,Charters,6410,East Orange Community Cs,0.4,100.0,1.4,11.5,-100.0,0.0,NA,-100.0,-8.5,3.6
+80,Charters,6420,Elysian Cs Of Hoboken,-0.7,-3.4,22.2,0.0,-3.7,NA,NA,40.0,-0.3,0.0
+80,Charters,6430,Englewood On The Palisades Charter School,-4.0,40.0,-8.7,-6.3,29.4,Inf,0.0,0.0,-0.6,-1.7
+80,Charters,6635,Greater Brunswick Cs,-0.5,0.0,-18.6,1.5,0.0,NA,NA,100.0,-1.7,-1.4
+80,Charters,6665,Gray Cs,5.8,14.3,0.0,9.6,-12.5,NA,NA,0.0,3.5,-1.4
+80,Charters,6720,Hoboken Cs,0.3,8.0,-3.7,-11.6,5.6,Inf,NA,-5.3,0.2,1.0
+80,Charters,6740,Hope Academy Cs,1.2,-50.0,-5.7,6.4,0.0,NA,NA,-16.7,-7.7,5.8
+80,Charters,6810,International Charter School,-1.1,NA,-43.8,8.1,NA,NA,NA,NA,1.0,0.0
+80,Charters,6910,Jersey City Comm. Cs,0.3,11.8,-3.2,6.7,0.0,NA,NA,NA,-6.3,-1.9
+80,Charters,6915,Jersey City Golden Door Charter School,3.2,1.9,0.8,-5.4,8.0,75.0,-14.3,0.0,-5.4,-1.7
+80,Charters,7109,Leap Academy University Cs,1.4,0.0,-1.1,3.2,0.0,NA,NA,0.0,4.5,1.6
+80,Charters,7115,Learning Community Cs,-3.0,-4.8,-2.4,1.6,0.5,NA,25.0,-19.1,0.9,-0.9
+80,Charters,7210,Marion P. Thomas Cs,-3.3,100.0,-5.4,20.7,NA,NA,0.0,150.0,-4.5,-4.1
+80,Charters,7290,New Horizons Comm. Cs,-17.7,NA,-18.8,-12.9,NA,Inf,NA,NA,-2.7,2.7
+80,Charters,7320,North Star Academy Charter School,6.4,1050.0,197.9,-77.3,150.0,1000.0,Inf,60.0,1.0,-1.3
+80,Charters,7325,Team Academy Charter School,10.1,-66.7,4.8,57.4,-25.0,-100.0,-75.0,60.1,-0.1,-0.8
+80,Charters,7410,Charter~Tech High School,1.6,0.9,7.2,-4.4,0.0,NA,0.0,0.0,-1.8,-1.0
+80,Charters,7500,Pace Cs Of Hamilton,10.8,22.7,1.1,13.9,0.0,NA,NA,0.0,4.5,-0.9
+80,Charters,7503,Paterson Cs For Sci/Tech,3.1,3.3,2.0,3.5,0.0,Inf,NA,NA,12.4,-4.4
+80,Charters,7540,Princeton Cs,0.7,0.0,-10.0,-8.3,3.3,NA,0.0,2.2,0.2,-0.5
+80,Charters,7600,Queen City Academy Cs,5.6,NA,2.5,7.3,NA,Inf,NA,-100.0,-31.1,-8.5
+80,Charters,7720,The Red Bank Cs,1.5,3.9,0.0,-1.0,0.0,NA,NA,Inf,-1.5,-1.2
+80,Charters,7727,Ridge And Valley Cs,-7.5,-11.2,Inf,-10.0,NA,NA,NA,14.3,0.0,0.0
+80,Charters,7730,Robert Treat Academy Cs,0.0,-16.0,0.9,0.5,0.0,0.0,NA,0.0,-6.2,-1.7
+80,Charters,7735,Maria L. Varisco-Rogers Cs,0.2,NA,-3.1,0.9,-42.9,NA,NA,NA,-1.7,-1.6
+80,Charters,7830,Soaring Heights Cs,1.9,14.8,-4.3,4.8,0.0,Inf,NA,Inf,-4.1,-4.4
+80,Charters,7850,Sussex County Technology Charter School,-0.9,0.5,50.0,-18.5,-33.3,NA,NA,14.3,15.2,0.0
+80,Charters,7890,Teaneck Community Cs,2.7,-7.9,4.7,12.0,-9.7,NA,0.0,-4.5,0.0,-1.5
+80,Charters,7891,College Achieve Greater Asbury Park Charter School,19.1,0.0,20.5,9.0,-100.0,-100.0,NA,Inf,14.0,4.2
+80,Charters,7892,College Achieve Paterson Charter School,34.0,100.0,20.6,41.1,NA,0.0,NA,0.0,2.2,-1.3
+80,Charters,7893,Ocean Academy Charter School,35.1,60.0,30.8,34.8,NA,NA,NA,NA,11.6,-4.4
+80,Charters,7895,Achievers Early College Prep Charter School,53.5,700.0,64.0,42.1,NA,Inf,NA,Inf,-1.4,7.4
+80,Charters,7896,Middlesex Charter School,45.7,15.0,60.6,41.8,50.0,Inf,NA,166.7,-8.3,-0.1
+80,Charters,7897,Creativity Colaboratory Charter School,52.6,710.0,0.0,-29.3,NA,NA,NA,33.3,-4.4,0.9
+80,Charters,8010,Union County Teams Cs,8.7,0.0,7.6,7.7,Inf,NA,NA,NA,-26.7,4.0
+80,Charters,8050,Unity Cs,3.8,-3.9,21.2,3.7,12.1,NA,NA,13.3,-0.8,-2.6
+80,Charters,8060,University Academy Cs,1.9,20.0,-2.4,7.6,2.6,NA,NA,NA,-3.5,-1.6
+80,Charters,8140,Village Cs,1.4,Inf,1.5,250.0,NA,-100.0,-100.0,-100.0,7.2,-5.1

@@ -1,0 +1,671 @@
+CountyCode,CountyName,DistrictCode,DistrictName,EnrollmentChange,EnrollmentChangeNormalized
+01,Atlantic,0010,Absecon City School District,-20,1212
+80,Charters,6010,Academy Charter High School,-23.5,1208.5
+80,Charters,6032,Academy For Urban Leadership Charter School,-63,1169
+80,Charters,6110,Achieve Community Charter School,-132,1100
+80,Charters,7895,Achievers Early College Prep Charter School,92,1324
+19,Hunterdon,0020,Alexandria Township School District,-15,1217
+41,Warren,0030,Allamuchy Township School District,-5,1227
+03,Bergen,0040,Allendale Borough School District,-13,1219
+33,Salem,0060,Alloway Township School District,-28,1204
+41,Warren,0070,Alpha Borough School District,-23,1209
+03,Bergen,0080,Alpine Borough School District,-2,1230
+37,Sussex,0090,Andover Regional School District,-15,1217
+21,Mercer,3105,Area Vocational Technical Schools Of Mercer County,25,1257
+25,Monmouth,0100,Asbury Park City School District,-146,1086
+01,Atlantic,0110,Atlantic City School District,-329,903
+80,Charters,6060,Atlantic Community Charter School,-17,1215
+01,Atlantic,0125,Atlantic County Special Services School District,-16,1216
+01,Atlantic,0120,Atlantic County Vocational School District,-1,1231
+25,Monmouth,0130,Atlantic Highlands Borough School District,-46,1186
+07,Camden,0150,Audubon Public School District,-28,1204
+09,Cape May,0170,Avalon Borough School District,-9,1223
+25,Monmouth,0180,Avon-by-the-Sea Borough School District,8,1240
+29,Ocean,0185,Barnegat Township School District,19,1251
+07,Camden,0190,Barrington Borough School District,-34,1198
+29,Ocean,0210,Bay Head Borough School District,5,1237
+17,Hudson,0220,Bayonne City School District,-64,1168
+25,Monmouth,0225,Bayshore Jointure Commission School District,0,1232
+29,Ocean,0230,Beach Haven Borough School District,28,1260
+35,Somerset,0240,Bedminster Township School District,-36,1196
+13,Essex,0250,Belleville Town School District,-7.5,1224.5
+07,Camden,0260,Bellmawr Borough School District,-42,1190
+25,Monmouth,0270,Belmar Borough School District,-49,1183
+80,Charters,6082,Beloved Community Charter School,113,1345
+41,Warren,0280,Belvidere Town School District,-20,1212
+80,Charters,6076,Benjamin Banneker Preparatory Charter School,-2,1230
+80,Charters,6013,Bergen Arts And Science Charter School,34,1266
+03,Bergen,0285,Bergen County Special Services School District,23,1255
+03,Bergen,0290,Bergen County Vocational Technical School District,58.5,1290.5
+03,Bergen,0300,Bergenfield Borough School District,25,1257
+39,Union,0310,Berkeley Heights Township School District,-58,1174
+29,Ocean,0320,Berkeley Township School District,-109,1123
+07,Camden,0330,Berlin Borough School District,-3,1229
+07,Camden,0340,Berlin Township School District,-46,1186
+35,Somerset,0350,Bernards Township School District,-274.5,957.5
+19,Hunterdon,0370,Bethlehem Township School District,-14,1218
+05,Burlington,0380,Beverly City School District,5,1237
+07,Camden,0390,Black Horse Pike Regional School District,-83,1149
+41,Warren,0400,Blairstown Township School District,-60,1172
+13,Essex,0410,Bloomfield Township School District,-386,846
+31,Passaic,0420,Bloomingdale Borough School District,-8,1224
+19,Hunterdon,0430,Bloomsbury Borough School District,-2,1230
+03,Bergen,0440,Bogota Borough School District,48,1280
+27,Morris,0450,Boonton Town School District,-31.5,1200.5
+27,Morris,0460,Boonton Township School District,-16,1216
+05,Burlington,0475,Bordentown Regional School District,-91,1141
+35,Somerset,0490,Bound Brook Borough School District,-64,1168
+25,Monmouth,0500,Bradley Beach Borough School District,-13,1219
+35,Somerset,0510,Branchburg Township School District,-72,1160
+29,Ocean,0530,Brick Township School District,-193.5,1038.5
+11,Cumberland,0540,Bridgeton City School District,-321,911
+80,Charters,6100,Bridgeton Public Charter School,-3,1229
+35,Somerset,0555,Bridgewater-Raritan Regional School District,-285.5,946.5
+25,Monmouth,0560,Brielle Borough School District,-7,1225
+01,Atlantic,0570,Brigantine City School District,-77,1155
+07,Camden,0580,Brooklawn Borough School District,-4,1228
+01,Atlantic,0590,Buena Regional School District,-38,1194
+80,Charters,6022,Burch Charter School Of Excellence,-18,1214
+05,Burlington,0600,Burlington City School District,-42,1190
+05,Burlington,0610,Burlington County Institute Of Technology School District,28,1260
+05,Burlington,0605,Burlington County Special Services School District,-36,1196
+05,Burlington,0620,Burlington Township School District,-110,1122
+27,Morris,0630,Butler Borough School District,-27.5,1204.5
+37,Sussex,0640,Byram Township School District,-4,1228
+13,Essex,0660,Caldwell-West Caldwell School District,-41.5,1190.5
+19,Hunterdon,0670,Califon Borough School District,12,1244
+07,Camden,0680,Camden City School District,-570,662
+07,Camden,0700,Camden County Technical School District,155,1387
+07,Camden,1801,Camden Prep Inc.,58,1290
+80,Charters,6107,Camden'S Promise Charter School,-60,1172
+09,Cape May,0710,Cape May City School District,5,1237
+09,Cape May,0715,Cape May County Special Services School District,0.5,1232.5
+09,Cape May,0720,Cape May County Technical High School District,-12,1220
+03,Bergen,0740,Carlstadt Borough School District,-21,1211
+03,Bergen,0745,Carlstadt-East Rutherford School District,51,1283
+23,Middlesex,0750,Carteret Borough School District,-136,1096
+13,Essex,0760,Cedar Grove Township School District,-9.5,1222.5
+80,Charters,6018,Central Jersey College Prep Charter School,199,1431
+29,Ocean,0770,Central Regional School District,75,1307
+80,Charters,7410,Chartertech High School For The Performing Arts,6,1238
+07,Camden,0800,Cherry Hill Township School District,-380,852
+27,Morris,0820,Chester Township School District,-36,1196
+05,Burlington,0830,Chesterfield Township School District,-45,1187
+05,Burlington,0840,Cinnaminson Township School District,43,1275
+39,Union,0850,Clark Township School District,29,1261
+80,Charters,6230,Classical Academy Charter School Of Clifton,15,1247
+15,Gloucester,0860,Clayton Borough School District,-39,1193
+15,Gloucester,0870,Clearview Regional School District,18.5,1250.5
+07,Camden,0880,Clementon Borough School District,25,1257
+03,Bergen,0890,Cliffside Park Borough School District,-76.5,1155.5
+31,Passaic,0900,Clifton City School District,-218,1014
+19,Hunterdon,0920,Clinton Township School District,-14,1218
+19,Hunterdon,0910,Clinton Town-Glen Gardner School District,-15,1217
+03,Bergen,0930,Closter Borough School District,-53,1179
+80,Charters,6101,College Achieve Central Charter School,153.5,1385.5
+80,Charters,7891,College Achieve Greater Asbury Park Charter School,58,1290
+80,Charters,7892,College Achieve Paterson Charter School,257,1489
+07,Camden,0940,Collingswood Borough School District,49,1281
+25,Monmouth,0945,Colts Neck Township School District,-38,1194
+11,Cumberland,0950,Commercial Township School District,-56,1176
+80,Charters,6021,Community Charter School Of Paterson,-23,1209
+80,Charters,6089,Compass Academy Charter School,3,1235
+23,Middlesex,0970,Cranbury Township School District,-21,1211
+39,Union,0980,Cranford Township School District,-62.5,1169.5
+80,Charters,7897,Creativity Colaboratory Charter School,50,1282
+03,Bergen,0990,Cresskill Borough School District,-18,1214
+80,Charters,6102,Cresthaven Academy Charter School,79,1311
+11,Cumberland,0995,Cumberland County Board Of Vocational Education,25,1257
+11,Cumberland,0997,Cumberland Regional School District,34,1266
+25,Monmouth,1000,Deal Borough School District,-5,1227
+11,Cumberland,1020,Deerfield Township School District,3,1235
+05,Burlington,1030,Delanco Township School District,-10,1222
+19,Hunterdon,1040,Delaware Township School District,-22,1210
+19,Hunterdon,1050,Delaware Valley Regional School District,-7.5,1224.5
+05,Burlington,1060,Delran Township School District,-68,1164
+15,Gloucester,4940,Delsea Regional High School District,-51,1181
+03,Bergen,1070,Demarest Borough School District,-10,1222
+09,Cape May,1080,Dennis Township School District,19,1251
+27,Morris,1090,Denville Township School District,-52,1180
+15,Gloucester,1100,Deptford Township School District,-190.5,1041.5
+80,Charters,6320,Discovery Charter School,-6,1226
+27,Morris,1110,Dover Town School District,-70,1162
+11,Cumberland,1120,Downe Township School District,-11,1221
+80,Charters,6064,Dr Lena Edwards Academic Charter School,-2,1230
+03,Bergen,1130,Dumont Borough School District,-54,1178
+23,Middlesex,1140,Dunellen Borough School District,-26,1206
+29,Ocean,1150,Eagleswood Township School District,9,1241
+19,Hunterdon,1160,East Amwell Township School District,-18,1214
+23,Middlesex,1170,East Brunswick Township School District,-179,1053
+15,Gloucester,1180,East Greenwich Township School District,-15,1217
+27,Morris,1190,East Hanover Township School District,-26,1206
+17,Hudson,1200,East Newark Borough School District,-3,1229
+80,Charters,6410,East Orange Community Charter School,2,1234
+13,Essex,1210,East Orange City School District,-541.5,690.5
+03,Bergen,1230,East Rutherford Borough School District,-9,1223
+21,Mercer,1245,East Windsor Regional School District,-187.5,1044.5
+05,Burlington,1250,Eastampton Township School District,-13,1219
+07,Camden,1255,Eastern Camden County Regional School District,-2,1230
+25,Monmouth,1260,Eatontown Borough School District,-31,1201
+05,Burlington,1280,Edgewater Park Township School District,-22,1210
+03,Bergen,1270,Edgewater Borough School District,-267,965
+23,Middlesex,1290,Edison Township School District,-54.5,1177.5
+27,Morris,3364,Educational Services Commission Of Morris County,20,1252
+23,Middlesex,3145,Educational Services Commission Of New Jersey,-51,1181
+01,Atlantic,1300,Egg Harbor City School District,32,1264
+01,Atlantic,1310,Egg Harbor Township School District,-193,1039
+39,Union,1320,Elizabeth City School District,-612,620
+15,Gloucester,1330,Elk Township School District,-12,1220
+03,Bergen,1345,Elmwood Park Borough School District,-57.5,1174.5
+33,Salem,1350,Elsinboro Township School District,-5,1227
+80,Charters,6420,Elysian Charter School,-2,1230
+03,Bergen,1360,Emerson Borough School District,-73,1159
+80,Charters,6103,Empowerment Academy Charter School,121,1353
+03,Bergen,1380,Englewood Cliffs Borough School District,-52,1180
+80,Charters,6430,Englewood On The Palisades Charter School,-13,1219
+03,Bergen,1370,Englewood City School District,-36,1196
+80,Charters,6232,Environment Community Opportunity (Eco) Charter School,7,1239
+13,Essex,1390,Essex County Schools Of Technology,-46,1186
+13,Essex,1400,Essex Fells Borough School District,1,1233
+13,Essex,1387,Essex Regional Educational Services Commission,-6,1226
+01,Atlantic,1410,Estell Manor City School District,-6,1226
+05,Burlington,1420,Evesham Township School District,-170,1062
+21,Mercer,1430,Ewing Township School District,-71,1161
+25,Monmouth,1440,Fair Haven Borough School District,-19,1213
+03,Bergen,1450,Fair Lawn Borough School District,35,1267
+13,Essex,1465,Fairfield Public School District,10,1242
+11,Cumberland,1460,Fairfield Township School District,-72,1160
+03,Bergen,1470,Fairview Public School District,-15,1217
+25,Monmouth,1490,Farmingdale Public School District,-2,1230
+19,Hunterdon,1510,Flemington-Raritan Regional School District,-117,1115
+05,Burlington,1520,Florence Township School District,-88,1144
+27,Morris,1530,Florham Park School District,-31,1201
+01,Atlantic,1540,Folsom Borough School District,-1,1231
+03,Bergen,1550,Fort Lee School District,-64,1168
+80,Charters,6017,Foundation Academy Charter School,1,1233
+37,Sussex,1560,Frankford Township Consolidated School District,-25,1207
+37,Sussex,1570,Franklin Borough School District,15,1247
+03,Bergen,1580,Franklin Lakes School District,10,1242
+35,Somerset,1610,Franklin Township Public School District,-150.5,1081.5
+41,Warren,1620,Franklin Township School District,-18,1214
+19,Hunterdon,1600,Franklin Township School District,-19,1213
+37,Sussex,1630,Fredon Township School District,-18,1214
+80,Charters,6240,Freedom Prep Charter School,-46,1186
+25,Monmouth,1640,Freehold Borough School District,-21,1211
+25,Monmouth,1650,Freehold Regional High School District,-189,1043
+25,Monmouth,1660,Freehold Township School District,-114,1118
+41,Warren,1670,Frelinghuysen Township School District,-7,1225
+19,Hunterdon,1680,Frenchtown Borough School District,-13,1219
+01,Atlantic,1690,Galloway Township Public School District,-130,1102
+03,Bergen,1700,Garfield Public School District,-218,1014
+39,Union,1710,Garwood Boro,-11,1221
+15,Gloucester,1715,Gateway Regional High School District,-25,1207
+07,Camden,1720,Gibbsboro Elementary School District,10,1242
+15,Gloucester,1730,Glassboro School District,-114,1118
+13,Essex,1750,Glen Ridge Public School District,-37.5,1194.5
+03,Bergen,1760,Glen Rock Public School District,14.5,1246.5
+07,Camden,1770,Gloucester City Public School District,8,1240
+15,Gloucester,1774,Gloucester County Special Services School District,-22,1210
+15,Gloucester,1775,Gloucester County Vocational-Technical School District,42.5,1274.5
+07,Camden,1780,Gloucester Township Public Schools,7,1239
+80,Charters,6665,Gray Charter School,20,1252
+41,Warren,1785,Great Meadows Regional School District,-21,1211
+80,Charters,6053,Great Oaks Legacy Charter School,205,1437
+80,Charters,6635,Greater Brunswick Charter School,-2,1230
+01,Atlantic,1790,Greater Egg Harbor Regional High School District,-27,1205
+35,Somerset,1810,Green Brook Township Public School District,-67,1165
+37,Sussex,1800,Green Township School District,-29,1203
+11,Cumberland,1820,Greenwich Township School District,-5,1227
+41,Warren,1840,Greenwich Township School District,-59,1173
+15,Gloucester,1830,Greenwich Township School District,-64,1168
+17,Hudson,1850,Guttenberg School District,-60,1172
+03,Bergen,1860,Hackensack School District,-274.5,957.5
+41,Warren,1870,Hackettstown Public School District,12,1244
+07,Camden,1880,Haddon Heights School District,13,1245
+07,Camden,1890,Haddon Township School District,-89,1143
+07,Camden,1900,Haddonfield School District,-65,1167
+05,Burlington,1910,Hainesport Township School District,-47,1185
+31,Passaic,1920,Haledon Public School District,-33,1199
+37,Sussex,1930,Hamburg School District,-43,1189
+21,Mercer,1950,Hamilton Township Public School District,-173.5,1058.5
+01,Atlantic,1940,Hamilton Township School District,-165,1067
+01,Atlantic,1960,Hammonton School District,-112,1120
+19,Hunterdon,1970,Hampton Borough School District,-13,1219
+37,Sussex,1980,Hampton Township School District,-9,1223
+27,Morris,1990,Hanover Park Regional High School District,-29,1203
+27,Morris,2000,Hanover Township School District,-63,1169
+27,Morris,2010,Harding Township School District,-3,1229
+37,Sussex,2030,Hardyston Township School District,-70,1162
+41,Warren,2040,Harmony Township School District,-30,1202
+03,Bergen,2050,Harrington Park School District,-38,1194
+17,Hudson,2060,Harrison Public Schools,-32,1200
+15,Gloucester,2070,Harrison Township School District,-114,1118
+03,Bergen,2080,Hasbrouck Heights School District,-56.5,1175.5
+80,Charters,6041,Hatikvah International Academy Charter School,28,1260
+03,Bergen,2090,Haworth Public School District,5,1237
+31,Passaic,2100,Hawthorne Public School District,-108,1124
+25,Monmouth,2105,Hazlet Township Public School District,-110.5,1121.5
+25,Monmouth,2120,Henry Hudson Regional School District,-25,1207
+19,Hunterdon,2140,High Bridge Borough School District,-1,1231
+37,Sussex,2165,High Point Regional High School District,-26.5,1205.5
+23,Middlesex,2150,Highland Park Boro School District,-48.5,1183.5
+25,Monmouth,2160,Highlands Borough School District,-5,1227
+35,Somerset,2170,Hillsborough Township Public School District,-202,1030
+03,Bergen,2180,Hillsdale School District,-28,1204
+39,Union,2190,Hillside Public School District,-103.5,1128.5
+80,Charters,6720,Hoboken Charter School,1,1233
+80,Charters,6036,Hoboken Dual Language Charter School,-13,1219
+17,Hudson,2210,Hoboken Public School District,-3,1229
+03,Bergen,2200,Ho-Ho-Kus School District,-9,1223
+19,Hunterdon,2220,Holland Township School District,-26,1206
+25,Monmouth,2230,Holmdel Township School District,-105,1127
+37,Sussex,2240,Hopatcong Borough School District,-63,1169
+80,Charters,6740,Hope Academy Charter School,3,1235
+80,Charters,6086,Hope Community Charter School,7,1239
+41,Warren,2250,Hope Township School District,-10,1222
+11,Cumberland,2270,Hopewell Township School District,0,1232
+21,Mercer,2280,Hopewell Valley Regional School District,-36.5,1195.5
+25,Monmouth,2290,Howell Township Public School District,-188,1044
+80,Charters,6105,Hudson Arts And Science Charter School,-41,1191
+17,Hudson,2295,Hudson County Schools Of Technology School District,-57,1175
+19,Hunterdon,2300,Hunterdon Central Regional High School District,-70,1162
+19,Hunterdon,2308,Hunterdon County Vocational School District,27.5,1259.5
+80,Charters,6810,International Charter School Of Trenton,-1,1231
+13,Essex,2330,Irvington Public School District,-376,856
+29,Ocean,2350,Island Heights School District,16,1248
+29,Ocean,2360,Jackson Township School District,-347,885
+23,Middlesex,2370,Jamesburg Public School District,-49,1183
+27,Morris,2380,Jefferson Township Public School District,-189.5,1042.5
+80,Charters,6910,Jersey City Community Charter School,2,1234
+80,Charters,6093,Jersey City Global Charter School,23,1255
+80,Charters,6915,Jersey City Golden Door Charter School,19,1251
+17,Hudson,2390,Jersey City Public Schools,-1097,135
+80,Charters,6079,John P Holland Charter School,66,1298
+25,Monmouth,2400,Keansburg School District,-105,1127
+17,Hudson,2410,Kearny,-157,1075
+39,Union,2420,Kenilworth School District,1.5,1233.5
+25,Monmouth,2430,Keyport School District,-86,1146
+15,Gloucester,2440,Kingsway Regional School District,13.5,1245.5
+19,Hunterdon,2450,Kingwood Township School District,-18,1214
+27,Morris,2460,Kinnelon School District,-56.5,1175.5
+07,Camden,1799,Kipp: Cooper Norcross A New Jersey Nonprofit Corporation,262,1494
+37,Sussex,2465,Kittatinny Regional School District,-64.5,1167.5
+41,Warren,2470,Knowlton Township School District,-5,1227
+29,Ocean,2480,Lacey Township School District,-92.5,1139.5
+37,Sussex,2490,Lafayette Township School District,-2,1230
+29,Ocean,2500,Lakehurst School District,-9,1223
+31,Passaic,2510,Lakeland Regional High School District,-11,1221
+29,Ocean,2520,Lakewood Township School District,-296.5,935.5
+07,Camden,2540,Laurel Springs School District,-12,1220
+29,Ocean,2550,Lavallette Borough School District,6,1238
+07,Camden,2560,Lawnside School Distric,2,1234
+21,Mercer,2580,Lawrence Township Public School District,-158.5,1073.5
+11,Cumberland,2570,Lawrence Township School District,-28,1204
+80,Charters,6109,Lead Charter School,-47,1185
+80,Charters,7109,Leap Academy University Charter School,21,1253
+19,Hunterdon,2590,Lebanon Borough School District,-5,1227
+19,Hunterdon,2600,Lebanon Township School District,-54,1178
+05,Burlington,2610,Lenape Regional High School District,-24,1208
+37,Sussex,2615,Lenape Valley Regional High School District,17.5,1249.5
+03,Bergen,2620,Leonia Public School District,48,1280
+27,Morris,2650,Lincoln Park School District,-39,1193
+39,Union,2660,Linden Public School District,-183,1049
+07,Camden,2670,Lindenwold Public School District,-83,1149
+80,Charters,6099,Link Community Charter School,-52,1180
+01,Atlantic,2680,Linwood City School District,-14,1218
+29,Ocean,2690,Little Egg Harbor Township School District,-3,1229
+31,Passaic,2700,Little Falls Township Public School District,-1,1231
+03,Bergen,2710,Little Ferry Public School District,-53,1179
+25,Monmouth,2720,Little Silver Boro School District,-51,1181
+13,Essex,2730,Livingston Board Of Education School District,-86.5,1145.5
+03,Bergen,2740,Lodi School District,-60,1172
+15,Gloucester,2750,Logan Township School District,3,1235
+29,Ocean,2760,Long Beach Island Consolidated School District,-9,1223
+25,Monmouth,2770,Long Branch Public School District,-384.5,847.5
+27,Morris,4000,Long Hill Township School District,-96,1136
+41,Warren,2790,Lopatcong Township School District,-50,1182
+09,Cape May,2820,Lower Cape May Regional School District,-60,1172
+09,Cape May,2840,Lower Township Elementary School District,-114,1118
+05,Burlington,2850,Lumberton Township Board Of Education,-89,1143
+03,Bergen,2860,Lyndhurst School District,-104,1128
+27,Morris,2870,Madison Public School District,-75.5,1156.5
+07,Camden,2890,Magnolia School District,-28,1204
+03,Bergen,2900,Mahwah Township Public School District,-90,1142
+01,Atlantic,2910,Mainland Regional High School,0,1232
+25,Monmouth,2920,Manalapan-Englishtown Regional Schools School District,-262,970
+25,Monmouth,2930,Manasquan School District,54.5,1286.5
+29,Ocean,2940,Manchester Township School District,-55,1177
+33,Salem,2950,Mannington Township School District,-25,1207
+41,Warren,2970,Mansfield Township Elementary School District,-55,1177
+05,Burlington,2960,Mansfield Township School District,-45,1187
+15,Gloucester,2990,Mantua Township School District,-63,1169
+35,Somerset,3000,Manville School District,-65.5,1166.5
+05,Burlington,3010,Maple Shade School District,-23,1209
+01,Atlantic,3020,Margate City School District,22,1254
+80,Charters,7735,Maria L. Varisco-Rogers Charter School,1,1233
+21,Mercer,1431,Marie H. Katzenbach School For The Deaf,3,1235
+80,Charters,7210,Marion P. Thomas Charter School,-50,1182
+25,Monmouth,3030,Marlboro Township School District,-216,1016
+07,Camden,1802,Mastery Schools Of Camden Inc.,105,1337
+25,Monmouth,3040,Matawan-Aberdeen Regional School District,-231,1001
+11,Cumberland,3050,Maurice River Township School District,-25,1207
+03,Bergen,3060,Maywood School District,-28,1204
+05,Burlington,3070,Medford Lakes School District,-41,1191
+05,Burlington,3080,Medford Township School District,-158,1074
+27,Morris,3090,Mendham Borough School District,-6,1226
+27,Morris,3100,Mendham Township School District,19,1251
+21,Mercer,3103,Mercer County Special Services School District,-42,1190
+07,Camden,3110,Merchantville School District,-27,1205
+23,Middlesex,3120,Metuchen Public School District,9,1241
+09,Cape May,3130,Middle Township Public School District,-53.5,1178.5
+23,Middlesex,3140,Middlesex Borough School District,-76.5,1155.5
+80,Charters,7896,Middlesex County Stem Charter School,84,1316
+23,Middlesex,3150,Middlesex County Vocational And Technical School District,40,1272
+25,Monmouth,3160,Middletown Township Public School District,-393.5,838.5
+03,Bergen,3170,Midland Park School District,-49.5,1182.5
+19,Hunterdon,3180,Milford Borough School District,-7,1225
+13,Essex,3190,Millburn Township School District,-113,1119
+25,Monmouth,3200,Millstone Township School District,-55,1177
+23,Middlesex,3220,Milltown School District,-24,1208
+80,Charters,6069,Millville Public Charter School,-15,1217
+11,Cumberland,3230,Millville School District,-248,984
+27,Morris,3240,Mine Hill Township School District,4,1236
+25,Monmouth,3250,Monmouth Beach School District,25,1257
+25,Monmouth,3260,Monmouth County Vocational School District,-30,1202
+25,Monmouth,3270,Monmouth Regional High School,17.5,1249.5
+25,Monmouth,3255,Monmouth-Ocean Educational Services Commission School Distri,-3,1229
+15,Gloucester,3280,Monroe Township Public School District,-44,1188
+23,Middlesex,3290,Monroe Township School District,77,1309
+37,Sussex,3300,Montague Township School District,5,1237
+13,Essex,3310,Montclair Public School District,-235.5,996.5
+35,Somerset,3320,Montgomery Township School District,-207,1025
+03,Bergen,3330,Montvale Board Of Education School District,-53,1179
+27,Morris,3340,Montville Township School District,-125.5,1106.5
+03,Bergen,3350,Moonachie School District,14,1246
+05,Burlington,3360,Moorestown Township Public School District,-143,1089
+27,Morris,3365,Morris County Vocational School District,75.5,1307.5
+27,Morris,3370,Morris Hills Regional School District,-43.5,1188.5
+27,Morris,3380,Morris Plains School District,-17,1215
+27,Morris,3385,Morris School District,-124,1108
+39,Union,3395,Morris-Union Jointure Commisson School District,-3,1229
+27,Morris,3410,Mount Arlington Public School District,-28,1204
+05,Burlington,3430,Mount Holly Township Public School District,-37,1195
+05,Burlington,3440,Mount Laurel Township School District,-182,1050
+27,Morris,3450,Mount Olive Township School District,-42,1190
+27,Morris,3460,Mountain Lakes Public School District,-49.5,1182.5
+39,Union,3470,Mountainside School District,-30,1202
+07,Camden,3420,Mt. Ephraim School District,0,1232
+01,Atlantic,3480,Mullica Township School District,-54,1178
+15,Gloucester,3490,National Park Boro School District,4,1236
+25,Monmouth,3500,Neptune City School District,-33,1199
+25,Monmouth,3510,Neptune Township School District,-171,1061
+27,Morris,3520,Netcong School District,-5,1227
+23,Middlesex,3530,New Brunswick School District,-73.5,1158.5
+05,Burlington,3540,New Hanover Township,-11,1221
+80,Charters,7290,New Horizons Community Charter School,-97,1135
+03,Bergen,3550,New Milford Public School District,-7.5,1224.5
+39,Union,3560,New Providence School District,-58,1174
+80,Charters,6029,Newark Educators Community Charter School,-6,1226
+13,Essex,3570,Newark Public School District,-271,961
+37,Sussex,3590,Newton Public School District,-37,1195
+03,Bergen,3600,North Arlington School District,31.5,1263.5
+17,Hudson,3610,North Bergen School District,-176,1056
+23,Middlesex,3620,North Brunswick Township School District,-190.5,1041.5
+13,Essex,3630,North Caldwell School District,-5,1227
+31,Passaic,3640,North Haledon School District,-20,1212
+05,Burlington,3650,North Hanover Township School District,-74,1158
+19,Hunterdon,3660,North Hunterdon-Voorhees Regional High School District,-149.5,1082.5
+35,Somerset,3670,North Plainfield School District,37.5,1269.5
+80,Charters,7320,North Star Academy Charter School,377,1609
+41,Warren,3675,North Warren Regional School District,-46,1186
+09,Cape May,3680,North Wildwood School District,-18,1214
+05,Burlington,3690,Northern Burlington County Regional School District,-21,1211
+03,Bergen,3700,Northern Highlands Regional High School District,-36,1196
+37,Sussex,5105,Northern Hills Academy School District,-3,1229
+31,Passaic,3975,Northern Region Educational Services Commission,-12,1220
+03,Bergen,3710,Northern Valley Regional High School District,-3,1229
+01,Atlantic,3720,Northfield City School District,-54,1178
+03,Bergen,3730,Northvale Public School District,-9,1223
+03,Bergen,3740,Norwood Public School District,11,1243
+13,Essex,3750,Nutley Public School District,-87,1145
+03,Bergen,3760,Oakland Public School District,-30,1202
+07,Camden,3770,Oaklyn Public School District,-5,1227
+80,Charters,7893,Ocean Academy Charter School,87,1319
+09,Cape May,3780,Ocean City School District,-71,1161
+29,Ocean,3790,Ocean County Vocational Technical School District,-0.5,1231.5
+29,Ocean,3800,Ocean Gate School District,2,1234
+29,Ocean,3820,Ocean Township School District,-19,1213
+25,Monmouth,3830,Oceanport School District,-61,1171
+37,Sussex,3840,Ogdensburg Borough School District,-2,1230
+23,Middlesex,3845,Old Bridge Township School District,-348.5,883.5
+03,Bergen,3850,Old Tappan Public School District,-9,1223
+33,Salem,3860,Oldmans Township School District,-4,1228
+03,Bergen,3870,Oradell Public School District,-20,1212
+13,Essex,3880,Orange Board Of Education School District,-22.5,1209.5
+41,Warren,3890,Oxford Township School District,-17,1215
+80,Charters,7500,Pace Charter School Of Hamilton,41,1273
+03,Bergen,3910,Palisades Park School District,-99,1133
+05,Burlington,3920,Palmyra Public School District,13,1245
+03,Bergen,3930,Paramus Public School District,-127,1105
+03,Bergen,3940,Park Ridge School District,-6,1226
+27,Morris,3950,Parsippany-Troy Hills Township School District,-58,1174
+03,Bergen,3960,Pascack Valley Regional High School District,-41,1191
+80,Charters,6080,Passaic Arts And Science Charter School,142,1374
+31,Passaic,3970,Passaic City School District,-700,532
+31,Passaic,3980,Passaic County Manchester Regional High School District,2,1234
+31,Passaic,3995,Passaic County Vocational School District,222,1454
+31,Passaic,3990,Passaic Valley Regional High School District #1,-77,1155
+80,Charters,6096,Paterson Arts And Science Charter School,98,1330
+80,Charters,7503,Paterson Charter School For Science And Technology,46,1278
+31,Passaic,4010,Paterson Public School District,-1232,0
+80,Charters,6025,Paul Robeson Charter School For The Humanities,43,1275
+15,Gloucester,4020,Paulsboro School District,-28,1204
+05,Burlington,4050,Pemberton Township School District,-221,1011
+33,Salem,4070,Penns Grove-Carneys Point Regional School District,11.5,1243.5
+07,Camden,4060,Pennsauken Township Board Of Education School District,-65,1167
+33,Salem,4075,Pennsville School District,-21.5,1210.5
+80,Charters,6057,Peoples Preparatory Charter School District,-2,1230
+27,Morris,4080,Pequannock Township School District,7,1239
+23,Middlesex,4090,Perth Amboy Public School District,-232,1000
+80,Charters,6106,Philip'S Academy Charter School Of Paterson,134,1366
+80,Charters,6094,Phillip'S Academy  Charter School,25,1257
+41,Warren,4100,Phillipsburg School District,-88,1144
+07,Camden,4110,Pine Hill School District,-73,1159
+29,Ocean,4105,Pinelands Regional School District,10,1242
+23,Middlesex,4130,Piscataway Township School District,-143,1089
+15,Gloucester,4140,Pitman Boro School District,-115,1117
+33,Salem,4150,Pittsgrove Township School District,-1,1231
+39,Union,4160,Plainfield Public School District,227,1459
+01,Atlantic,4180,Pleasantville Public School District,-89,1143
+29,Ocean,4190,Plumsted Township School District,-93.5,1138.5
+41,Warren,4200,Pohatcong Township School District,-16,1216
+29,Ocean,4220,Point Pleasant Beach School District,5.5,1237.5
+29,Ocean,4210,Point Pleasant Borough School District,-130.5,1101.5
+31,Passaic,4230,Pompton Lakes School District,30.5,1262.5
+01,Atlantic,4240,Port Republic School District,1,1233
+80,Charters,6020,Pride Academy Charter School District,14,1246
+80,Charters,7540,Princeton Charter School,3,1235
+21,Mercer,4255,Princeton Public Schools,-180,1052
+80,Charters,6104,Principle Academy Charter School,56,1288
+31,Passaic,4270,Prospect Park Public School District,-43,1189
+33,Salem,4280,Quinton Township School District,-32,1200
+39,Union,4290,Rahway Public School District,-55.5,1176.5
+03,Bergen,4300,Ramapo Indian Hills Regional High School District,-27,1205
+03,Bergen,4310,Ramsey School District,-90,1142
+05,Burlington,4320,Rancocas Valley Regional High School District,26,1258
+27,Morris,4330,Randolph Township School District,-223.5,1008.5
+19,Hunterdon,4350,Readington Township School District,-72,1160
+25,Monmouth,4360,Red Bank Borough Public School District,-36,1196
+80,Charters,7720,Red Bank Charter School,3,1235
+25,Monmouth,4365,Red Bank Regional School District,21,1253
+80,Charters,7727,Ridge And Valley Charter School,-10,1222
+03,Bergen,4380,Ridgefield Park Public School District,-59,1173
+03,Bergen,4370,Ridgefield School District,-57,1175
+03,Bergen,4390,Ridgewood Public School District,-155,1077
+31,Passaic,4400,Ringwood School District,-49,1183
+03,Bergen,4405,River Dell Regional School District,-16.5,1215.5
+03,Bergen,4410,River Edge School District,-3,1229
+03,Bergen,4430,River Vale Public School District,-34,1198
+80,Charters,6026,Riverbank Charter School Of Excellence,0,1232
+27,Morris,4440,Riverdale School District,-27,1205
+05,Burlington,4450,Riverside Township School District,-65,1167
+05,Burlington,4460,Riverton School District,-13,1219
+21,Mercer,5510,Robbinsville Public Schools,-73,1159
+80,Charters,7730,Robert Treat Academy Charter School,0,1232
+03,Bergen,4470,Rochelle Park School District,-24,1208
+27,Morris,4480,Rockaway Borough School District,-39,1193
+27,Morris,4490,Rockaway Township School District,-77,1155
+25,Monmouth,4520,Roosevelt Borough Public School District,-6,1226
+13,Essex,4530,Roseland School District,-11,1221
+39,Union,4550,Roselle Park Public School District,-21.5,1210.5
+39,Union,4540,Roselle Public Schools,-5,1227
+80,Charters,6058,Roseville Community Charter School,10,1242
+27,Morris,4560,Roxbury Township School District,-69.5,1162.5
+25,Monmouth,4570,Rumson Borough School District,-72,1160
+25,Monmouth,4580,Rumson-Fair Haven Regional High School District,-18.5,1213.5
+07,Camden,4590,Runnemede Public School District,-16,1216
+03,Bergen,4600,Rutherford School District,-80.5,1151.5
+03,Bergen,4610,Saddle Brook School District,-102.5,1129.5
+03,Bergen,4620,Saddle River School District,-20,1212
+33,Salem,4630,Salem City School District,-56.5,1175.5
+33,Salem,4635,Salem County Special Services School District,4.5,1236.5
+33,Salem,4640,Salem County Vocational Technical School District,-17.5,1214.5
+37,Sussex,4650,Sandyston-Walpack Consolidated School District,1,1233
+23,Middlesex,4660,Sayreville School District,-185,1047
+27,Morris,0785,School District Of The Chathams,-139.5,1092.5
+39,Union,4670,Scotch Plains-Fanwood School District,-199.5,1032.5
+25,Monmouth,4690,Sea Girt Borough School District,-4,1228
+29,Ocean,4710,Seaside Heights School District,10,1242
+17,Hudson,4730,Secaucus School District,-72,1160
+05,Burlington,4740,Shamong Township School District,-39,1193
+25,Monmouth,4760,Shore Regional High School District,-25,1207
+25,Monmouth,4770,Shrewsbury Borough School District,-49,1183
+80,Charters,7830,Soaring Heights Charter School,5,1237
+07,Camden,4790,Somerdale School District,-28,1204
+01,Atlantic,4800,Somers Point School District,-67,1165
+35,Somerset,4805,Somerset County Educational Services Commission School Distr,11,1243
+35,Somerset,4810,Somerset County Vocational And Technical School District,7,1239
+35,Somerset,4815,Somerset Hills Regional School District,-148.5,1083.5
+35,Somerset,4820,Somerville Public School District,-89,1143
+03,Bergen,4845,South  Bergen Jointure Commission School District,-12,1220
+23,Middlesex,4830,South Amboy School District,-23.5,1208.5
+35,Somerset,4850,South Bound Brook Public School District,-3,1229
+23,Middlesex,4860,South Brunswick School District,-219,1013
+03,Bergen,4870,South Hackensack School District,-13,1219
+15,Gloucester,4880,South Harrison Township School District,-15,1217
+19,Hunterdon,1376,South Hunterdon Regional School District,-62.5,1169.5
+13,Essex,4900,South Orange-Maplewood School District,-356,876
+23,Middlesex,4910,South Plainfield School District,5,1237
+23,Middlesex,4920,South River Public School District,-22.5,1209.5
+05,Burlington,4930,Southampton Township School District,11,1243
+29,Ocean,4950,Southern Regional School District,-8,1224
+37,Sussex,4960,Sparta Township Public School District,-71.5,1160.5
+23,Middlesex,4970,Spotswood Public School District,-69,1163
+25,Monmouth,4980,Spring Lake Borough,22,1254
+25,Monmouth,4990,Spring Lake Heights School District,-2,1230
+39,Union,5000,Springfield Public School District,-44,1188
+05,Burlington,5010,Springfield Township School District,-17,1215
+29,Ocean,5020,Stafford Township School District,-21,1211
+37,Sussex,5030,Stanhope School District,-14,1218
+07,Camden,5035,Sterling Regional School District,-9,1223
+37,Sussex,5040,Stillwater Township School District,19,1251
+09,Cape May,5060,Stone Harbor School District,3,1235
+11,Cumberland,5070,Stow Creek Township School District,0,1232
+07,Camden,5080,Stratford School District,-38,1194
+39,Union,5090,Summit Public School District,-89,1143
+37,Sussex,5110,Sussex County Technical School District,-28,1204
+80,Charters,7850,Sussex County Technology Charter School,-2,1230
+37,Sussex,5100,Sussex-Wantage Regional School District,-44,1188
+15,Gloucester,5120,Swedesboro-Woolwich School District,-86,1146
+05,Burlington,5130,Tabernacle Township School District,-12,1220
+80,Charters,7325,Team Academy Charter School,482.5,1714.5
+80,Charters,7890,Teaneck Community Charter School,9,1241
+03,Bergen,5150,Teaneck School District,-4,1228
+03,Bergen,5160,Tenafly Public School District,-148,1084
+19,Hunterdon,5180,Tewksbury Township School District,-36,1196
+80,Charters,6033,The Barack Obama Green Charter High School District,9,1241
+80,Charters,6030,The Ethical Community Charter School,-7,1225
+80,Charters,7115,The Learning Community Charter School,-19,1213
+33,Salem,2800,The Lower Alloways Creek School District,3,1235
+80,Charters,7600,The Queen City Academy Charter School District,18,1250
+80,Charters,8140,The Village Charter School,5,1237
+80,Charters,6081,Thomas Edison Energysmart Charter School,35,1267
+25,Monmouth,5185,Tinton Falls School District,-85,1147
+29,Ocean,5190,Toms River Regional School District,-674.5,557.5
+31,Passaic,5200,Totowa Public School District,-70,1162
+15,Gloucester,1590,Township Of Franklin School District,-119,1113
+25,Monmouth,3810,Township Of Ocean School District,-19.5,1212.5
+39,Union,5290,Township Of Union School District,-43.5,1188.5
+21,Mercer,5210,Trenton Public Schools,226,1458
+80,Charters,6183,Trenton Stem-To-Civics Charter School,-8,1224
+29,Ocean,5220,Tuckerton Borough School District,-19,1213
+25,Monmouth,5230,Union Beach Public School District,-28,1204
+17,Hudson,5240,Union City School District,-385,847
+39,Union,5245,Union County Educational Services Commission,-72,1160
+80,Charters,8010,Union County Teams Charter School-High School/College La,32,1264
+39,Union,5260,Union County Vocational-Technical School District,-26.5,1205.5
+19,Hunterdon,5270,Union Township School District,-42,1190
+80,Charters,8050,Unity Charter School,9,1241
+80,Charters,8060,University Academy Charter High School,8,1240
+80,Charters,8065,University Heights Charter School,-37,1195
+11,Cumberland,5300,Upper Deerfield Township School District,-24,1208
+25,Monmouth,5310,Upper Freehold Regional School District,-58.5,1173.5
+33,Salem,5320,Upper Pittsgrove Twp School District,0,1232
+03,Bergen,5330,Upper Saddle River School District,0,1232
+09,Cape May,5340,Upper Township School District,-96,1136
+01,Atlantic,5350,Ventnor City School District,-30,1202
+37,Sussex,5360,Vernon Township School District,-68,1164
+13,Essex,5370,Verona Public School District,-84,1148
+80,Charters,6028,Vineland Public Charter School,47,1279
+11,Cumberland,5390,Vineland Public School District,-247,985
+07,Camden,5400,Voorhees Township School District,-39,1193
+03,Bergen,5410,Waldwick School District,-21,1211
+25,Monmouth,5420,Wall Township Public School District,-82.5,1149.5
+03,Bergen,5430,Wallington Boro School District,-30.5,1201.5
+37,Sussex,5435,Wallkill Valley Regional High School,24,1256
+31,Passaic,5440,Wanaque School District,-33,1199
+41,Warren,5460,Warren County Vocational Technical School,-3,1229
+41,Warren,5465,Warren Hills Regional School District,-25,1207
+35,Somerset,5470,Warren Township School District,-74,1158
+41,Warren,5480,Washington Borough School District,19,1251
+41,Warren,5530,Washington Township School District,-33,1199
+27,Morris,5520,Washington Township School District,-92,1140
+15,Gloucester,5500,Washington Township School District,-210,1022
+35,Somerset,5540,Watchung Borough School District,6,1238
+35,Somerset,5550,Watchung Hills Regional High School District,-39,1193
+07,Camden,5560,Waterford Township School District,-21,1211
+31,Passaic,5570,Wayne Township Public School District,-165,1067
+17,Hudson,5580,Weehawken Public School District,-91,1141
+15,Gloucester,5590,Wenonah  Boro School District,-1,1231
+09,Cape May,5610,West Cape May School District,-14,1218
+15,Gloucester,5620,West Deptford Township School District,-63,1169
+13,Essex,5630,West Essex Regional School District,-24,1208
+25,Monmouth,5640,West Long Branch School District,-22,1210
+31,Passaic,5650,West Milford Township Public School District,-148,1084
+27,Morris,5660,West Morris Regional High School District,-138,1094
+17,Hudson,5670,West New York School District,-302,930
+13,Essex,5680,West Orange Public Schools,27,1259
+21,Mercer,5715,West Windsor-Plainsboro Regional School District,-225,1007
+05,Burlington,5720,Westampton Township Public School District,-41,1191
+39,Union,5730,Westfield Public School District,-244.5,987.5
+15,Gloucester,5740,Westville Boro Public School District,-21,1211
+03,Bergen,5755,Westwood Regional School District,-29.5,1202.5
+01,Atlantic,5760,Weymouth Township School District,-11,1221
+27,Morris,5770,Wharton Borough School District,-60,1172
+41,Warren,5780,White Township Consolidated School District,-35,1197
+09,Cape May,5790,Wildwood City School District,-67,1165
+09,Cape May,5800,Wildwood Crest Borough School District,-15,1217
+05,Burlington,5805,Willingboro Public School District,-42,1190
+39,Union,5810,Winfield Township,-2,1230
+07,Camden,5820,Winslow Township School District,-160,1072
+09,Cape May,5840,Woodbine School District,-11,1221
+23,Middlesex,5850,Woodbridge Township School District,-53,1179
+15,Gloucester,5860,Woodbury City Public School District,-9,1223
+15,Gloucester,5870,Woodbury Heights Public School District,-19,1213
+03,Bergen,5880,Woodcliff Lake School District,-15,1217
+31,Passaic,5690,Woodland Park School District,56,1288
+05,Burlington,5890,Woodland Township School District,-17,1215
+07,Camden,5900,Woodlynne School District,-3,1229
+03,Bergen,5830,Wood-Ridge School District,-22,1210
+33,Salem,5910,Woodstown-Pilesgrove Regional School District,-106,1126
+03,Bergen,5920,Wyckoff Township Public School District,28,1260

@@ -1,0 +1,77 @@
+---
+title: "Were drops in enrollment during COVID-19 correlated with race?"
+author: "Thanya Begum"
+date: "10/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(magrittr)
+library(piggyback)
+```
+
+
+## Read In Data Files
+
+```{r}
+population_raw <- read_csv("data/population.csv")
+```
+
+## Pre-processing
+
+Let us filter the raw dataset for school aged children as well as refactor some columns to be more informative. For example, the RACE columns contains numbers instead of race names, so let us refactor it according to the following key:
+    1 = White Alone
+    2 = Black or African American Alone
+    3 = American Indian or Alaska Native Alone
+    4 = Asian Alone
+    5 = Native Hawaiian and Other Pacific Islander Alone
+    6 = Two or more races
+
+```{r}
+# Filter for school aged individuals
+population <- population_raw %>% filter(between(AGE, 5, 18) & NAME == "New Jersey" & ORIGIN != 0)
+
+# Add Hispanic as an additional race
+population$RACE <- replace(population$RACE, which(population$ORIGIN == 2), 7)
+
+# Factor and convert Race column from numbers to race names
+races <- c("White", "Black", "Native American", "Asian", "Hawaiian Native", "Two or More Races", "Hispanic")
+population <- population %>% mutate(RACE = factor(RACE, levels = c(1:7), labels = races))
+
+# Group by race, so we don't have population estimates per year of age
+population_by_race <- population %>% group_by(RACE) %>% 
+    summarize(
+        "2010" = sum(CENSUS2010POP),
+        "2011" = sum(POPESTIMATE2011),
+        "2012" = sum(POPESTIMATE2012),
+        "2013" = sum(POPESTIMATE2013),
+        "2014" = sum(POPESTIMATE2014),
+        "2015" = sum(POPESTIMATE2015),
+        "2016" = sum(POPESTIMATE2016),
+        "2017" = sum(POPESTIMATE2017),
+        "2018" = sum(POPESTIMATE2018),
+        "2019" = sum(POPESTIMATE2019),
+    )
+
+# Pivot the dataframe longer for the purposes of data visualization
+population_by_race <- population_by_race %>% 
+    pivot_longer(!RACE, names_to = "Year", values_to = "Population")
+```
+
+## Data Visualizations
+
+```{r}
+population_by_race$RACE <- ordered(population_by_race$RACE, 
+                                   levels = c("White", "Hispanic", "Black",
+                                              "Asian", "Two or More Races",
+                                              "Native American", "Hawaiian Native"))
+
+population_by_race %>% ggplot(aes(x = Year, y = Population, group = RACE, color = RACE)) +
+    geom_line() +
+    geom_point() +
+    labs(title = "NJ Population From 2010 to 2019 by Race") +
+    scale_color_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
+```
+

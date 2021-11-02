@@ -1,0 +1,672 @@
+﻿CountyCode,CountyName,DistrictCode,DistrictName,TotalEnrollment,White,Black,Hispanic,Asian,NativeAmerican,HawaiianNative,TwoorMoreRaces
+1,Atlantic,10,Absecon Public Schools District,887,447,133,208,57,0,0,42
+1,Atlantic,110,Atlantic City School District,6450,265,2147,2847,1046,1,42,102
+1,Atlantic,120,Atlantic County Vocational School District,1713,516,296,721,102,5,9,64
+1,Atlantic,125,Atlantic County Special Services School District,306,95,82,108,11,1,5,4
+1,Atlantic,570,Brigantine Public School District,444,314,18,62,48,0,0,2
+1,Atlantic,590,Buena Regional School District,1636,890,219,484,21,3,2,17
+1,Atlantic,1300,Egg Harbor City School District,509,132,124,212,10,0,0,31
+1,Atlantic,1310,Egg Harbor Township School District,7109,3100,670,1854,1070,7,16,392
+1,Atlantic,1410,Estell Manor School District,189,178,2,6,0,0,1,2
+1,Atlantic,1540,Folsom Borough School District,385,332,10,29,4,0,0,10
+1,Atlantic,1690,Galloway Township Public School District,3171,1418,696,632,359,11,8,47
+1,Atlantic,1790,Greater Egg Harbor Regional High School District,3004,1393,642,624,242,2,3,98
+1,Atlantic,1940,Hamilton Township School District,2857,1096,704,694,142,1,1,219
+1,Atlantic,1960,Hammonton School District,3383,2241,106,965,23,3,2,43
+1,Atlantic,2680,Linwood City School District,807,622,15,82,45,0,0,43
+1,Atlantic,2910,Mainland Regional High School,1239,821,58,222,71,0,0,67
+1,Atlantic,3020,Margate City School District,382,346,1,20,3,1,2,9
+1,Atlantic,3480,Mullica Township School District,651,432,36,163,1,1,0,18
+1,Atlantic,3720,Northfield City School District,881,655,15,132,46,0,2,31
+1,Atlantic,4180,Pleasantville Public School District,3403,49,1071,2197,44,4,15,23
+1,Atlantic,4240,Port Republic School District,105,104,1,0,0,0,0,0
+1,Atlantic,4800,Somers Point School District,787,318,107,269,19,5,1,68
+1,Atlantic,5350,Ventnor City School District,611,251,24,235,75,1,0,25
+1,Atlantic,5760,Weymouth Township School District,143,105,12,17,4,0,0,5
+3,Bergen,40,Allendale Public School District,849,619,7,47,129,0,1,46
+3,Bergen,80,Alpine School District,151,84,7,8,36,0,0,16
+3,Bergen,285,Bergen County Special Services School District,688,247,95,281,55,0,2,8
+3,Bergen,290,Bergen County Vocational Technical School District,2446.5,1013,153,434,831.5,3,12,0
+3,Bergen,300,Bergenfield Borough School District,3652,383,278,1999,879,4,15,94
+3,Bergen,440,Bogota Public School District,1155,188,92,774,83,1,4,13
+3,Bergen,740,Carlstadt Publicschool District,516,269,21,175,41,0,2,8
+3,Bergen,745,Carlstadt-East Rutherford Regional High School District,570.5,260,40,209.5,56,2,1,2
+3,Bergen,890,Cliffside Park School District,3113.5,968,63,1919.5,138,9,3,13
+3,Bergen,930,Closter Public School District,1142,513,10,103,466,3,17,30
+3,Bergen,990,Cresskill Public School District,1775.5,944.5,27,107,649,0,1,47
+3,Bergen,1070,Demarest School District,691,402,4,43,216,1,0,25
+3,Bergen,1130,Dumont Public School District,2463,1143,101,763,391,13,28,24
+3,Bergen,1230,East Rutherford School District,763,211,41,310,168,4,0,29
+3,Bergen,1270,Edgewater School District,679,181,37,130,290,0,1,40
+3,Bergen,1345,Elmwood Park School District,2522,969,259.5,984.5,276,5,3,25
+3,Bergen,1360,Emerson Public School District,1027,683,14,204,87,1,3,35
+3,Bergen,1370,Englewood Public School District,2950.5,282,767.5,1594,242,12,12,41
+3,Bergen,1380,Englewood Cliffs School District,431,135,12,32,233,0,3,16
+3,Bergen,1450,Fair Lawn Public School District,5251,3053.5,144,1037.5,841,19,25,131
+3,Bergen,1470,Fairview Public School District,1521,180,10,1315,14,0,0,2
+3,Bergen,1550,Fort Lee School District,4078,1105,178,806,1893,4,10,82
+3,Bergen,1580,Franklin Lakes School District,1160,921,17,83,110,2,2,25
+3,Bergen,1700,Garfield Public School District,4715,1751,385,2491,42,3,9,34
+3,Bergen,1760,Glen Rock Public School District,2543,1854,25,128,450,1,1,84
+3,Bergen,1860,Hackensack School District,5365,503,1096.5,3384,306.5,11,9,55
+3,Bergen,2050,Harrington Park School District,558,314,5,32,167,0,1,39
+3,Bergen,2080,Hasbrouck Heights School District,1700.5,925.5,55,494,203,1,0,22
+3,Bergen,2090,Haworth Public School District,392,286,4,18,47,0,0,37
+3,Bergen,2180,Hillsdale School District,1081,782,12,159,94,1,3,30
+3,Bergen,2200,Ho-Ho-Kus School District,587,480,8,40,55,1,0,3
+3,Bergen,2620,Leonia Public School District,2081.5,541.5,78,480,868,6,5,103
+3,Bergen,2710,Little Ferry Public School District,811,228,41,359,157,0,14,12
+3,Bergen,2740,Lodi School District,2950.5,721,245,1738.5,190,4,12,40
+3,Bergen,2860,Lyndhurst School District,2449.5,1373,81,864.5,55,0,3,73
+3,Bergen,2900,Mahwah Township Public School District,2757,1795,86,292,419,12,1,152
+3,Bergen,3060,Maywood School District,947,332,101,309,179,3,3,20
+3,Bergen,3170,Midland Park School District,837,659,5,123,24,2,1,23
+3,Bergen,3330,Montvale Board Of Education School District,935,596,10,93,203,0,0,33
+3,Bergen,3350,Moonachie School District,351,96,5,190,51,0,4,5
+3,Bergen,3550,New Milford Public School District,2004.5,827,131.5,590,298,0,97,61
+3,Bergen,3600,North Arlington School District,1879.5,978,29,757.5,84,2,5,24
+3,Bergen,3700,Northern Highlands Regional High School District,1363.5,1016.5,16,108,204,2,0,17
+3,Bergen,3710,Northern Valley Regional High School District,2257,1354,34,132,643,14,2,78
+3,Bergen,3730,Northvale Public School District,519,260,6,80,163,0,0,10
+3,Bergen,3740,Norwood Public School District,608,240,8,65,268,0,2,25
+3,Bergen,3760,Oakland Public School District,1299,1048,10,144,35,2,1,59
+3,Bergen,3850,Old Tappan Public School District,651,374,2,36,221,0,1,17
+3,Bergen,3870,Oradell Public School District,738,453,4,63,187,1,2,28
+3,Bergen,3910,Palisades Park School District,1729,157,27,969,551,7,4,14
+3,Bergen,3930,Paramus Public School District,3594,1787,73,532,1083,6,7,106
+3,Bergen,3940,Park Ridge School District,1218,869,10,199,95,0,2,43
+3,Bergen,3960,Pascack Valley Regional High School District,1916,1466.5,27,196.5,195,3,3,25
+3,Bergen,4300,Ramapo Indian Hills Regional High School District,2203.5,1872.5,23,133,112,1,3,59
+3,Bergen,4310,Ramsey School District,2581,1993,34,259,218,2,1,74
+3,Bergen,4370,Ridgefield School District,1601,454,52,702,372,1,3,17
+3,Bergen,4380,Ridgefield Park Public School District,2143.5,454,107,1351.5,200,3,15,13
+3,Bergen,4390,Ridgewood Public School District,5555,3384,60,570,1113,0,4,424
+3,Bergen,4405,River Dell Regional School District,1595.5,982.5,12,172,380,0,0,49
+3,Bergen,4410,River Edge School District,1250,565,33,138,462,0,0,52
+3,Bergen,4430,River Vale Public School District,1057,840,11,45,141,1,1,18
+3,Bergen,4470,Rochelle Park School District,484,205,28,200,48,0,0,3
+3,Bergen,4600,Rutherford School District,2514.5,1332,54,573.5,402,6,2,145
+3,Bergen,4610,Saddle Brook School District,1651.5,1024.5,43,442,122,1,5,14
+3,Bergen,4620,Saddle River School District,129,90,5,2,20,0,0,12
+3,Bergen,4845,South  Bergen Jointure Commission School District,340,150,36,130,13,0,5,6
+3,Bergen,4870,South Hackensack School District,273,68,17,175,7,1,0,5
+3,Bergen,5150,Teaneck School District,3623,420,1169,1503,405,27,18,81
+3,Bergen,5160,Tenafly Public School District,3512,1804,54,287,1211,1,1,154
+3,Bergen,5330,Upper Saddle River School District,1099,752,17,90,199,2,3,36
+3,Bergen,5410,Waldwick School District,1595.5,1137.5,33,280,92,2,1,50
+3,Bergen,5430,Wallington Boro School District,1197,749,24,369,42,0,1,12
+3,Bergen,5755,Westwood Regional School District,2758.5,1993,67.5,431,175,4,7,81
+3,Bergen,5830,Wood-Ridge School District,1191.5,676,47.5,345,103,1,1,18
+3,Bergen,5880,Woodcliff Lake School District,690,575,4,44,60,0,1,6
+3,Bergen,5920,Wyckoff Township Public School District,1908,1628,12,105,98,0,1,64
+5,Burlington,380,Beverly City School District,317,95,106,94,0,0,0,22
+5,Burlington,475,Bordentown Regional School District,2342,1543,301,284,200,1,5,8
+5,Burlington,600,Burlington City Public School District,1690,438,874,297,43,2,0,36
+5,Burlington,605,Burlington County Special Services School District,520,220,183,78,16,1,2,20
+5,Burlington,610,Burlington County Institute Of Technology School District,2137,819,746,398,36,4,2,132
+5,Burlington,620,Burlington Township School District,3580,1291,1223,458,419,8,9,172
+5,Burlington,830,Chesterfield Township School District,715,379,29,47,230,5,1,24
+5,Burlington,840,Cinnaminson Township School District,2686,2020,218,220,82,1,7,138
+5,Burlington,1030,Delanco Township School District,398,222,78,65,4,0,1,28
+5,Burlington,1060,Delran Township School District,2925,2080,238,401,89,1,4,112
+5,Burlington,1250,Eastampton Township School District,548,276,124,97,11,1,0,39
+5,Burlington,1280,Edgewater Park Township School District,918,345,269,236,22,0,0,46
+5,Burlington,1420,Evesham Township School District,4291,3136,306,235,447,11,11,145
+5,Burlington,1520,Florence Township School District,1465,810,313,148,164,7,4,19
+5,Burlington,1910,Hainesport Township School District,512,367,68,35,23,1,1,17
+5,Burlington,2610,Lenape Regional High School District,6783,5120,473,434,518,7,21,210
+5,Burlington,2850,Lumberton Township Board Of Education,1088,506,265,135,53,1,1,127
+5,Burlington,2960,Mansfield Township School District,499,328,56,37,53,2,0,23
+5,Burlington,3010,Maple Shade School District,2323,1127,354,588,122,0,0,132
+5,Burlington,3070,Medford Lakes School District,486,475,1,5,1,0,0,4
+5,Burlington,3080,Medford Township School District,2497,2142,51,165,53,0,2,84
+5,Burlington,3360,Moorestown Township Public School District,3812,2543,220,269,506,1,1,272
+5,Burlington,3430,Mount Holly Township Public School District,1010,327,285,237,25,2,4,130
+5,Burlington,3440,Mount Laurel Township School District,4061,2102,582,418,660,7,9,283
+5,Burlington,3540,New Hanover Township,166,53,25,65,3,0,0,20
+5,Burlington,3650,North Hanover Township School District,1125,625,109,264,20,5,5,97
+5,Burlington,3690,Northern Burlington County Regional School District,2146,1284,198,266,279,2,9,108
+5,Burlington,3920,Palmyra Public School District,930,519,156,143,30,3,4,75
+5,Burlington,4050,Pemberton Township School District,4355,2245,910,830,70,13,17,270
+5,Burlington,4320,Rancocas Valley Regional High School District,2069,1053,480,304,99,4,0,129
+5,Burlington,4450,Riverside Township School District,1358,652,187,499,8,0,5,7
+5,Burlington,4460,Riverton School District,290,245,7,25,1,0,1,11
+5,Burlington,4740,Shamong Township School District,691,602,10,53,1,1,1,23
+5,Burlington,4930,Southampton Township School District,701,563,8,86,5,0,1,38
+5,Burlington,5010,Springfield Township School District,226,179,14,23,3,0,1,6
+5,Burlington,5130,Tabernacle Township School District,655,569,7,56,4,0,1,18
+5,Burlington,5720,Westampton Township Public School District,983,340,299,174,73,1,0,96
+5,Burlington,5805,Willingboro Public School District,3372,97,2582,530,35,11,6,111
+5,Burlington,5890,Woodland Township School District,118,112,1,3,0,0,0,2
+7,Camden,150,Audubon Public School District,1444,1235,47,109,16,5,2,30
+7,Camden,190,Barrington School District,563,432,29,48,24,3,3,24
+7,Camden,260,Bellmawr Public School District,1166,671,48,256,130,0,1,60
+7,Camden,330,Berlin Borough School District,807,659,57,26,29,2,0,34
+7,Camden,340,Berlin Township School District,604,356,73,114,52,0,0,9
+7,Camden,390,Black Horse Pike Regional School District,3478,1840,914,391,227,6,11,89
+7,Camden,580,Brooklawn Public School District,285,157,41,52,13,2,2,18
+7,Camden,680,Camden City School District,6355,59,2795,3383,62,2,14,40
+7,Camden,700,Camden County Technical School District,2245,664,538,884,77,3,1,78
+7,Camden,800,Cherry Hill School District,10469,5774,921,1414,1821,13,22,504
+7,Camden,880,Clementon Elementary School District,516,174,115,198,9,0,0,20
+7,Camden,940,Collingswood Public School District,2200,1323,247,450,56,7,0,117
+7,Camden,1255,Eastern Camden County Regional School District,1926,1144,221,195,269,5,2,90
+7,Camden,1720,Gibbsboro Elementary School District,276,177,27,42,17,0,1,12
+7,Camden,1770,Gloucester City Public School District,2220,1372,251,451,113,2,1,30
+7,Camden,1780,Gloucester Township Public Schools,6368,3076,1663,947,296,18,7,361
+7,Camden,1799,Kipp: Cooper Norcross A New Jersey Nonprofit Corporation,1775,5,985,721,1,13,6,44
+7,Camden,1801,Camden Prep Inc.,949,1,737,210,1,0,0,0
+7,Camden,1802,Mastery Schools Of Camden Inc.,2737,10,765,1869,18,6,1,68
+7,Camden,1880,Haddon Heights School District,1514,1131,145,142,31,4,2,59
+7,Camden,1890,Haddon Township School District,1971,1576,62,191,63,1,2,76
+7,Camden,1900,Haddonfield School District,2645,2315,38,87,97,2,1,105
+7,Camden,2540,Laurel Springs School District,167,107,25,26,0,0,0,9
+7,Camden,2560,Lawnside School Distric,308,4,228,53,3,0,0,20
+7,Camden,2670,Lindenwold Public School District,2884,218,943,1635,37,1,2,48
+7,Camden,2890,Magnolia School District,375,188,67,79,11,0,0,30
+7,Camden,3110,Merchantville School District,403,226,49,94,13,0,2,19
+7,Camden,3420,Mt. Ephraim School District,421,345,18,40,6,0,0,12
+7,Camden,3770,Oaklyn Public School District,277,213,14,29,13,0,0,8
+7,Camden,4060,Pennsauken Township Board Of Education School District,4649,437,1134,2433,515,4,11,115
+7,Camden,4110,Pine Hill School District,1807,721,581,364,48,3,0,90
+7,Camden,4590,Runnemede Public School District,837,653,42,82,21,0,1,38
+7,Camden,4790,Somerdale School District,459,182,111,101,27,0,0,38
+7,Camden,5035,Sterling Regional School District,912,512,180,143,39,4,2,32
+7,Camden,5080,Stratford School District,857,506,113,158,44,0,1,35
+7,Camden,5400,Voorhees Township School District,2914,1474,303,265,698,5,7,162
+7,Camden,5560,Waterford Township School District,856,667,28,102,5,1,0,53
+7,Camden,5820,Winslow Township School District,4606,880,2572,818,113,19,9,195
+7,Camden,5900,Woodlynne School District,393,9,87,262,29,0,0,6
+9,Cape May,170,Avalon School District,77,69,1,5,1,0,0,1
+9,Cape May,710,Cape May City School District,154,91,15,44,2,1,1,0
+9,Cape May,715,Cape May County Special Services School District,221,144,25,48,2,1,0,1
+9,Cape May,720,Cape May County Technical High School District,578,470,26,62.5,11,0,1,7.5
+9,Cape May,1080,Dennis Township School District,604,569,11,20,2,1,0,1
+9,Cape May,2820,Lower Cape May Regional School District,1230,969,72,168,10,1,3,7
+9,Cape May,2840,Lower Township Elementary School District,1495,1159,94,223,9,1,2,7
+9,Cape May,3130,Middle Township Public School District,2458,1482,409,431.5,60,1,2,72.5
+9,Cape May,3680,North Wildwood School District,193,150,1,20,0,0,0,22
+9,Cape May,3780,Ocean City School District,2039,1659,66,244,31,5,3,31
+9,Cape May,5060,Stone Harbor School District,92,80,0,4,2,0,0,6
+9,Cape May,5340,Upper Township School District,1346,1239,5,58,8,0,1,35
+9,Cape May,5610,West Cape May School District,79,69,1,8,0,0,1,0
+9,Cape May,5790,Wildwood City School District,834,216,87,518,7,0,1,5
+9,Cape May,5800,Wildwood Crest Borough School District,252,214,3,30,1,0,0,4
+9,Cape May,5840,Woodbine School District,210,46,53,97,0,0,0,14
+11,Cumberland,540,Bridgeton City School District,6012,176,1201,4531,8,15,0,81
+11,Cumberland,950,Commercial Township School District,459,312,67,61,2,0,2,15
+11,Cumberland,995,Cumberland County Board Of Vocational Education,972,510,78,347,30,1,0,6
+11,Cumberland,997,Cumberland Regional School District,1032,466,186,311,12,17,3,37
+11,Cumberland,1020,Deerfield Township School District,271,116,32,103,0,0,0,20
+11,Cumberland,1120,Downe Township School District,163,142,7,6,0,0,0,8
+11,Cumberland,1460,Fairfield Township School District,480,35,239,157,0,6,1,42
+11,Cumberland,1820,Greenwich Township School District,79,60,10,7,0,0,0,2
+11,Cumberland,2270,Hopewell Township School District,496,310,32,125,10,6,0,13
+11,Cumberland,2570,Lawrence Township School District,484,358,45,55,2,3,0,21
+11,Cumberland,3050,Maurice River Township School District,394,321,17,42,2,0,0,12
+11,Cumberland,3230,Millville School District,4944,1698,1639,1299,41,14,4,249
+11,Cumberland,5070,Stow Creek Township School District,124,111,1,8,0,0,0,4
+11,Cumberland,5300,Upper Deerfield Township School District,813,368,170,217,17,1,0,40
+11,Cumberland,5390,Vineland Public School District,9487,1874,1349,5814,195,29,6,220
+13,Essex,250,Belleville Public School District,4486,574,372.5,3113.5,359,8,28,31
+13,Essex,410,Bloomfield Township School District,6119,1511,1394,2669,407,11,89,38
+13,Essex,660,Caldwell-West School District,2627.5,2068,52,357.5,108,0,5,37
+13,Essex,760,Cedar Grove Township School District,1569,1262,36.5,144.5,82,5,28,11
+13,Essex,1210,East Orange School District,8748,55,7588.5,997.5,13,25,15,54
+13,Essex,1387,Essex Regional Educational Services Commission,70,3,46,20,1,0,0,0
+13,Essex,1390,Essex County Schools Of Technology,2357.5,33,973.5,1289.5,15,10,9,27.5
+13,Essex,1400,Essex Fells School District,251,211,7,8,12,0,1,12
+13,Essex,1465,Fairfield Public School District,697,573,2,84,34,0,0,4
+13,Essex,1750,Glen Ridge Public School District,1823,1367,76,120,167,2,15,76
+13,Essex,2330,Irvington Public School District,6836,20,5131,1620,24,11,16,14
+13,Essex,2730,Livingston Board Of Education School District,6002.5,3127,241,274,2132,12,11,205.5
+13,Essex,3190,Millburn Township School District,4643,2110,101,207.5,1915.5,5,3,301
+13,Essex,3310,Montclair Public School District,6359.5,3231,1396,847.5,332,6,5,542
+13,Essex,3570,Newark Public School District,36405,2731,14130,19058,335,84,66,1
+13,Essex,3630,North Caldwell School District,684,552,16,44,62,2,0,8
+13,Essex,3750,Nutley Public School District,3982,2254,115,1054,446,6,1,106
+13,Essex,3880,Orange Board Of Education School District,5236.5,18,2854,2306.5,12,5,1,40
+13,Essex,4530,Roseland School District,457,313,14,60,50,0,0,20
+13,Essex,4900,South Orange-Maplewood School District,6792.5,3728,1706.5,571.5,252.5,9,9,516
+13,Essex,5370,Verona Public School District,2178,1779.5,45,207.5,84,4,7,51
+13,Essex,5630,West Essex Regional School District,1627,1333,32,135,91,3,4,29
+13,Essex,5680,West Orange Public Schools,6638,1242.5,2392,2251.5,316,5,25,406
+15,Gloucester,860,Clayton Public School District,1431,676,365,215,24,2,0,149
+15,Gloucester,870,Clearview Regional High School District,2272.5,1882.5,128,134,90,0,0,38
+15,Gloucester,1100,Deptford Township Public School District,3871,2114,842.5,548.5,261,2,6,97
+15,Gloucester,1180,East Greenwich Township School District,1303,1034,66,70,52,0,3,78
+15,Gloucester,1330,Elk Township School District,311,213,43,46,7,0,1,1
+15,Gloucester,1590,Township Of Franklin School District,1302,1026,64,143,9,1,0,59
+15,Gloucester,1715,Gateway Regional High School District,875,653,79,88,22,0,2,31
+15,Gloucester,1730,Glassboro School District,1811,635,593,373,68,2,1,139
+15,Gloucester,1774,Gloucester County Special Services School District,541,288,126,90,5,0,0,32
+15,Gloucester,1775,Gloucester County Vocational-Technical School District,1565,1179,108.5,126.5,79,0,2,70
+15,Gloucester,1830,Greenwich Township School District,378,274,19,41,5,0,1,38
+15,Gloucester,2070,Harrison Township School District,1306,1076,52,82,50,1,0,45
+15,Gloucester,2440,Kingsway Regional School District,2809.5,2076.5,307,174,128,2,2,120
+15,Gloucester,2750,Logan Township School District,839,595,84,77,30,2,0,51
+15,Gloucester,2990,Mantua Township School District,1200,963,57,88,25,0,0,67
+15,Gloucester,3280,Monroe Township Public School District,5621,3597,941,623,158,14,9,279
+15,Gloucester,3490,National Park Boro School District,293,236,21,20,1,2,0,13
+15,Gloucester,4020,Paulsboro School District,1137,329,531,216,8,2,3,48
+15,Gloucester,4140,Pitman Boro School District,1119,1000,27,37,13,0,3,39
+15,Gloucester,4880,South Harrison Township School District,315,277,6,13,6,0,0,13
+15,Gloucester,4940,Delsea Regional High School District,1565,1170,171,139,10,3,1,71
+15,Gloucester,5120,Swedesboro-Woolwich School District,1495,1048,161,164,61,1,0,60
+15,Gloucester,5500,Washington Township School District,6995,5412,604,484,296,2,5,192
+15,Gloucester,5590,Wenonah  Boro School District,165,147,0,4,1,0,0,13
+15,Gloucester,5620,West Deptford Township School District,2892.5,2048.5,274,342,69,2,2,155
+15,Gloucester,5740,Westville Boro Public School District,338,204,53,61,16,0,0,4
+15,Gloucester,5860,Woodbury City Public School District,1600,384,602,459,25,3,1,126
+15,Gloucester,5870,Woodbury Heights Public School District,229,182,14,24,1,0,1,7
+17,Hudson,220,Bayonne School District,9650.5,3866.5,1063.5,3580.5,771.5,14,27,327.5
+17,Hudson,1200,East Newark School District,224,12,1,203,2,2,0,4
+17,Hudson,1850,Guttenberg School District,911,64,9,814,15,3,2,4
+17,Hudson,2060,Harrison Public Schools,1945,239,43,1488,161,1,1,12
+17,Hudson,2210,Hoboken Public School District,2230,1018,231,810,124,8,4,35
+17,Hudson,2295,Hudson County Schools Of Technology School District,2681.5,698.5,245.5,1156.5,473.5,2,18,87.5
+17,Hudson,2390,Jersey City Public Schools,25496,3887,6449,9703,4746,57,239,415
+17,Hudson,2410,Kearny,5165,1530,79,3344,162,5,4,41
+17,Hudson,3610,North Bergen School District,7373,613,74,6462,194,3,7,20
+17,Hudson,4730,Secaucus School District,2213,692,82,688,713,0,3,35
+17,Hudson,5240,Union City School District,11866,248,162,11282,169,1,1,3
+17,Hudson,5580,Weehawken Public School District,1290,501,65,592,110,1,0,21
+17,Hudson,5670,West New York School District,7580,214,66,7168,114,0,3,15
+19,Hunterdon,20,Alexandria Township School District,463,404,5,34,9,0,0,11
+19,Hunterdon,370,Bethlehem Township School District,331,291,2,23,9,0,0,6
+19,Hunterdon,430,Bloomsbury Borough School District,89,64,14,2,7,0,0,2
+19,Hunterdon,670,Califon Borough School District,90,72,0,12,1,0,0,5
+19,Hunterdon,910,Clinton-Glen Gardner School District,425,299,19,73,27,0,4,3
+19,Hunterdon,920,Clinton Township School District,1207,919,22,114,102,0,0,50
+19,Hunterdon,1040,Delaware Township School District,356,293,3,40,5,0,0,15
+19,Hunterdon,1050,Delaware Valley Regional High School District,678,596.5,8,46,19.5,0,0,8
+19,Hunterdon,1160,East Amwell Township School District,336,272,5,45,7,0,0,7
+19,Hunterdon,1376,South Hunterdon Regional School District,858.5,584.5,37.5,200,6,0,0,30.5
+19,Hunterdon,1510,Flemington-Raritan Regional School District,2958,1924,81,573,306,3,10,61
+19,Hunterdon,1600,Franklin Township School District,253,203,8,31,11,0,0,0
+19,Hunterdon,1680,Frenchtown Borough School District,108,86,1,11,3,0,0,7
+19,Hunterdon,1970,Hampton Borough School District,76,58,0,16,0,0,0,2
+19,Hunterdon,2140,High Bridge Borough School District,362,270,18,55,10,1,1,7
+19,Hunterdon,2220,Holland Township School District,499,457,5,24,5,0,0,8
+19,Hunterdon,2300,Hunterdon Central Regional High School District,2574,1961,79.5,333.5,144,1,2.5,52.5
+19,Hunterdon,2308,Hunterdon County Vocational School District,477.5,376.5,9.5,38,43.5,0,0.5,9.5
+19,Hunterdon,2450,Kingwood Township School District,340,289,9,30,4,0,2,6
+19,Hunterdon,2590,Lebanon Borough School District,92,71,5,8,5,0,3,0
+19,Hunterdon,2600,Lebanon Township School District,576,516,18,29,9,1,2,1
+19,Hunterdon,3180,Milford Borough School District,53,44,1,7,1,0,0,0
+19,Hunterdon,3660,North Hunterdon-Voorhees Regional High School District,2162,1795.5,66.5,160,109.5,3,1,26.5
+19,Hunterdon,4350,Readington Township School District,1405,1108,23,153,62,1,7,51
+19,Hunterdon,5180,Tewksbury Township School District,477,403,6,33,9,0,2,24
+19,Hunterdon,5270,Union Township School District,395,333,5,26,21,2,1,7
+21,Mercer,1245,East Windsor Regional School District,4985,1369,441,2194.5,853,4,9.5,114
+21,Mercer,1430,Ewing Township School District,3347,813,1540.5,693.5,151.5,0,5,143.5
+21,Mercer,1431,Marie H. Katzenbach School For The Deaf,77.5,16.5,20,36,3,0,1,1
+21,Mercer,1950,Hamilton Township Public School District,11387.5,4647.5,1929.5,3960.5,428,6,11,405
+21,Mercer,2280,Hopewell Valley Regional School District,3382.5,2466.5,82.5,196.5,450,0,3,184
+21,Mercer,2580,Lawrence Township Public School District,3631.5,1472,525.5,754.5,689,3,3,184.5
+21,Mercer,3103,Mercer County Special Services School District,498,85,217,152,30,1,0,13
+21,Mercer,3105,Area Vocational Technical Schools Of Mercer County,669,219,143.5,238,55,0,1.5,12
+21,Mercer,4255,Princeton Public Schools,3638,1778.5,213.5,560,785,1,1,299
+21,Mercer,5210,Trenton Public Schools,12878.5,124,4944,7683.5,23,7,12,85
+21,Mercer,5510,Robbinsville Public Schools,3076.5,1586,85,157.5,1174,8,3,63
+21,Mercer,5715,West Windsor-Plainsboro Regional School District,9274,1501,456.5,432,6661.5,9,6,208
+23,Middlesex,750,Carteret Public School District,3653,337,556,1772,917,4,4,63
+23,Middlesex,970,Cranbury Township School District,458,275,20,30,112,1,0,20
+23,Middlesex,1140,Dunellen Public School District,1224,366,149,625,65,2,2,15
+23,Middlesex,1170,East Brunswick Township School District,8029,3808,446,791.5,2737,17,25,204.5
+23,Middlesex,1290,Edison Township School District,16474,1855.5,1214.5,1977,10979,140,38,270
+23,Middlesex,2150,Highland Park Boro School District,1525.5,572,160,375,319,2,2,95.5
+23,Middlesex,2370,Jamesburg Public School District,656,220,46,365,15,2,1,7
+23,Middlesex,3120,Metuchen Public School District,2283,1180,92,311,546,4,5,145
+23,Middlesex,3140,Middlesex Borough School District,1999.5,951,136.5,716,136,4,6,50
+23,Middlesex,3145,Educational Services Commission Of New Jersey,581,161,110,200,93,2,0,15
+23,Middlesex,3150,Middlesex County Vocational And Technical School District,2150.5,646,178.5,895,424.5,0,2,4.5
+23,Middlesex,3220,Milltown School District,772,573,33,128,15,3,1,19
+23,Middlesex,3290,Monroe Township School District,6925,2694.5,259,506.5,3348,6,11,100
+23,Middlesex,3530,New Brunswick School District,9172,64,654,8379,37,8,2,28
+23,Middlesex,3620,North Brunswick Township School District,5699,905,1231,2223,1170,16,12,142
+23,Middlesex,3845,Old Bridge Township School District,7999,4586,639,1296,1328,12,11,127
+23,Middlesex,4090,Perth Amboy Public School District,10512,111,479,9849,36,1,4,32
+23,Middlesex,4130,Piscataway Township School District,6972,905.5,1814,1579,2412.5,26,25,210
+23,Middlesex,4660,Sayreville School District,6050.5,2384.5,990.5,1207.5,1104,53,23,288
+23,Middlesex,4830,South Amboy School District,1072.5,503.5,120,378,53,0,2,16
+23,Middlesex,4860,South Brunswick School District,8213,1611,612,687,5068,29,8,198
+23,Middlesex,4910,South Plainfield School District,3361.5,1332.5,380,979,557,11,18,84
+23,Middlesex,4920,South River Public School District,2286.5,1077.5,148,936,54,2,2,67
+23,Middlesex,4970,Spotswood Public School District,1582,1102,60,287,84,6,0,43
+23,Middlesex,5850,Woodbridge Township School District,13708,4320,1431,3567.5,4156,1,0,232.5
+25,Monmouth,100,Asbury Park School District,1596.5,49,810,730.5,1,0,0,6
+25,Monmouth,130,Atlantic Highlands School District,255,222,4,12,3,1,0,13
+25,Monmouth,180,Avon Boro School District,133,115,3,12,3,0,0,0
+25,Monmouth,225,Bayshore Jointure Commission School District,52,30,8,9,4,0,0,1
+25,Monmouth,270,Belmar Elementary School District,437,156,16,243,6,1,0,15
+25,Monmouth,500,Bradley Beach School District,261,76,14,160,3,0,2,6
+25,Monmouth,560,Brielle Boro School District,509,480,2,19,4,1,1,2
+25,Monmouth,945,Colts Neck Township School District,950,835,19,65,13,1,1,16
+25,Monmouth,1000,Deal Boro School District,156,112,22,16,5,0,0,1
+25,Monmouth,1260,Eatontown Public School District,929,378,138,256,103,0,0,54
+25,Monmouth,1440,Fair Haven School District,970,921,0,30,4,0,0,15
+25,Monmouth,1490,Farmingdale Public School District,160,118,10,24,1,0,1,6
+25,Monmouth,1640,Freehold Borough School District,1623,159,117,1308,19,1,0,19
+25,Monmouth,1650,Freehold Regional High School District,10260,7365,343,1435,921.5,6,17,172.5
+25,Monmouth,1660,Freehold Township School District,3573,2633,145,449,239,14,15,78
+25,Monmouth,2105,Hazlet Township Public School District,2650.5,2102,47,353,82,0,1,65.5
+25,Monmouth,2120,Henry Hudson Regional School District,302.5,244.5,15.5,35.5,5,0,0,2
+25,Monmouth,2160,Highlands Borough School District,174,130,3,31,3,0,0,7
+25,Monmouth,2230,Holmdel Township School District,2882.5,2034.5,38,159,479,1,11,160
+25,Monmouth,2290,Howell Township Public School District,5407,3788,249,845,270,1,2,252
+25,Monmouth,2400,Keansburg School District,1539,749.5,321,398.5,19,1,8,42
+25,Monmouth,2430,Keyport School District,927.5,498.5,73.5,331.5,13,0,0,11
+25,Monmouth,2720,Little Silver Boro School District,780,709,1,34,22,0,0,14
+25,Monmouth,2770,Long Branch Public School District,5399,1270.5,714,3207,39,7,1,160.5
+25,Monmouth,2920,Manalapan-Englishtown Regional Schools School District,4622,3408,83,511,486,2,1,131
+25,Monmouth,2930,Manasquan School District,1517.5,1279.5,13,204,10,2,2,7
+25,Monmouth,3030,Marlboro Township School District,4523,2851,66,338,1152,9,1,106
+25,Monmouth,3040,Matawan-Aberdeen Regional School District,3575.5,2094,371.5,722,221,6,6,155
+25,Monmouth,3160,Middletown Township Public School District,9091,7605.5,130,842,197.5,6,14,296
+25,Monmouth,3200,Millstone Township School District,1040,849,26,85,62,1,0,17
+25,Monmouth,3250,Monmouth Beach School District,257,242,0,10,2,0,0,3
+25,Monmouth,3255,Monmouth-Ocean Educational Services Commission School Distri,14,7,6,1,0,0,0,0
+25,Monmouth,3260,Monmouth County Vocational School District,2108,1210,93,222,508,6,5,64
+25,Monmouth,3270,Monmouth Regional High School,930.5,472,155,186.5,77.5,2,1,36.5
+25,Monmouth,3500,Neptune City School District,213,46,69,83,2,0,0,13
+25,Monmouth,3510,Neptune Township School District,3664.5,661,1551,1118.5,82,3,6,243
+25,Monmouth,3810,Township Of Ocean School District,3241.5,1996.5,352,578.5,242.5,1,2,69
+25,Monmouth,3830,Oceanport School District,537,459,6,52,2,0,0,18
+25,Monmouth,4360,Red Bank Borough Public School District,1270,89,61,1080,5,0,1,34
+25,Monmouth,4365,Red Bank Regional School District,1269,687.5,65.5,480,22,0,1,13
+25,Monmouth,4520,Roosevelt Borough Public School District,72,54,3,12,0,0,0,3
+25,Monmouth,4570,Rumson Borough School District,935,877,4,27,7,0,0,20
+25,Monmouth,4580,Rumson-Fair Haven Regional High School District,963,872.5,2,41,16,0,0,31.5
+25,Monmouth,4690,Sea Girt Borough School District,150,143,1,1,3,0,0,2
+25,Monmouth,4760,Shore Regional High School District,594,486.5,7,76.5,8,0,1,15
+25,Monmouth,4770,Shrewsbury Borough School District,441,388,4,20,12,0,0,17
+25,Monmouth,4980,Spring Lake Borough,169,163,2,3,1,0,0,0
+25,Monmouth,4990,Spring Lake Heights School District,338,301,4,19,7,0,1,6
+25,Monmouth,5185,Tinton Falls School District,1324,836,122,213,92,0,1,60
+25,Monmouth,5230,Union Beach Public School District,599,457,19,86,17,0,0,20
+25,Monmouth,5310,Upper Freehold Regional School District,2099.5,1772,62,124.5,105,1,1,34
+25,Monmouth,5420,Wall Township Public School District,3286,2773,78,287.5,52,1,2,92.5
+25,Monmouth,5640,West Long Branch School District,562,425,11,106,9,0,1,10
+27,Morris,450,Boonton Town School District,1417,787,94,313,189.5,6,7.5,20
+27,Morris,460,Boonton Township School District,384,327,4,20,25,0,0,8
+27,Morris,630,Butler Public School District,1118,761,26.5,285,28.5,1,5,11
+27,Morris,785,School District Of The Chathams,3901.5,2942.5,16,241,501,1,1,199
+27,Morris,820,Chester Township School District,1044,821,14,133,60,0,3,13
+27,Morris,1090,Denville Township K-8 School District,1612,1163,34,204,133,4,1,73
+27,Morris,1110,Dover Public School District,3133.5,139.5,104,2817,58,2,0,13
+27,Morris,1190,East Hanover Township School District,896,651,13,110,113,0,0,9
+27,Morris,1530,Florham Park School District,958,654,74,80,106,0,0,44
+27,Morris,1990,Hanover Park Regional High School District,1393,1056.5,48.5,110.5,161.5,0,0,16
+27,Morris,2000,Hanover Township School District,1287,855,24,146,170,1,0,91
+27,Morris,2010,Harding Township School District,267,224,4,9,12,0,1,17
+27,Morris,2380,Jefferson Township Public School District,2564,2042,43,292.5,110.5,5,2,69
+27,Morris,2460,Kinnelon School District,1651.5,1320,20,125.5,121,6,4,55
+27,Morris,2650,Lincoln Park School District,874,601,13,189,56,1,6,8
+27,Morris,2870,Madison Public School District,2523,1864,58,330,205,0,2,64
+27,Morris,3090,Mendham Borough School District,482,413,2,33,15,0,0,19
+27,Morris,3100,Mendham Township School District,742,616,20,35,51,1,1,18
+27,Morris,3240,Mine Hill Township School District,339,90,16,194,21,2,0,16
+27,Morris,3340,Montville Township School District,3386,2107,49,274,842,10,21,83
+27,Morris,3364,Educational Services Commission Of Morris County,37,24,1,9,1,2,0,0
+27,Morris,3365,Morris County Vocational School District,1458.5,773,22,170,449.5,3,3.5,37.5
+27,Morris,3370,Morris Hills Regional School District,2604,1508,95,729.5,208.5,1,3,59
+27,Morris,3380,Morris Plains School District,575,400,30,75,66,0,0,4
+27,Morris,3385,Morris School District,5114,2298.5,372.5,2141.5,195.5,1,4,101
+27,Morris,3410,Mount Arlington Public School District,336,182,28,85,30,0,0,11
+27,Morris,3450,Mount Olive Township School District,4613.5,2728,346,791,613.5,10,5,120
+27,Morris,3460,Mountain Lakes Public School District,1405,1030,18.5,114,199,5,0,38.5
+27,Morris,3520,Netcong School District,283,131,23,113,10,0,1,5
+27,Morris,3950,Parsippany-Troy Hills Township School District,7131,2391,213,1013,3285,5,10,214
+27,Morris,4000,Long Hill Township School District,793,582,5,120,61,0,1,24
+27,Morris,4080,Pequannock Township School District,2045,1748.5,15,201.5,50,2,2,26
+27,Morris,4330,Randolph Township School District,4296.5,2785,139,706.5,580,5,22,59
+27,Morris,4440,Riverdale School District,295,186,13,52,28,2,1,13
+27,Morris,4480,Rockaway Borough School District,506,264,22,162,45,0,0,13
+27,Morris,4490,Rockaway Township School District,2271,1385,79,527,186,3,3,88
+27,Morris,4560,Roxbury Township School District,3386.5,2267.5,123.5,718.5,153,3,4,117
+27,Morris,5520,Washington Township School District,1923,1556,35,191,96,1,2,42
+27,Morris,5660,West Morris Regional High School District,2226.5,1808.5,27.5,207.5,104,1,2,76
+27,Morris,5770,Wharton Borough School District,688,136,30,486,29,0,4,3
+29,Ocean,185,Barnegat Township School District,3466,2376,304.5,576,74,3,4,128.5
+29,Ocean,210,Bay Head Borough School District,127,116,2,5,0,0,0,4
+29,Ocean,230,Beach Haven School District,86,68,0,15,0,0,0,3
+29,Ocean,320,Berkeley Township School District,2365,1624,120,468,40,2,2,109
+29,Ocean,530,Brick Township Public School District,8255.5,5785,474.5,1616.5,179.5,8,8,184
+29,Ocean,770,Central Regional School District,2366,1636,145,425,40.5,4,1,114.5
+29,Ocean,1150,Eagleswood Township School District,135,115,0,16,0,0,0,4
+29,Ocean,2350,Island Heights School District,128,112,1,7,0,0,0,8
+29,Ocean,2360,Jackson Township School District,7586.5,5182,450,1541.5,220.5,9,9,174.5
+29,Ocean,2480,Lacey Township School District,3823,3235,42.5,403.5,45,2,4,91
+29,Ocean,2500,Lakehurst School District,376,195,55,103,10,0,1,12
+29,Ocean,2520,Lakewood Township School District,5272.5,323,321,4568.5,20,3,7,30
+29,Ocean,2550,Lavallette Borough School District,156,139,6,8,3,0,0,0
+29,Ocean,2690,Little Egg Harbor Township School District,1611,1307,69,148,12,0,1,74
+29,Ocean,2760,Long Beach Island Consolidated School District,214,180,1,26,6,0,0,1
+29,Ocean,2940,Manchester Township School District,2864,1708,266,624,116.5,9,9,131.5
+29,Ocean,3790,Ocean County Vocational Technical School District,1371.5,986,48,263,45.5,2,0.5,26.5
+29,Ocean,3800,Ocean Gate School District,134,92,9,27,0,0,0,6
+29,Ocean,3820,Ocean Township School District,506,411,8,61,5,0,0,21
+29,Ocean,4105,Pinelands Regional School District,1522,1287,43.5,135,13,0,0,43.5
+29,Ocean,4190,Plumsted Township School District,1090.5,930,24.5,112.5,10,0.5,0,13
+29,Ocean,4210,Point Pleasant Borough School District,2661.5,2349.5,16.5,239,18,0.5,9,29
+29,Ocean,4220,Point Pleasant Beach School District,734.5,613.5,7,91,11,0,2,10
+29,Ocean,4710,Seaside Heights School District,223,66,14,121,1,0,3,18
+29,Ocean,4950,Southern Regional School District,2835.5,2484,51.5,238.5,28.5,3,3,27
+29,Ocean,5020,Stafford Township School District,2141,1770,27,280,25,2,2,35
+29,Ocean,5190,Toms River Regional School District,14363.5,9527.5,720,2999.5,530,7,19.5,560
+29,Ocean,5220,Tuckerton Borough School District,309,256,3,40,4,1,0,5
+31,Passaic,420,Bloomingdale School District,548,355,14,147,8,0,10,14
+31,Passaic,900,Clifton Public School District,10411,3073,420,6074,670,72,8,94
+31,Passaic,1920,Haledon Public School District,1005,165,132,614,78,2,1,13
+31,Passaic,2100,Hawthorne Public School District,2224,1186,79,880,40,0,2,37
+31,Passaic,2510,Lakeland Regional High School District,922.5,672.5,32,162,25,8,2,21
+31,Passaic,2700,Little Falls Township Public School District,889,604,14,201,40,1,6,23
+31,Passaic,3640,North Haledon School District,596,476,15,93,11,0,0,1
+31,Passaic,3970,Passaic City School District,12890,82,518,12041,213,8,14,14
+31,Passaic,3975,Northern Region Educational Services Commission,56,3,5,48,0,0,0,0
+31,Passaic,3980,Passaic County Manchester Regional High School District,802,112,128,532,23,0,3,4
+31,Passaic,3990,Passaic Valley Regional High School District #1,1035,594.5,25,347.5,40,4,4,20
+31,Passaic,3995,Passaic County Vocational School District,4221,859,370,2472,430,5,2,83
+31,Passaic,4010,Paterson Public School District,23356,1236,4831,15813,1469,0,7,0
+31,Passaic,4230,Pompton Lakes School District,1746,1082,49,493,106,4,12,0
+31,Passaic,4270,Prospect Park Public School District,816,72,118,583,34,0,1,8
+31,Passaic,4400,Ringwood School District,1048,865,13,107,14,12,6,31
+31,Passaic,5200,Totowa Public School District,907,502,38,287,79,1,0,0
+31,Passaic,5440,Wanaque School District,864,559,39,212,39,2,1,12
+31,Passaic,5570,Wayne Township Public School District,7551,5304,133,1051,837,12,5,209
+31,Passaic,5650,West Milford Township Public School District,2968,2534,39,297,40,11,1,46
+31,Passaic,5690,Woodland Park School District,1182,601,47,460,49,0,0,25
+33,Salem,60,Alloway Twp School District,297,252,11,15,0,4,0,15
+33,Salem,1350,Elsinboro Township School District,112,65,17,21,0,0,0,9
+33,Salem,2800,The Lower Alloways Creek School District,163,159,1,0,1,0,0,2
+33,Salem,2950,Mannington Township School District,169,133,13,17,1,0,0,5
+33,Salem,3860,Oldmans Township School District,282,228,33,16,3,1,0,1
+33,Salem,4070,Penns Grove-Carneys Point Regional School District,2182,433,809,911,13,4,3,9
+33,Salem,4075,Pennsville School District,1783,1396.5,77,188.5,23,2,1,95
+33,Salem,4150,Pittsgrove Township School District,1660,1273.5,83,187.5,13,2,0,101
+33,Salem,4280,Quinton Township School District,260,153,41,28,3,0,1,34
+33,Salem,4630,Salem City School District,1179,236,754,163,4,5,0,17
+33,Salem,4635,Salem County Special Services School District,218.5,70.5,71,67,1,0,0,9
+33,Salem,4640,Salem County Vocational Technical School District,740,565.5,46.5,75,2,2,0,49
+33,Salem,5320,Upper Pittsgrove Twp School District,305,268,9,22,0,0,0,6
+33,Salem,5910,Woodstown-Pilesgrove Regional School District,1401,1054,137,125,12,0,2,71
+35,Somerset,240,Bedminster Township Public School District,483,296,6,81,74,1,2,23
+35,Somerset,350,Bernards Township School District,4851.5,2665.5,43.5,386.5,1566,2,0,188
+35,Somerset,490,Bound Brook School District,1930.5,220,192.5,1452.5,20,2.5,11,32
+35,Somerset,510,Branchburg Township School District,1317,939,34,110,183,2,1,48
+35,Somerset,555,Bridgewater-Raritan Regional School District,8145,3532,261.5,1489.5,2514,40,43.5,264.5
+35,Somerset,1610,Franklin Township Public School District,6918.5,768,2345.5,2466.5,1092.5,24,21,201
+35,Somerset,1810,Green Brook Township Public School District,700,314,41,133,175,0,2,35
+35,Somerset,2170,Hillsborough Township Public School District,7212,3585.5,375,765,2342.5,18,33,93
+35,Somerset,3000,Manville School District,1506.5,633.5,133,681.5,26.5,1,2,29
+35,Somerset,3320,Montgomery Township School District,4453.5,1539,138.5,276.5,2368,4,14,113.5
+35,Somerset,3670,North Plainfield School District,3321.5,363.5,548,2290,92,7,2,19
+35,Somerset,4805,Somerset County Educational Services Commission School Distr,108,15,54,35,1,0,0,3
+35,Somerset,4810,Somerset County Vocational And Technical School District,524.5,249,40,113.5,111.5,0.5,0.5,9.5
+35,Somerset,4815,Somerset Hills Regional School District,1766,1201,15,410,75,0,0,65
+35,Somerset,4820,Somerville Public School District,2192,1050.5,199.5,650,192,1,4,95
+35,Somerset,4850,South Bound Brook Public School District,428,112,37,240,15,0,1,23
+35,Somerset,5470,Warren Township School District,1516,870,29,180,343,2,4,88
+35,Somerset,5540,Watchung Borough School District,603,328,42,68,131,1,2,31
+35,Somerset,5550,Watchung Hills Regional High School District,1899.5,1162,77,221.5,371.5,3,6,58.5
+37,Sussex,90,Andover Regional School District,436,325,8,67,16,0,0,20
+37,Sussex,640,Byram Township School District,812,695,18,79,5,1,0,14
+37,Sussex,1560,Frankford Township Consolidated School District,479,426,3,18,1,0,0,31
+37,Sussex,1570,Franklin Borough School District,469,332,14,104,9,0,0,10
+37,Sussex,1630,Fredon Township School District,175,145,0,24,3,0,0,3
+37,Sussex,1800,Green Township School District,371,311,13,33,3,0,1,10
+37,Sussex,1930,Hamburg School District,210,153,23,25,8,0,0,1
+37,Sussex,1980,Hampton Township School District,309,278,1,23,3,0,0,4
+37,Sussex,2030,Hardyston Township School District,592,496,23,47,11,2,0,13
+37,Sussex,2165,High Point Regional High School District,836.5,745.5,23,49,14,0,0,5
+37,Sussex,2240,Hopatcong Borough School District,1434,916,66,405,37,3,2,5
+37,Sussex,2465,Kittatinny Regional School District,835.5,752.5,5,52,13,0,3,10
+37,Sussex,2490,Lafayette Township School District,194,163,1,27,0,0,0,3
+37,Sussex,2615,Lenape Valley Regional High School District,661,483.5,26,128.5,19,0,0,4
+37,Sussex,3300,Montague Township School District,247,177,5,47,7,1,0,10
+37,Sussex,3590,Newton Public School District,1538.5,915.5,102,427,50,2,4,38
+37,Sussex,3840,Ogdensburg Borough School District,254,219,6,27,2,0,0,0
+37,Sussex,4650,Sandyston-Walpack Consolidated School District,116,103,2,3,1,0,0,7
+37,Sussex,4960,Sparta Township Public School District,3050,2607,69,235,115,2,6,16
+37,Sussex,5030,Stanhope School District,302,220,5,57,7,0,2,11
+37,Sussex,5040,Stillwater Township School District,271,255,1,11,2,0,0,2
+37,Sussex,5100,Sussex-Wantage Regional School District,1000,915,13,55,3,0,0,14
+37,Sussex,5105,Northern Hills Academy School District,37,33,2,1,0,0,0,1
+37,Sussex,5110,Sussex County Technical School District,728,638.5,28,43.5,14,2,2,0
+37,Sussex,5360,Vernon Township School District,2878,2316,64,365,41,3,3,86
+37,Sussex,5435,Wallkill Valley Regional High School,590,459,27,79,14,0,0,11
+39,Union,310,Berkeley Heights School District,2485.5,1635,36,302,372.5,1,2,137
+39,Union,850,Clark Township Public School District,2240,1833.5,18.5,277.5,86.5,0,7,17
+39,Union,980,Cranford Public School District,3699.5,2957,107.5,373,151,1,1,109
+39,Union,1320,Elizabeth Public Schools,27157,2061,4474,20042,486,13,51,30
+39,Union,1710,Garwood Boro,347,263,4,72,2,0,0,6
+39,Union,2190,Hillside Public School District,2990.5,300.5,1717.5,896.5,39,7,13,17
+39,Union,2420,Kenilworth School District,1422,799.5,75,450,57,1,7,32.5
+39,Union,2660,Linden Public School District,6024.5,1039,1963.5,2726.5,156,14,12,113.5
+39,Union,3395,Morris-Union Jointure Commisson School District,218,71,68,50,25,0,1,3
+39,Union,3470,Mountainside School District,717,494,8,105,53,0,0,57
+39,Union,3560,New Providence School District,2349,1549.5,34,248.5,477,1,4,35
+39,Union,4160,Plainfield Public School District,8438.5,59,1843.5,6459.5,32,7,16,21.5
+39,Union,4290,Rahway Public School District,3876.5,534.5,1346,1718.5,100,13,9,155.5
+39,Union,4540,Roselle Public Schools,2876,61,1454,1299.5,38.5,5,3,15
+39,Union,4550,Roselle Park Public School District,2027,632,191,1046,128,2,5,23
+39,Union,4670,Scotch Plains-Fanwood School District,5320.5,3380.5,369.5,703,576,10,9,272.5
+39,Union,5000,Springfield Public School District,2162.5,1194,279,399,166.5,1,23,100
+39,Union,5090,Summit Public School District,3885,2396.5,163.5,688,409,9,0,219
+39,Union,5245,Union County Educational Services Commission,292,47,107,124,14,0,0,0
+39,Union,5260,Union County Vocational-Technical School District,1925.5,702.5,296.5,495,355,1,6,69.5
+39,Union,5290,Township Of Union School District,7131,1316.5,3025.5,1928.5,632.5,11,32,185
+39,Union,5730,Westfield Public School District,5957,4670.5,123.5,395.5,591.5,0,8,168
+39,Union,5810,Winfield Township,141,87,17,35,1,0,0,1
+41,Warren,30,Allamuchy Township School District,421,274,31,72,13,0,0,31
+41,Warren,70,Alpha Borough School District,184,127,14,33,5,0,0,5
+41,Warren,280,Belvidere School District,629,533,7,63,3,2,0,21
+41,Warren,400,Blairstown Elementary Township School District,403,339,0,40,1,0,3,20
+41,Warren,1620,Franklin Township School District,190,158,2,22,6,0,0,2
+41,Warren,1670,Frelinghuysen Township School District,130,113,4,6,0,0,0,7
+41,Warren,1785,Great Meadows Regional School District,614,493,8,78,15,0,1,19
+41,Warren,1840,Greenwich Township School District,639,434,70,67,49,0,1,18
+41,Warren,1870,Hackettstown Public School District,1960,1200,66,562,69,7,0,56
+41,Warren,2040,Harmony Township School District,210,202,0,5,0,0,0,3
+41,Warren,2250,Hope Township School District,115,97,5,13,0,0,0,0
+41,Warren,2470,Knowlton Township School District,150,129,0,11,2,0,0,8
+41,Warren,2790,Lopatcong Township School District,682,448,89,81,50,3,3,8
+41,Warren,2970,Mansfield Township Elementary School District,531,303,33,158,13,0,0,24
+41,Warren,3675,North Warren Regional School District,706,615,19,51,11,1,1,8
+41,Warren,3890,Oxford Township School District,250,212,7,16,9,0,1,5
+41,Warren,4100,Phillipsburg School District,3788,1931,709,833,94,4,5,212
+41,Warren,4200,Pohatcong Township School District,289,227,19,34,3,0,0,6
+41,Warren,5460,Warren County Vocational Technical School,452,354,17,58,8,0,0,15
+41,Warren,5465,Warren Hills Regional School District,1721,1209,135,291,55,1,0,30
+41,Warren,5480,Washington Borough School District,513,328,46,109,14,0,2,14
+41,Warren,5530,Washington Township School District,381,300,18,40,9,0,0,14
+41,Warren,5780,White Township Consolidated School District,239,206,4,16,2,0,0,11
+80,Charters,6010,Academy Charter High School,156.5,2,78,73.5,0,0,0,3
+80,Charters,6013,Bergen Arts And Science Charter School,1203,413,123,542,116,0,1,8
+80,Charters,6017,Foundation Academy Charter School,1087,4,572,493,4,0,1,13
+80,Charters,6018,Central Jersey College Prep Charter School,1219,137,278,185,577,9,4,29
+80,Charters,6020,Pride Academy Charter School District,300,0,284,10,5,0,0,1
+80,Charters,6021,Community Charter School Of Paterson,884,9,280,580,9,6,0,0
+80,Charters,6022,Burch Charter School Of Excellence,336,0,321,13,1,0,0,1
+80,Charters,6025,Paul Robeson Charter School For The Humanities,424,0,69,351,4,0,0,0
+80,Charters,6026,Riverbank Charter School Of Excellence,153,85,26,14,22,0,0,6
+80,Charters,6028,Vineland Public Charter School,384,67,114,185,6,1,2,9
+80,Charters,6029,Newark Educators Community Charter School,260,0,205,54,0,0,0,1
+80,Charters,6030,The Ethical Community Charter School,390,107,27,97,133,0,0,26
+80,Charters,6032,Academy For Urban Leadership Charter School,486,1,24,458,1,0,2,0
+80,Charters,6033,The Barack Obama Green Charter High School District,240,3,90,145,2,0,0,0
+80,Charters,6036,Hoboken Dual Language Charter School,395,233,6,111,27,2,3,13
+80,Charters,6041,Hatikvah International Academy Charter School,546,284,40,44,161,0,0,17
+80,Charters,6053,Great Oaks Legacy Charter School,1880,3,1644,204,4,10,0,15
+80,Charters,6057,Peoples Preparatory Charter School District,403,0,318,83,1,0,0,1
+80,Charters,6058,Roseville Community Charter School,277,2,140,132,3,0,0,0
+80,Charters,6060,Atlantic Community Charter School,354,4,298,48,3,0,0,1
+80,Charters,6064,Dr Lena Edwards Academic Charter School,391,0,338,47,3,2,1,0
+80,Charters,6069,Millville Public Charter School,232,23,126,78,0,0,0,5
+80,Charters,6076,Benjamin Banneker Preparatory Charter School,358,6,301,42,6,0,1,2
+80,Charters,6079,John P Holland Charter School,548,0,127,417,2,2,0,0
+80,Charters,6080,Passaic Arts And Science Charter School,1701,71,127,1432,60,4,1,6
+80,Charters,6081,Thomas Edison Energysmart Charter School,591,76,117,31,334,6,1,26
+80,Charters,6082,Beloved Community Charter School,1311,251,375,381,257,8,5,34
+80,Charters,6086,Hope Community Charter School,132,1,46,83,0,0,0,2
+80,Charters,6089,Compass Academy Charter School,188,28,28,124,7,0,0,1
+80,Charters,6093,Jersey City Global Charter School,507,17,41,167,280,0,0,2
+80,Charters,6094,Phillip'S Academy  Charter School,540,4,481,44,6,2,2,1
+80,Charters,6096,Paterson Arts And Science Charter School,943,17,229,682,12,3,0,0
+80,Charters,6099,Link Community Charter School,254,0,234,18,0,0,0,2
+80,Charters,6100,Bridgeton Public Charter School,99,4,28,64,1,0,0,2
+80,Charters,6101,College Achieve Central Charter School,1350.5,3,317,1018.5,4,0,0,8
+80,Charters,6102,Cresthaven Academy Charter School,389,0,72,313,1,2,0,1
+80,Charters,6103,Empowerment Academy Charter School,839,94,285,190,240,2,5,23
+80,Charters,6104,Principle Academy Charter School,531,20,268,230,5,8,0,0
+80,Charters,6105,Hudson Arts And Science Charter School,773,145,59,526,24,17,1,1
+80,Charters,6106,Philip'S Academy Charter School Of Paterson,367,2,80,281,1,0,0,3
+80,Charters,6107,Camden'S Promise Charter School,2202,0,329,1859,8,0,1,5
+80,Charters,6109,Lead Charter School,216,0,159,56,1,0,0,0
+80,Charters,6110,Achieve Community Charter School,183,3,161,19,0,0,0,0
+80,Charters,6183,Trenton Stem-To-Civics Charter School,590,4,364,214,1,1,0,6
+80,Charters,6230,Classical Academy Charter School Of Clifton,182,37,11,98,36,0,0,0
+80,Charters,6232,Environment Community Opportunity (Eco) Charter School,209,0,141,68,0,0,0,0
+80,Charters,6240,Freedom Prep Charter School,822,8,305,498,0,0,2,9
+80,Charters,6320,Discovery Charter School,106,1,100,4,1,0,0,0
+80,Charters,6410,East Orange Community Charter School,472,2,440,29,0,1,0,0
+80,Charters,6420,Elysian Charter School,287,196,11,40,26,0,0,14
+80,Charters,6430,Englewood On The Palisades Charter School,311,7,105,163,22,1,1,12
+80,Charters,6635,Greater Brunswick Charter School,392,10,35,336,9,0,0,2
+80,Charters,6665,Gray Charter School,364,8,120,228,7,0,0,1
+80,Charters,6720,Hoboken Charter School,298,149,26,84,19,2,0,18
+80,Charters,6740,Hope Academy Charter School,256,1,82,167,1,0,0,5
+80,Charters,6810,International Charter School Of Trenton,89,0,9,80,0,0,0,0
+80,Charters,6910,Jersey City Community Charter School,593,19,368,190,16,0,0,0
+80,Charters,6915,Jersey City Golden Door Charter School,612,53,123,123,298,7,6,2
+80,Charters,7109,Leap Academy University Charter School,1557,2,634,903,17,0,0,1
+80,Charters,7115,The Learning Community Charter School,616,158,83,131,184,0,5,55
+80,Charters,7210,Marion P. Thomas Charter School,1481,2,1338,134,0,0,2,5
+80,Charters,7290,New Horizons Community Charter School,450,0,394,54,0,2,0,0
+80,Charters,7320,North Star Academy Charter School,6298,92,5214,940,15,11,2,24
+80,Charters,7325,Team Academy Charter School,5263,4,4419,606,3,0,2,229
+80,Charters,7410,Chartertech High School For The Performing Arts,381,108,148,109,5,0,1,10
+80,Charters,7500,Pace Charter School Of Hamilton,419,27,94,287,10,0,0,1
+80,Charters,7503,Paterson Charter School For Science And Technology,1529,63,456,1004,5,1,0,0
+80,Charters,7540,Princeton Charter School,426,148,18,22,189,0,2,47
+80,Charters,7600,The Queen City Academy Charter School District,342,0,121,220,0,1,0,0
+80,Charters,7720,Red Bank Charter School,198,79,13,104,1,0,0,1
+80,Charters,7727,Ridge And Valley Charter School,123,103,3,9,0,0,0,8
+80,Charters,7730,Robert Treat Academy Charter School,688,21,236,409,8,5,0,9
+80,Charters,7735,Maria L. Varisco-Rogers Charter School,574,0,31,539,4,0,0,0
+80,Charters,7830,Soaring Heights Charter School,272,31,66,44,129,1,0,1
+80,Charters,7850,Sussex County Technology Charter School,224,186,6,22,2,0,0,8
+80,Charters,7890,Teaneck Community Charter School,342,58,111,121,28,0,3,21
+80,Charters,7891,College Achieve Greater Asbury Park Charter School,362,12,241,97,0,0,0,12
+80,Charters,7892,College Achieve Paterson Charter School,1012,2,299,704,0,5,0,2
+80,Charters,7893,Ocean Academy Charter School,335,8,17,310,0,0,0,0
+80,Charters,7895,Achievers Early College Prep Charter School,264,8,82,172,0,1,0,1
+80,Charters,7896,Middlesex County Stem Charter School,268,23,53,173,9,2,0,8
+80,Charters,7897,Creativity Colaboratory Charter School,145,81,7,53,0,0,0,4
+80,Charters,8010,Union County Teams Charter School-High School/College La,400,1,242,153,4,0,0,0
+80,Charters,8050,Unity Charter School,245,123,40,28,37,0,0,17
+80,Charters,8060,University Academy Charter High School,439,18,240,142,39,0,0,0
+80,Charters,8065,University Heights Charter School,858,0,724,133,1,0,0,0
+80,Charters,8140,The Village Charter School,363,4,345,14,0,0,0,0
+end of worksheet,,,,,,,,,,,

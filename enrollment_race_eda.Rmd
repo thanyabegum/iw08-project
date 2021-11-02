@@ -1,0 +1,265 @@
+---
+title: "How did COVID-19 affect US K-12 Enrollment Rates?"
+author: "Thanya Begum"
+date: "9/21/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(magrittr)
+library(piggyback)
+```
+
+
+## Read In Data Files
+
+```{r}
+enr_2021_raw <- read_csv("data/enrollment/nj_enrollment_2021.csv")
+enr_1920_raw <- read_csv("data/enrollment/nj_enrollment_1920.csv")
+enr_1819_raw <- read_csv("data/enrollment/nj_enrollment_1819.csv")
+enr_1718_raw <- read_csv("data/enrollment/nj_enrollment_1718.csv")
+enr_1617_raw <- read_csv("data/enrollment/nj_enrollment_1617.csv")
+enr_1516_raw <- read_csv("data/enrollment/nj_enrollment_1516.csv")
+enr_1415_raw <- read_csv("data/enrollment/nj_enrollment_1415.csv")
+enr_1314_raw <- read_csv("data/enrollment/nj_enrollment_1314.csv")
+enr_1213_raw <- read_csv("data/enrollment/nj_enrollment_1213.csv")
+enr_1112_raw <- read_csv("data/enrollment/nj_enrollment_1112.csv")
+enr_1011_raw <- read_csv("data/enrollment/nj_enrollment_1011.csv")
+```
+
+## Pre-processing
+
+Some of the datasets have different column names/types. Let's create a function to make them the same, and then apply it to each of the raw datasets we have.
+
+```{r}
+# Cleans the raw data so that it has the appropriate column names/types
+clean <- function(raw_data) {
+    # Select rows with district totals
+    if (c("School_ID", "PRGCODE") %in% names(raw_data)) {
+            data <- raw_data %>% filter(
+            School_ID == 999 & 
+            PRGCODE == 55
+        )
+    }
+    
+    data <- data %>% filter(!(School_Name %in% c("County Total", "State Total")))
+    
+    if ("WH_F" %in% names(data)) {
+        # Sum male and female columns of each ethnicity
+        data <- data %>% mutate(
+            "County Name" = str_to_title(County_Name),
+            "District Name" = str_to_title(District_Name),
+            "White" = WH_F + WH_M,
+            "Black" = BL_F + BL_M,
+            "Hispanic" = HI_F + HI_M,
+            "Asian" = AS_F + AS_M,
+            "Native American" = AM_F + AM_M,
+            "Hawaiian Native" = PI_F + PI_M,
+            "Two or More Races" = MU_F + MU_M,
+            "Total Enrollment" = White + Black + Hispanic + Asian + `Native American` + `Hawaiian Native` + `Two or More Races`
+        )
+        
+        # Remove unnecessary or duplicate columns
+        data <- data %>% select(
+            -County_Name, -District_Name, -School_ID, -School_Name, -PRGCODE,
+            -Row_Total, -WH_F, -WH_M, -BL_F, -BL_M, -HI_F, -HI_M, -AS_F, -AS_M,
+            -AM_F, -AM_M, -PI_F, -PI_M, -MU_F, -MU_M
+        )
+    }
+    
+    # Remove Grade_Level column
+    if ("Grade_Level" %in% names(data)) {
+        data <- data %>% select(-Grade_Level)
+    }
+    
+    # Rename columns to match 2020-21 and 2019-20 dataframes
+    if ("Dist_ID" %in% names(data)) {
+        data <- data %>% rename(
+            "County Code" = County_ID,
+            "District Code" = Dist_ID,
+            "Free Lunch" = Free_Lunch,
+            "Reduced Lunch" = Reduced_Price_Lunch,
+            "English Learners" = English_Learners
+        )
+    }
+    
+    # Relocate non-ethnicity columns to end of the dataframe
+    data <- data %>% relocate(
+        `Free Lunch`, `Reduced Lunch`, `English Learners`, Migrant, .after = last_col()
+    )
+    
+    # Relocate Total Enrollment column before races' columns for consistency
+    data <- data %>% relocate(`Total Enrollment`, .before = White)
+    
+    # Remove unknown District Codes
+    data <- data %>% filter(`District Code` != 9999)
+    
+    # Drop NA rows
+    data <- data %>% drop_na()
+    
+    return(data)
+}
+
+```
+
+```{r}
+# Uses clean() on the raw datasets
+enr_2021 <- drop_na(enr_2021_raw)
+
+enr_1920 <- drop_na(enr_1920_raw)
+enr_1920$`%Free Lunch` <- as.double(enr_1920$`%Free Lunch`)
+
+enr_1819 <- clean(enr_1819_raw)
+enr_1718 <- clean(enr_1718_raw)
+enr_1617 <- clean(enr_1617_raw)
+enr_1516 <- clean(enr_1516_raw)
+enr_1415 <- clean(enr_1415_raw)
+enr_1314 <- clean(enr_1314_raw)
+enr_1213 <- clean(enr_1213_raw)
+enr_1112 <- clean(enr_1112_raw)
+enr_1011 <- clean(enr_1011_raw)
+```
+
+
+## Join The Enrollment Data
+
+We will now join the enrollment dataframes to see the change in enrollment over the past decade.
+
+```{r}
+races <- c("White", "Black", "Hispanic", "Asian", "Native American", "Hawaiian Native", "Two or More Races")
+
+# Combines the different race columns into one column called Race, and adds a
+# column containing the year of the dataset
+add_race_and_year <- function(dataframe, year) {
+    dataframe_longer <- dataframe %>% pivot_longer(cols = races, names_to = "Race", names_transform = list(Race = as.factor), values_to = "Enrollment")
+    dataframe_longer <- dataframe_longer %>% mutate("Year" = as.factor(year))
+    return(dataframe_longer)
+}
+```
+
+```{r}
+# Uses add_race_and_year() on the datasets
+enr_1011_longer <- add_race_and_year(enr_1011, "2010-11")
+enr_1112_longer <- add_race_and_year(enr_1112, "2011-12")
+enr_1213_longer <- add_race_and_year(enr_1213, "2012-13")
+enr_1314_longer <- add_race_and_year(enr_1314, "2013-14")
+enr_1415_longer <- add_race_and_year(enr_1415, "2014-15")
+enr_1516_longer <- add_race_and_year(enr_1516, "2015-16")
+enr_1617_longer <- add_race_and_year(enr_1617, "2016-17")
+enr_1718_longer <- add_race_and_year(enr_1718, "2017-18")
+enr_1819_longer <- add_race_and_year(enr_1819, "2018-19")
+enr_1920_longer <- add_race_and_year(enr_1920, "2019-20")
+enr_2021_longer <- add_race_and_year(enr_2021, "2020-21")
+```
+
+```{r}
+# Combine the decade worth of dataframes into a single dataframe
+enr <- bind_rows(list(enr_1011_longer, enr_1112_longer, enr_1213_longer,
+               enr_1314_longer, enr_1516_longer, enr_1617_longer,
+               enr_1718_longer, enr_1819_longer, enr_1920_longer,
+               enr_2021_longer))
+```
+
+
+```{r, eval = FALSE}
+# Join the two tables
+enrollment <- inner_join(enr_1920, enr_2021, by=c('District Code'='District Code'))
+
+# Select only the columns that matter
+enrollment <- enrollment %>% select(`County Code.x`, `County Name.x`, `District Code`, `District Name.x`, `Total Enrollment.x`, `Total Enrollment.y`, White.x, Black.x, Hispanic.x, Asian.x, `Native American.x`, `Hawaiian Native.x`)
+
+# Rename those columns
+names(enrollment) <- c("County Code", "County Name", "District Code", "District Name", "2019", "2020", "White", "Black", "Hispanic", "Asian", "Native American", "Hawaiian Native")
+
+# Remove NA rows
+enrollment <- enrollment %>% slice(c(1:670))
+```
+
+## How many school districts had a drop in enrollment from the 2019-20 to 2020-21 school years?
+
+```{r}
+enr_covid <- full_join(enr_1920, enr_2021, by = c(
+    "District Code" = "District Code"
+))
+enr_covid <- enr_covid %>% mutate("Enrollment Change" = `Total Enrollment.y` - `Total Enrollment.x`)
+
+enr_covid_change <- enr_covid_change %>% select(c(`County Code.y`, `County Name.y`, `District Code`, `District Name.y`, `Enrollment Change`))
+names(enr_covid_change) <- c("County Code", "County Name", "District Code", "District Name", "Enrollment Change")
+write.csv(enr_covid_change, file="output/enrollment_change.csv", row.names=FALSE)
+```
+
+
+```{r, eval = FALSE}
+diff <- enrollment %>% pull(`2020`) - enrollment %>% pull(`2019`)
+percent_dropped <- length(diff[diff < 0]) / nrow(enrollment) * 100 # 75% of school districts had a drop
+```
+
+## Data Visualizations
+
+```{r}
+plot_enr_by_race_for_district <- function(data, district_code) {
+    data$Race <- ordered(data$Race, levels = c("Black", "White", "Asian", "Hispanic", "Two or More Races", "Native American", "Hawaiian Native"))
+    
+    data %>% 
+        filter(`District Code` == district_code) %>% 
+        ggplot(aes(x = Year, y = Enrollment, group = Race, color = Race)) +
+        geom_line() +
+        geom_point() +
+        ylim(0, 1500) +
+        labs(title = str_interp("District ${district_code} Enrollment From 2010 to 2021 by Race")) +
+        scale_color_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
+}
+
+plot_enr_by_race_for_district(enr, "2520")
+
+```
+
+```{r}
+plot_enr_by_race_for_county <- function(data, county_code) {
+    data %>% 
+        filter(`Code Code` == county_code) %>% 
+        ggplot(aes(x = Year, y = Enrollment, group = Race, color = Race)) +
+        geom_line() +
+        geom_point() +
+        labs(title = str_interp("County ${district_code} Enrollment From 2010 to 2021 by Race"))
+}
+
+plot_enr_by_race_for_county(enr, "01")
+
+```
+
+
+```{r}
+enr_totals_by_year <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year) %>% summarize("Total Enrollment" = sum(Enrollment))
+enr_totals_by_race <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year, Race) %>% summarize("Total Enrollment" = sum(Enrollment))
+enr_totals_by_county <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year, Race, `County Code`) %>% summarize("Total Enrollment" = sum(Enrollment))
+enr_totals_by_city <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year, Race, `County Code`) %>% summarize("Total Enrollment" = sum(Enrollment))
+
+enr_totals_by_year %>% ggplot(aes(x = Year, y = `Total Enrollment`, group = 1)) +
+    geom_line() +
+    geom_point() +
+    ylim(1200000, 1500000) +
+    labs(title = "NJ Total Enrollment From 2010 to 2021")
+
+# Reorder legend labels by reording factor levels
+enr_totals_by_race$Race <- ordered(enr_totals_by_race$Race, 
+                                   levels = c("White", "Hispanic", "Black",
+                                              "Asian", "Two or More Races",
+                                              "Native American", "Hawaiian Native"))
+enr_totals_by_race %>% 
+    ggplot(aes(x = Year, y = `Total Enrollment`, group = Race, color = Race)) +
+    geom_line() +
+    geom_point() +
+    labs(title = "NJ Total Enrollment From 2010 to 2021 by Race") +
+    scale_color_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
+
+enr_totals_by_county %>% filter(`County Code` == "23") %>% 
+    ggplot(aes(x = Year, y = `Total Enrollment`, group = Race, color = Race)) +
+    geom_line() +
+    geom_point() +
+    labs(title = "Middlesex County Total Enrollment From 2010 to 2021 by Race")
+
+```
+

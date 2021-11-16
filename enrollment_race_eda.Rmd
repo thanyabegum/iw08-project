@@ -10,6 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(magrittr)
 library(piggyback)
+library(GGally)
 ```
 
 
@@ -28,6 +29,7 @@ enr_1213_raw <- read_csv("data/enrollment/nj_enrollment_1213.csv")
 enr_1112_raw <- read_csv("data/enrollment/nj_enrollment_1112.csv")
 enr_1011_raw <- read_csv("data/enrollment/nj_enrollment_1011.csv")
 ```
+
 
 ## Pre-processing
 
@@ -108,7 +110,6 @@ clean <- function(raw_data) {
 
     return(data)
 }
-
 ```
 
 ```{r}
@@ -166,80 +167,163 @@ enr <- bind_rows(list(enr_1011_longer, enr_1112_longer, enr_1213_longer,
                enr_2021_longer))
 ```
 
-## Change Over Time
+
+## Calculate Change Between 2019 and 2020 School Years
 
 ```{r}
 # Calculates the percent change between two numbers
 percent_change <- function(initial, final) {
     percent <- ((final - initial) / initial) * 100
+    percent[is.nan(percent)] <- NA
+    percent[is.infinite(percent)] <- NA
     return (round(percent, 1))
 }
 ```
-
 
 ```{r}
 # Join the two tables
 enr_1921 <- inner_join(enr_1920, enr_2021, by=c('District Code'='District Code'))
 
 # Add new columns for the change in enrollment for different races, etc.
-enr_1921 <- enr_1921 %>% mutate(
-    "Total Enrollment Change" = percent_change(`Total Enrollment.x`, `Total Enrollment.y`),
-    "White Change" = percent_change(White.x, White.y),
-    "Black Change" = percent_change(Black.x, Black.y),
-    "Hispanic Change" = percent_change(Hispanic.x, Hispanic.y),
-    "Asian Change" = percent_change(Asian.x, Asian.y),
-    "Native American Change" = percent_change(`Native American.x`, `Native American.y`),
-    "Hawaiian Native Change" = percent_change(`Hawaiian Native.x`, `Hawaiian Native.y`),
-    "Two Or More Races Change" = percent_change(`Two or More Races.x`, `Two or More Races.y`),
-    "%Free Lunch Change" = `%Free Lunch.y` - `%Free Lunch.x`,
-    "%Reduced Lunch Change" = `%Reduced Lunch.y` - `%Reduced Lunch.x`
+enr_1921_change <- enr_1921 %>% mutate(
+    "Total Enrollment" = percent_change(`Total Enrollment.x`, `Total Enrollment.y`),
+    "White" = percent_change(White.x, White.y),
+    "Black" = percent_change(Black.x, Black.y),
+    "Hispanic" = percent_change(Hispanic.x, Hispanic.y),
+    "Asian" = percent_change(Asian.x, Asian.y),
+    "Native American" = percent_change(`Native American.x`, `Native American.y`),
+    "Hawaiian Native" = percent_change(`Hawaiian Native.x`, `Hawaiian Native.y`),
+    "Two Or More Races" = percent_change(`Two or More Races.x`, `Two or More Races.y`),
+    "%Free Lunch" = `%Free Lunch.y` - `%Free Lunch.x`,
+    "%Reduced Lunch" = `%Reduced Lunch.y` - `%Reduced Lunch.x`,
+    "Pre-K FullDay" = percent_change(`Pre-K Halfday.x`, `Pre-K Halfday.y`),
+    "Pre-K Halfday" = percent_change(`Pre-K FullDay.x`, `Pre-K FullDay.y`),
+    "Kindergarten Halfday" = percent_change(`Kindergarten Halfday.x`, `Kindergarten Halfday.y`),
+    "Kindergarten Fullday" = percent_change(`Kindergarten Fullday.x`, `Kindergarten Fullday.y`),
+    "First Grade" = percent_change(`First Grade.x`, `First Grade.y`),
+    "Second Grade" = percent_change(`Second Grade.x`, `Second Grade.y`),
+    "Third Grade" = percent_change(`Third Grade.x`, `Third Grade.y`),
+    "Fourth Grade" = percent_change(`Fourth Grade.x`, `Fourth Grade.y`),
+    "Fifth Grade" = percent_change(`Fifth Grade.x`, `Fifth Grade.y`),
+    "Sixth Grade" = percent_change(`Sixth Grade.x`, `Sixth Grade.y`),
+    "Seventh Grade" = percent_change(`Seventh Grade.x`, `Seventh Grade.y`),
+    "Eighth Grade" = percent_change(`Eighth Grade.x`, `Eighth Grade.y`),
+    "Ninth Grade" = percent_change(`Ninth Grade.x`, `Ninth Grade.y`),
+    "Tenth Grade" = percent_change(`Tenth Grade.x`, `Tenth Grade.y`),
+    "Eleventh Grade" = percent_change(`Eleventh Grade.x`, `Eleventh Grade.y`),
+    "Twelfth Grade" = percent_change(`Twelfth Grade.x`, `Twelfth Grade.y`),
 )
 
 # Select only the columns that matter
-enr_1921 <- enr_1921 %>% select(
+enr_1921_change <- enr_1921_change %>% select(
     `County Code.x`, `County Name.x`, `District Code`, `District Name.x`,
-    `Total Enrollment Change`, `White Change`, `Black Change`,
-    `Hispanic Change`, `Asian Change`, `Native American Change`,
-    `Hawaiian Native Change`, `Two Or More Races Change`, `%Free Lunch Change`,
-    `%Reduced Lunch Change`
+    `Total Enrollment`, `White`, `Black`,
+    `Hispanic`, `Asian`, `Native American`,
+    `Hawaiian Native`, `Two Or More Races`, `%Free Lunch`,
+    `%Reduced Lunch`, `Pre-K Halfday`, `Pre-K FullDay`, `Kindergarten Halfday`,
+    `Kindergarten Fullday`, `First Grade`, `Second Grade`,
+    `Third Grade`, `Fourth Grade`, `Fifth Grade`,
+    `Sixth Grade`, `Seventh Grade`, `Eighth Grade`,
+    `Ninth Grade`, `Tenth Grade`, `Eleventh Grade`,
+    `Twelfth Grade`
 )
 
 # Rename those columns
-names(enr_1921)[1:4] <- c("County Code", "County Name", "District Code", "District Name")
-
-#
-enr_1921_longer <- enr_1921 %>% pivot_longer(
-    cols = c("Total Enrollment Change", "White Change", "Black Change", "Hispanic Change",
-             "Asian Change", "Native American Change", "Hawaiian Native Change",
-             "Two Or More Races Change", "%Free Lunch Change", "%Reduced Lunch Change"),
-    names_to = "Type",
-    names_transform = list(Type = as.factor),
-    values_to = "Enrollment Change"
-)
+names(enr_1921_change)[1:4] <- c("County Code", "County Name", "District Code", "District Name")
 
 # Export as csv
-write.csv(enr_1921, file="output/enrollment_1921_change.csv", row.names=FALSE)
-write.csv(enr_1921_longer, file="output/enrollment_1921_change_longer.csv", row.names=FALSE)
+write.csv(enr_1921_change, file="output/enrollment_1921_change.csv", row.names=FALSE)
 ```
 
 ```{r}
-enr_covid <- full_join(enr_1920, enr_2021, by = c(
-    "District Code" = "District Code"
-))
-enr_covid <- enr_covid %>% mutate("Enrollment Change" = `Total Enrollment.y` - `Total Enrollment.x`)
-
-enr_covid_change <- enr_covid_change %>% select(c(`County Code.y`, `County Name.y`, `District Code`, `District Name.y`, `Enrollment Change`))
-names(enr_covid_change) <- c("County Code", "County Name", "District Code", "District Name", "Enrollment Change")
-write.csv(enr_covid_change, file="output/enrollment_change.csv", row.names=FALSE)
+# Plot correlation coefficients and scatter plots
+ggpairs(enr_1921_change %>% select(-`County Code`, -`County Name`, -`District Code`, -`District Name`))
 ```
 
-
-```{r, eval = FALSE}
-diff <- enrollment %>% pull(`2020`) - enrollment %>% pull(`2019`)
-percent_dropped <- length(diff[diff < 0]) / nrow(enrollment) * 100 # 75% of school districts had a drop
-```
 
 ## Data Visualizations
+
+# How has enrollment changed between public schools and charters?
+
+```{r}
+# Total enrollment for the 2019-2020 school year
+find_total <- function(data) {
+    data <- data %>% 
+        bind_rows(summarise(., across(where(is.numeric), sum), across(where(is.character), ~"Total"))) %>% 
+        tail(1) %>% 
+        select(
+            -`County Code`, -`County Name`, -`District Code`, -`District Name`,
+            -`%White`, -`%Black`, -`%Hispanic`, -`%Asian`, -`%Native American`,
+            -`%Hawaiian Native`, -`%Two or More Races`
+        )
+    return (data)
+}
+
+enr_1920_total_public <- find_total(enr_1920 %>% filter(`County Code` != 80))
+enr_1920_total_charter <- find_total(enr_1920 %>% filter(`County Code` == 80))
+enr_2021_total_public <- find_total(enr_2021 %>% filter(`County Code` != 80))
+enr_2021_total_charter <- find_total(enr_2021 %>% filter(`County Code` == 80))
+
+# Difference in enrollment between public and charter schools from 2019 to 2020 school years
+enr_1921_change_public <- ((enr_2021_total_public - enr_1920_total_public) / enr_1920_total_public) * 100
+enr_1921_change_charter <- ((enr_2021_total_charter - enr_1920_total_charter) / enr_1920_total_charter) * 100
+
+# Pivot longer
+enr_1921_change_charter_longer <- enr_1921_change_charter %>% 
+    select(ends_with("Grade") | contains("Pre-K") | contains ("Kindergarten")) %>% 
+    pivot_longer(cols = everything(), names_to = "Grade", names_transform = list(Grade = as.factor), values_to = "% Enrollment Change")
+enr_1921_change_public_longer <- enr_1921_change_public %>% 
+    select(ends_with("Grade") | contains("Pre-K") | contains ("Kindergarten")) %>% 
+    pivot_longer(cols = everything(), names_to = "Grade", names_transform = list(Grade = as.factor), values_to = "% Enrollment Change")
+
+# Reorder levels
+enr_1921_change_charter_longer$Grade <- ordered(enr_1921_change_charter_longer$Grade, levels = c("Pre-K Halfday", "Pre-K FullDay", "Kindergarten Halfday", "Kindergarten Fullday", "First Grade", "Second Grade", "Third Grade", "Fourth Grade", "Fifth Grade", "Sixth Grade", "Seventh Grade", "Eighth Grade", "Ninth Grade", "Tenth Grade", "Eleventh Grade", "Twelfth Grade"))
+
+enr_1921_change_public_longer$Grade <- ordered(enr_1921_change_public_longer$Grade, levels = c("Pre-K Halfday", "Pre-K FullDay", "Kindergarten Halfday", "Kindergarten Fullday", "First Grade", "Second Grade", "Third Grade", "Fourth Grade", "Fifth Grade", "Sixth Grade", "Seventh Grade", "Eighth Grade", "Ninth Grade", "Tenth Grade", "Eleventh Grade", "Twelfth Grade"))
+    
+# Plot
+enr_1921_change_charter_longer %>% 
+    ggplot(aes(x = Grade, y = `% Enrollment Change`, fill = (`% Enrollment Change` > 0))) +
+    geom_col(position = "identity") +
+    theme(legend.position = "none") +
+    labs(title = "Charter Schools Change in Enrollment by Grade")
+
+enr_1921_change_public_longer %>%
+    ggplot(aes(x = Grade, y = `% Enrollment Change`, fill = (`% Enrollment Change` > 0))) +
+    geom_col(position = "identity") +
+    theme(legend.position = "none") +
+    labs(title = "Public Schools Change in Enrollment by Grade")
+
+# Combine plots
+enr_1921_change_both_longer <- bind_rows(
+    enr_1921_change_charter_longer %>% mutate("Type" = as.factor("Charter")),
+    enr_1921_change_public_longer %>% mutate("Type" = as.factor("Public"))
+)
+
+enr_1921_change_both_longer %>%
+    ggplot(aes(x = Grade, y = `% Enrollment Change`, fill = Type)) +
+    geom_bar(position = "dodge", stat = "identity") +
+    labs(title = "NJ Schools Change in Enrollment by Grade and School Type") +
+    scale_fill_brewer(palette="Paired")
+```
+
+
+```{r}
+enr_1921_longer <- enr_1921_change %>% pivot_longer(
+    cols = c("Pre-K FullDay", "Kindergarten Halfday",
+           "Kindergarten Fullday", "First Grade", "Second Grade",
+           "Third Grade", "Fourth Grade", "Fifth Grade",
+           "Sixth Grade", "Seventh Grade", "Eighth Grade",
+           "Ninth Grade", "Tenth Grade", "Eleventh Grade",
+           "Twelfth Grade"),
+    names_to = "Grade",
+    names_transform = list(Grade = as.factor),
+    values_to = "Enrollment Change"
+)
+
+enr_1921_longer %>% ggplot(aes(x = Grade, y = `Enrollment Change`, fill = Grade)) +
+    geom_col(position = "identity")
+```
 
 ```{r}
 plot_enr_by_race_for_district <- function(data, district_code) {
@@ -273,7 +357,6 @@ plot_enr_by_race_for_county(enr, "01")
 
 ```
 
-
 ```{r}
 enr_totals_by_year <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year) %>% summarize("Total Enrollment" = sum(Enrollment))
 enr_totals_by_race <- enr %>% filter(Race != "Total Enrollment") %>% group_by(Year, Race) %>% summarize("Total Enrollment" = sum(Enrollment))
@@ -306,3 +389,31 @@ enr_totals_by_county %>% filter(`County Code` == "23") %>%
 
 ```
 
+
+## Miscellaneous
+
+```{r}
+#
+enr_1921_longer <- enr_1921 %>% pivot_longer(
+    cols = c("Total Enrollment Change", "White Change", "Black Change", "Hispanic Change",
+             "Asian Change", "Native American Change", "Hawaiian Native Change",
+             "Two Or More Races Change", "%Free Lunch Change", "%Reduced Lunch Change"),
+    names_to = "Type",
+    names_transform = list(Type = as.factor),
+    values_to = "Enrollment Change"
+)
+
+#
+write.csv(enr_1921_longer, file="output/enrollment_1921_change_longer.csv", row.names=FALSE)
+```
+
+```{r, eval = FALSE}
+enr_covid <- full_join(enr_1920, enr_2021, by = c(
+    "District Code" = "District Code"
+))
+enr_covid <- enr_covid %>% mutate("Enrollment Change" = `Total Enrollment.y` - `Total Enrollment.x`)
+
+enr_covid_change <- enr_covid_change %>% select(c(`County Code.y`, `County Name.y`, `District Code`, `District Name.y`, `Enrollment Change`))
+names(enr_covid_change) <- c("County Code", "County Name", "District Code", "District Name", "Enrollment Change")
+write.csv(enr_covid_change, file="output/enrollment_change.csv", row.names=FALSE)
+```

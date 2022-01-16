@@ -1,0 +1,330 @@
+---
+title: "Contextualizing The Impact of COVID-19 on U.S. K-12 Enrollment"
+author: "Thanya Begum"
+date: "1/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(magrittr)
+library(piggyback)
+library(GGally)
+```
+
+
+## How did enrollment change nationally?
+
+```{r import}
+enr_2021 <- read_csv("data/us_state_enrollment_2021.csv")
+enr_1920 <- read_csv("data/us_state_enrollment_1920.csv")
+enr_1819 <- read_csv("data/us_state_enrollment_1819.csv")
+```
+
+```{r fix-and-bind}
+enr_1920$STUDENT_COUNT[enr_1920$STATENAME == "ILLINOIS"] <- 0
+
+state_enr <- bind_rows(enr_1920, enr_2021)
+state_enr_lg <- bind_rows(enr_1819, enr_1920, enr_2021)
+```
+
+### By State
+
+```{r state-enr-change}
+state_enr_tot <- state_enr %>% 
+    filter(TOTAL_INDICATOR == "Derived - Education Unit Total minus Adult Education Count"
+           & FIPST <= 56) %>%
+    select(SCHOOL_YEAR, FIPST, STATENAME, STUDENT_COUNT)
+
+state_enr_tot <- state_enr_tot %>% 
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT)
+
+state_enr_tot <- state_enr_tot %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r export}
+write.csv(state_enr_tot, file = "output/state_enr_change.csv", row.names = FALSE)
+```
+
+### Nationwide
+```{r us-enr-change}
+state_enr_tot %>% 
+    summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+### By Grade
+```{r us-grade-enr-change}
+grade_enr_tot <- state_enr %>%
+    filter(TOTAL_INDICATOR == "Subtotal 4 - By Grade" & FIPST <= 56
+           & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded", "Grade 13")) %>% 
+    select(SCHOOL_YEAR, FIPST, STATENAME, GRADE, STUDENT_COUNT)
+
+grade_enr_tot <- grade_enr_tot %>%
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT)
+
+grade_enr_tot <- grade_enr_tot %>% 
+    group_by(GRADE) %>% 
+    summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r order-grades}
+grade_enr_tot$GRADE <- c("1st", "10th", "11th", "12th", "2nd", "3rd", "4th",
+                         "5th", "6th", "7th", "8th", "9th", "K", "Pre-K")
+
+grade_enr_tot$GRADE <- ordered(grade_enr_tot$GRADE,
+                               levels = c("Pre-K", "K","1st", "2nd", "3rd",
+                                          "4th", "5th", "6th", "7th", "8th",
+                                          "9th", "10th", "11th", "12th"))
+```
+
+```{r bargraph}
+grade_enr_tot %>% 
+    ggplot(aes(x = GRADE, y = PERCENT_CHANGE, fill = (PERCENT_CHANGE > 0))) +
+    geom_col(position = "identity") +
+    theme(legend.position = "none") +
+    labs(title = "U.S. Enrollment Change by Grade",
+         y = "% Enrollment Change",
+         x = "Grade")
+```
+
+## How did enrollment change by grade?
+
+```{r state-grade-enr-func}
+plot_grade_tot <- function(state_enr, state) {
+    state_grade_enr <- state_enr %>%
+        filter(TOTAL_INDICATOR == "Subtotal 4 - By Grade" & FIPST <= 56
+               & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded", "Grade 13")
+               & STATENAME == toupper(state)) %>% 
+        select(SCHOOL_YEAR, FIPST, STATENAME, GRADE, STUDENT_COUNT) %>% 
+        pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT) %>% 
+        group_by(GRADE) %>% 
+        summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+                  "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+        mutate("CHANGE" = `2020-2021` - `2019-2020`,
+               "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+    
+    state_grade_enr$GRADE <- c("1st", "10th", "11th", "12th", "2nd", "3rd", "4th",
+                               "5th", "6th", "7th", "8th", "9th", "K", "Pre-K")
+
+    state_grade_enr$GRADE <- ordered(state_grade_enr$GRADE,
+                                     levels = c("Pre-K", "K","1st", "2nd", "3rd",
+                                                "4th", "5th", "6th", "7th", "8th",
+                                                "9th", "10th", "11th", "12th"))
+
+    state_grade_enr %>% 
+        ggplot(aes(x = GRADE, y = PERCENT_CHANGE, fill = (PERCENT_CHANGE > 0))) +
+        geom_col(position = "identity") +
+        theme(legend.position = "none") +
+        labs(title = str_interp("${str_to_title(state)} Enrollment Change by Grade"),
+             y = "% Enrollment Change",
+             x = "Grade")
+}
+```
+
+```{r state-grade-bargraph}
+plot_grade_tot(state_enr, "wyoming")
+
+plot_grade_tot(state_enr, "new york")
+plot_grade_tot(state_enr, "california")
+plot_grade_tot(state_enr, "florida")
+plot_grade_tot(state_enr, "texas")
+plot_grade_tot(state_enr, "massachusetts")
+plot_grade_tot(state_enr, "mississippi")
+```
+
+```{r state-grade-data}
+state_grade_enr <- state_enr %>%
+    filter(TOTAL_INDICATOR == "Subtotal 4 - By Grade" & FIPST <= 56
+           & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded", "Grade 13")) %>% 
+    select(SCHOOL_YEAR, FIPST, STATENAME, GRADE, STUDENT_COUNT) %>% 
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r order-grades}
+state_grade_enr$GRADE <- rep(c("1st", "10th", "11th", "12th", "2nd", "3rd", "4th",
+                               "5th", "6th", "7th", "8th", "9th", "K", "Pre-K"), 51)
+
+state_grade_enr$GRADE <- ordered(state_grade_enr$GRADE, 
+                                 levels = c("Pre-K", "K","1st", "2nd", "3rd",
+                                            "4th", "5th", "6th", "7th", "8th",
+                                            "9th", "10th", "11th", "12th"))
+```
+
+```{r avg-state-grade-enr-change}
+grade_enr_avg <- state_grade_enr %>% 
+    group_by(GRADE) %>% 
+    summarize("AVG_CHANGE" = mean(CHANGE, na.rm = TRUE),
+              "AVG_PERCENT_CHANGE" = mean(PERCENT_CHANGE, na.rm = TRUE))
+```
+
+```{r state-grade-hists}
+state_grade_enr %>%
+    ggplot(aes(x = PERCENT_CHANGE, y = ..density..)) +
+    geom_histogram(fill = "skyblue", bins = 30) +
+    facet_wrap(vars(GRADE), ncol = 3) +
+    labs(title = "States' Percent Change in Enrollment By Grade",
+         y = "Proportion",
+         x = "% Enrollment Change") +
+    geom_vline(aes(xintercept = 0), linetype = "dashed")
+```
+
+Based on the histograms, there appear to be the following outliers:
+- Wyoming for Pre-K (high inc)
+- West Virginia for K (high inc)
+- West Virginia for 1st (high dec)
+- Hawaii for 5th (high inc)
+- Hawaii for 6th (high dec)
+
+### How did enrollment change between grades?
+
+```{r state-grade-sankey}
+state_grade_enr_lg <- state_enr_lg %>%
+    filter(TOTAL_INDICATOR == "Subtotal 4 - By Grade" & FIPST <= 56
+           & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded",
+                           "Grade 13", "Pre-Kindergarten")) %>% 
+    select(SCHOOL_YEAR, FIPST, STATENAME, GRADE, STUDENT_COUNT) %>% 
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT) %>% 
+    mutate("1921_CHANGE" = `2020-2021` - `2019-2020`,
+           "1921_PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r order-grades}
+state_grade_enr_lg$GRADE <- rep(c("1st", "10th", "11th", "12th", "2nd", "3rd", "4th",
+                               "5th", "6th", "7th", "8th", "9th", "K"), 51)
+
+state_grade_enr_lg$GRADE <- ordered(state_grade_enr_lg$GRADE, 
+                                 levels = c("K","1st", "2nd", "3rd", "4th", "5th", "6th",
+                                            "7th", "8th", "9th", "10th", "11th", "12th"))
+
+state_grade_enr_lg <- state_grade_enr_lg %>% arrange(STATENAME, GRADE)
+```
+
+```{r grade-sankey}
+grade_enr_tot_lg <- state_grade_enr_lg %>%
+    group_by(GRADE) %>% 
+    summarize("2018-2019" = sum(`2018-2019`, na.rm = TRUE),
+              "2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE))
+```
+
+```{r export}
+write.csv(grade_enr_tot_lg, file = "output/grade_enr_change.csv", row.names = FALSE)
+```
+
+## How did enrollment change by race?
+
+```{r us-race-enr-data}
+state_race_enr <- state_enr %>%
+    filter(TOTAL_INDICATOR == "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count"
+           & FIPST <= 56
+           & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded", "Grade 13")) %>% 
+    select(SCHOOL_YEAR, FIPST, STATENAME, RACE_ETHNICITY, SEX, STUDENT_COUNT)
+
+state_race_enr <- state_race_enr %>%
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT)
+
+state_race_enr <- state_race_enr %>% 
+    group_by(FIPST, STATENAME, RACE_ETHNICITY) %>% 
+    summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r us-race-enr-change}
+race_enr_tot <- state_race_enr %>% 
+    group_by(RACE_ETHNICITY) %>% 
+    summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+```{r avg-state-race-enr-change}
+race_enr_avg <- state_race_enr %>% 
+    group_by(RACE_ETHNICITY) %>% 
+    summarize("AVG_CHANGE" = mean(CHANGE, na.rm = TRUE),
+              "AVG_PERCENT_CHANGE" = mean(PERCENT_CHANGE, na.rm = TRUE))
+```
+
+```{r state-race-hists}
+state_race_enr %>%
+    filter(RACE_ETHNICITY != "Not Specified") %>% 
+    ggplot(aes(x = PERCENT_CHANGE, y = ..density..)) +
+    geom_histogram(fill = "skyblue", bins = 30) +
+    facet_wrap(vars(RACE_ETHNICITY), ncol = 3) +
+    labs(title = "States' Percent Change in Enrollment By Race",
+         y = "Proportion",
+         x = "% Enrollment Change") +
+    geom_vline(aes(xintercept = 0), linetype = "dashed")
+```
+
+Based on the histograms, there appear to be the following outliers:
+- District of Columbia for White (high inc)
+- Arizona for Two or More Races (high inc)
+- North Carolina for Two or More Races (high dec)
+
+## How has enrollment changed by race and grade?
+
+```{r race_grade_enr}
+race_grade_enr <- state_enr %>% 
+    filter(TOTAL_INDICATOR == "Category Set A - By Race/Ethnicity; Sex; Grade"
+           & !GRADE %in% c("Adult Education", "Not Specified", "Ungraded", "Grade 13")
+           & FIPST <= 56)
+
+race_grade_enr <- race_grade_enr %>%
+    pivot_wider(names_from = SCHOOL_YEAR, values_from = STUDENT_COUNT)
+```
+
+```{r order-grades}
+race_grade_enr$GRADE[race_grade_enr$GRADE %in% c("Grade 1", "Grade 2", "Grade 3", "Grade 4", "Grade 5")] <- "Elementary (1-5)"
+
+race_grade_enr$GRADE[race_grade_enr$GRADE %in% c("Grade 6", "Grade 7", "Grade 8")] <- "Middle (6-8)"
+
+race_grade_enr$GRADE[race_grade_enr$GRADE %in% c("Grade 9", "Grade 10", "Grade 11", "Grade 12")] <- "High"
+
+race_grade_enr$GRADE[race_grade_enr$GRADE == "Pre-Kindergarten"] <- "Pre-K"
+
+race_grade_enr$GRADE[race_grade_enr$GRADE == "Kindergarten"] <- "K"
+
+
+race_grade_enr$GRADE <- ordered(race_grade_enr$GRADE, levels = c("Pre-K", "K",
+                                                                 "Elementary (1-5)",
+                                                                 "Middle (6-8)", "High"))
+```
+
+```{r order-races}
+race_grade_enr$RACE_ETHNICITY <- ordered(race_grade_enr$RACE_ETHNICITY, levels = c("Black or African American", "White", "Asian", "Hispanic/Latino", "Two or more races", "American Indian or Alaska Native", "Native Hawaiian or Other Pacific Islander", "Not Specified"))
+```
+
+```{r group-by-grade-race}
+race_grade_enr <- race_grade_enr %>% 
+    group_by(GRADE, RACE_ETHNICITY) %>% 
+    summarize("2019-2020" = sum(`2019-2020`, na.rm = TRUE),
+              "2020-2021" = sum(`2020-2021`, na.rm = TRUE)) %>% 
+    mutate("CHANGE" = `2020-2021` - `2019-2020`,
+           "PERCENT_CHANGE" = round((`2020-2021` - `2019-2020`) * 100 / `2019-2020`, 1))
+```
+
+
+```{r bargraph}
+race_grade_enr %>% 
+    filter(RACE_ETHNICITY != "Not Specified") %>% 
+    ggplot(aes(x = GRADE, y = PERCENT_CHANGE, fill = RACE_ETHNICITY)) +
+    geom_col(position = "dodge") +
+    theme(legend.position = c(0.75, 0.31)) +
+    labs(title = "Nationwide Enrollment Change by Grade and Race",
+         y = "% Enrollment Change", x = "Grade", fill = "Race") +
+    scale_fill_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
+```

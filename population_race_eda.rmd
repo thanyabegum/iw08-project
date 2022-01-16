@@ -71,7 +71,8 @@ population_by_race$RACE <- ordered(population_by_race$RACE,
 population_by_race %>% ggplot(aes(x = Year, y = Population, group = RACE, color = RACE)) +
     geom_line() +
     geom_point() +
-    labs(title = "NJ Population From 2010 to 2019 by Race") +
+    theme(legend.position = "bottom") +
+    labs(title = "NJ Population From 2010 to 2019 by Race", color = "Race") +
     scale_color_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
 ```
 

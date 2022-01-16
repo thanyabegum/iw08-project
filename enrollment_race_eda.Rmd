@@ -31,7 +31,7 @@ enr_1011_raw <- read_csv("data/enrollment/nj_enrollment_1011.csv")
 ```
 
 
-## Pre-processing
+## Pre-Process
 
 Some of the datasets have different column names/types. Let's create a function to make them the same, and then apply it to each of the raw datasets we have.
 
@@ -196,10 +196,8 @@ enr_1921_change <- enr_1921 %>% mutate(
     "Two Or More Races" = percent_change(`Two or More Races.x`, `Two or More Races.y`),
     "%Free Lunch" = `%Free Lunch.y` - `%Free Lunch.x`,
     "%Reduced Lunch" = `%Reduced Lunch.y` - `%Reduced Lunch.x`,
-    "Pre-K FullDay" = percent_change(`Pre-K Halfday.x`, `Pre-K Halfday.y`),
-    "Pre-K Halfday" = percent_change(`Pre-K FullDay.x`, `Pre-K FullDay.y`),
-    "Kindergarten Halfday" = percent_change(`Kindergarten Halfday.x`, `Kindergarten Halfday.y`),
-    "Kindergarten Fullday" = percent_change(`Kindergarten Fullday.x`, `Kindergarten Fullday.y`),
+    "Pre-K" = percent_change(`Pre-K Halfday.x` + `Pre-K FullDay.x`, `Pre-K Halfday.y` + `Pre-K FullDay.y`),
+    "Kindergarten" = percent_change(`Kindergarten Halfday.x` + `Kindergarten Fullday.x`, `Kindergarten Halfday.y` + `Kindergarten Fullday.y`),
     "First Grade" = percent_change(`First Grade.x`, `First Grade.y`),
     "Second Grade" = percent_change(`Second Grade.x`, `Second Grade.y`),
     "Third Grade" = percent_change(`Third Grade.x`, `Third Grade.y`),
@@ -220,8 +218,7 @@ enr_1921_change <- enr_1921_change %>% select(
     `Total Enrollment`, `White`, `Black`,
     `Hispanic`, `Asian`, `Native American`,
     `Hawaiian Native`, `Two Or More Races`, `%Free Lunch`,
-    `%Reduced Lunch`, `Pre-K Halfday`, `Pre-K FullDay`, `Kindergarten Halfday`,
-    `Kindergarten Fullday`, `First Grade`, `Second Grade`,
+    `%Reduced Lunch`, `Pre-K`, `Kindergarten`, `First Grade`, `Second Grade`,
     `Third Grade`, `Fourth Grade`, `Fifth Grade`,
     `Sixth Grade`, `Seventh Grade`, `Eighth Grade`,
     `Ninth Grade`, `Tenth Grade`, `Eleventh Grade`,
@@ -256,6 +253,15 @@ find_total <- function(data) {
             -`%White`, -`%Black`, -`%Hispanic`, -`%Asian`, -`%Native American`,
             -`%Hawaiian Native`, -`%Two or More Races`
         )
+    
+    data <- data %>%
+        mutate("Pre-K" = `Pre-K Halfday` + `Pre-K FullDay`, 
+               "Kindergarten" = `Kindergarten Halfday` + `Kindergarten Fullday`) %>% 
+        select(-`Pre-K Halfday`,-`Pre-K FullDay`, -`Kindergarten Halfday`, 
+               -`Kindergarten Fullday`)
+    
+    data <- data %>% relocate(`Pre-K`, Kindergarten, .before = `First Grade`)
+    
     return (data)
 }
 
@@ -270,17 +276,36 @@ enr_1921_change_charter <- ((enr_2021_total_charter - enr_1920_total_charter) / 
 
 # Pivot longer
 enr_1921_change_charter_longer <- enr_1921_change_charter %>% 
-    select(ends_with("Grade") | contains("Pre-K") | contains ("Kindergarten")) %>% 
-    pivot_longer(cols = everything(), names_to = "Grade", names_transform = list(Grade = as.factor), values_to = "% Enrollment Change")
+    select(ends_with("Grade") | contains("Pre-K") | contains("Kindergarten")) %>% 
+    pivot_longer(cols = everything(), names_to = "Grade",
+                 names_transform = list(Grade = as.factor),
+                 values_to = "% Enrollment Change")
 enr_1921_change_public_longer <- enr_1921_change_public %>% 
-    select(ends_with("Grade") | contains("Pre-K") | contains ("Kindergarten")) %>% 
-    pivot_longer(cols = everything(), names_to = "Grade", names_transform = list(Grade = as.factor), values_to = "% Enrollment Change")
+    select(ends_with("Grade") | contains("Pre-K") | contains("Kindergarten")) %>% 
+    pivot_longer(cols = everything(), names_to = "Grade",
+                 names_transform = list(Grade = as.factor),
+                 values_to = "% Enrollment Change")
+
+# Rename levels
+enr_1921_change_charter_longer$Grade <- c("1st", "2nd", "3rd", "4th", "5th",
+                                          "6th", "7th", "8th", "9th", "10th",
+                                          "11th", "12th", "Pre-K", "K")
+enr_1921_change_public_longer$Grade <- c("1st", "2nd", "3rd", "4th", "5th",
+                                          "6th", "7th", "8th", "9th", "10th",
+                                          "11th", "12th", "Pre-K", "K")
 
 # Reorder levels
-enr_1921_change_charter_longer$Grade <- ordered(enr_1921_change_charter_longer$Grade, levels = c("Pre-K Halfday", "Pre-K FullDay", "Kindergarten Halfday", "Kindergarten Fullday", "First Grade", "Second Grade", "Third Grade", "Fourth Grade", "Fifth Grade", "Sixth Grade", "Seventh Grade", "Eighth Grade", "Ninth Grade", "Tenth Grade", "Eleventh Grade", "Twelfth Grade"))
+enr_1921_change_charter_longer$Grade <- ordered(enr_1921_change_charter_longer$Grade, 
+                                                levels = c("Pre-K", "K", "1st", "2nd",
+                                                           "3rd", "4th", "5th", "6th",
+                                                           "7th", "8th", "9th", "10th",
+                                                           "11th", "12th"))
+enr_1921_change_public_longer$Grade <- ordered(enr_1921_change_public_longer$Grade, 
+                                                levels = c("Pre-K", "K", "1st", "2nd",
+                                                           "3rd", "4th", "5th", "6th",
+                                                           "7th", "8th", "9th", "10th",
+                                                           "11th", "12th"))
 
-enr_1921_change_public_longer$Grade <- ordered(enr_1921_change_public_longer$Grade, levels = c("Pre-K Halfday", "Pre-K FullDay", "Kindergarten Halfday", "Kindergarten Fullday", "First Grade", "Second Grade", "Third Grade", "Fourth Grade", "Fifth Grade", "Sixth Grade", "Seventh Grade", "Eighth Grade", "Ninth Grade", "Tenth Grade", "Eleventh Grade", "Twelfth Grade"))
-    
 # Plot
 enr_1921_change_charter_longer %>% 
     ggplot(aes(x = Grade, y = `% Enrollment Change`, fill = (`% Enrollment Change` > 0))) +
@@ -303,7 +328,8 @@ enr_1921_change_both_longer <- bind_rows(
 enr_1921_change_both_longer %>%
     ggplot(aes(x = Grade, y = `% Enrollment Change`, fill = Type)) +
     geom_bar(position = "dodge", stat = "identity") +
-    labs(title = "NJ Schools Change in Enrollment by Grade and School Type") +
+    theme(legend.position = c(0.9, 0.85)) +
+    labs(title = "NJ Enrollment Change by Grade and School Type") +
     scale_fill_brewer(palette="Paired")
 ```
 
@@ -378,6 +404,7 @@ enr_totals_by_race %>%
     ggplot(aes(x = Year, y = `Total Enrollment`, group = Race, color = Race)) +
     geom_line() +
     geom_point() +
+    theme(legend.position = "bottom", legend.direction = "horizontal") +
     labs(title = "NJ Total Enrollment From 2010 to 2021 by Race") +
     scale_color_manual(values=c("firebrick1", "brown", "green", "skyblue", "orange", "black", "purple", "hotpink"))
 

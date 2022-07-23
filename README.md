@@ -1,1 +1,2 @@
-# iw08
+# Contextualizing The Impact of COVID-19 on U.S. K-12 Enrollment
+Across the United States, pandemic induced disruptions in kindergarten to 12th grade (K-12) schooling have drastically impacted public school enrollment. To contextualize these changes, this project examines shifts in enrollment in New Jersey as well as across the United States via visualizations on publicly available data such as state and national school enrollment rates. Since funding for public schools depends on the number of students enrolled, these visualizations and corresponding insights shed more light on the groups who may see less financial support for their education in the next academic year - perhaps even years to come.
